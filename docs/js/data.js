@@ -678,7 +678,7 @@ const data = {
       question:
         'Khi gặp hiệu lệnh điều khiển của Cảnh sát giao thông như hình dưới đây thì người tham gia giao thông đường bộ phải đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 36',
-      image: './img/36.png',
+      image: './img/36.jpeg',
       answers: {
         1: 'Người tham gia giao thông đường bộ ở các hướng phải dừng lại.',
         2: 'Người tham gia giao thông đường bộ ở các hướng được đi theo chiều gậy chỉ của Cảnh sát giao thông.',
@@ -693,7 +693,7 @@ const data = {
       question:
         'Khi gặp hiệu lệnh điều khiển của Cảnh sát giao thông như hình dưới đây thì người tham gia giao thông đường bộ phải đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 37',
-      image: './img/37.png',
+      image: './img/37.jpeg',
       answers: {
         1: 'Người tham gia giao thông đường bộ ở phía sau Cảnh sát giao thông được đi, các hướng khác phải dừng lại.',
         2: 'Người tham gia giao thông đường bộ được rẽ phải theo chiều mũi tên màu xanh ở bục Cảnh sát giao thông.',
@@ -3369,7 +3369,7 @@ const data = {
       question:
         'Khi động cơ xe ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây là báo hiệu tình trạng gì của xe ô tô?',
       title: 'Câu 227',
-      image: './img/227.png',
+      image: './img/227.jpeg',
       answers: {
         1: 'Đang sử dụng phanh đỗ.',
         2: 'Nhiệt độ nước làm mát quá mức cho phép.',
@@ -3383,7 +3383,7 @@ const data = {
       question:
         'Khi động cơ xe ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây là báo hiệu tình trạng gì của xe ô tô?',
       title: 'Câu 228',
-      image: './img/228.png',
+      image: './img/228.jpeg',
       answers: {
         1: 'Đang sử dụng phanh đỗ.',
         2: 'Thiếu dầu phanh.',
@@ -3398,7 +3398,7 @@ const data = {
       question:
         'Khi động cơ xe ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây là báo hiệu tình trạng gì của xe ô tô?',
       title: 'Câu 229',
-      image: './img/229.png',
+      image: './img/229.jpeg',
       answers: {
         1: 'Cửa xe đóng chưa chặt hoặc có cửa xe chưa đóng.',
         2: 'Bộ nạp ắc quy gặp sự cố kỹ thuật.',
@@ -3413,7 +3413,7 @@ const data = {
       question:
         'Khi động cơ xe ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây là báo hiệu tình trạng gì của xe ô tô?',
       title: 'Câu 230',
-      image: './img/230.png',
+      image: './img/230.jpeg',
       answers: {
         1: 'Thiếu dầu phanh, phanh tay đang hãm.',
         2: 'Hệ thống túi khí an toàn gặp sự cố.',
@@ -3428,7 +3428,7 @@ const data = {
       question:
         'Khi động cơ xe ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây là báo hiệu tình trạng gì của xe ô tô?',
       title: 'Câu 231',
-      image: './img/231.png',
+      image: './img/231.jpeg',
       answers: {
         1: 'Báo hiệu thiếu dầu phanh.',
         2: 'Áp suất lốp không đủ.',
@@ -4189,7 +4189,7 @@ const data = {
       question:
         'Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?',
       title: 'Câu 286',
-      image: './img/286.png',
+      image: './img/286.jpeg',
       answers: {
         1: 'Nhiệt độ nước làm mát động cơ quá ngưỡng cho phép.',
         2: 'Áp suất lốp không đủ.',
@@ -4204,7 +4204,7 @@ const data = {
       question:
         'Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?',
       title: 'Câu 287',
-      image: './img/287.png',
+      image: './img/287.jpeg',
       answers: {
         1: 'Báo hiệu hệ thống chống bó cứng khi phanh bị lỗi.',
         2: 'Áp suất lốp không đủ.',
@@ -4219,7 +4219,7 @@ const data = {
       question:
         'Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?',
       title: 'Câu 288',
-      image: './img/288.png',
+      image: './img/288.jpeg',
       answers: {
         1: 'Báo hiệu thiếu dầu phanh.',
         2: 'Áp suất lốp không đủ.',
@@ -4234,7 +4234,7 @@ const data = {
       question:
         'Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?',
       title: 'Câu 289',
-      image: './img/289.png',
+      image: './img/289.jpeg',
       answers: {
         1: 'Báo hiệu hệ thống chống bó cứng phanh bị lỗi.',
         2: 'Áp suất lốp không đủ.',
@@ -4249,7 +4249,7 @@ const data = {
       question:
         'Khi khởi động xe ô tô số tự động có trang bị chìa khóa thông minh có cần đạp hết hành trình bàn đạp chân phanh hay không?',
       title: 'Câu 290',
-      image: './img/290.png',
+      image: './img/290.jpeg',
       answers: {
         1: 'Phải đạp hết hành trình bàn đạp chân phanh.',
         2: 'Không cần đạp phanh.',
@@ -4319,7 +4319,7 @@ const data = {
       question:
         'Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây không tắt trong thời gian dài, báo hiệu tình trạng như thế nào của xe ô tô?',
       title: 'Câu 295',
-      image: './img/295.png',
+      image: './img/295.jpeg',
       answers: {
         1: 'Nhiệt độ nước làm mát động cơ quá ngưỡng cho phép.',
         2: 'Áp suất lốp không đủ.',
@@ -4334,7 +4334,7 @@ const data = {
       question:
         'Trên xe ô tô có trang bị thiết bị như hình vẽ dưới đây có tác dụng gì?',
       title: 'Câu 296',
-      image: './img/296.png',
+      image: './img/296.jpeg',
       answers: {
         1: 'Dùng để kích (hay nâng) xe ô tô.',
         2: 'Vặn ốc lắp bánh xe.',
@@ -4349,7 +4349,7 @@ const data = {
       question:
         'Trên xe ô tô có trang bị thiết bị như hình vẽ dưới đây, dùng để làm gì?',
       title: 'Câu 297',
-      image: './img/297.png',
+      image: './img/297.jpeg',
       answers: {
         1: 'Thay lốp xe.',
         2: 'Chữa cháy.',
@@ -4364,7 +4364,7 @@ const data = {
       question:
         'Trên xe ô tô có trang bị thiết bị như hình vẽ dưới đây, dùng để làm gì?',
       title: 'Câu 298',
-      image: './img/298.png',
+      image: './img/298.jpeg',
       answers: {
         1: 'Thay lốp xe.',
         2: 'Chữa cháy trong các trường hợp hỏa hoạn.',
@@ -4378,7 +4378,7 @@ const data = {
       question:
         'Nút bấm biểu tượng như hình vẽ trên xe ô tô có ý nghĩa như thế nào?',
       title: 'Câu 299',
-      image: './img/299.png',
+      image: './img/299.jpeg',
       answers: {
         1: 'Báo hiệu xin đường cho xe đi thẳng.',
         2: 'Báo hiệu hệ thống phanh bị lỗi.',
@@ -4392,7 +4392,7 @@ const data = {
       tag: 'V',
       question: 'BÁO HIỆU ĐƯỜNG BỘ',
       title: 'Câu 300',
-      image: './img/300.png',
+      image: './img/300.jpeg',
       answers: {
         1: 'Báo hiệu hệ thống túi khí đã bật.',
         2: 'Báo hiệu đèn chiếu sáng xa đã bật.',
@@ -4407,7 +4407,7 @@ const data = {
       question:
         'Biển nào cấm các loại xe cơ giới đi vào, trừ xe máy hai bánh, xe gắn máy và các loại xe ưu tiên theo quy định?',
       title: 'Câu 301',
-      image: './img/301.png',
+      image: './img/301.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4421,7 +4421,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm xe ô tô tải?',
       title: 'Câu 302',
-      image: './img/302.png',
+      image: './img/302.jpeg',
       answers: {
         1: 'Cả ba biển.',
         2: 'Biển 2 và biển 3.',
@@ -4435,7 +4435,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm máy kéo?',
       title: 'Câu 303',
-      image: './img/303.png',
+      image: './img/303.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2 và biển 3.',
@@ -4449,7 +4449,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu cấm xe mô tô ba bánh chở hàng đi qua?',
       title: 'Câu 304',
-      image: './img/304.png',
+      image: './img/304.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -4462,7 +4462,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào dưới đây xe gắn máy được phép đi vào?',
       title: 'Câu 305',
-      image: './img/305.png',
+      image: './img/305.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4475,7 +4475,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu cấm xe mô tô đi vào?',
       title: 'Câu 306',
-      image: './img/306.png',
+      image: './img/306.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4488,7 +4488,7 @@ const data = {
       tag: 'V',
       question: 'Khi gặp biển nào thì xe mô tô hai bánh được đi vào?',
       title: 'Câu 307',
-      image: './img/307.png',
+      image: './img/307.jpeg',
       answers: {
         1: 'Không biển nào.',
         2: 'Biển 1 và biển 2.',
@@ -4502,7 +4502,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cho phép xe ô tô con được vượt?',
       title: 'Câu 308',
-      image: './img/308.png',
+      image: './img/308.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 2.',
@@ -4516,7 +4516,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào không cho phép xe ô tô con vượt?',
       title: 'Câu 309',
-      image: './img/309.png',
+      image: './img/309.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4529,7 +4529,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm xe ô tô tải vượt?',
       title: 'Câu 310',
-      image: './img/310.png',
+      image: './img/310.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 1 và biển 2.',
@@ -4543,7 +4543,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm xe tải vượt?',
       title: 'Câu 311',
-      image: './img/311.png',
+      image: './img/311.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4556,7 +4556,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào xe ô tô con được phép vượt?',
       title: 'Câu 312',
-      image: './img/312.png',
+      image: './img/312.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4568,7 +4568,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm quay đầu xe?',
       title: 'Câu 313',
-      image: './img/313.png',
+      image: './img/313.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4582,7 +4582,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm xe rẽ trái?',
       title: 'Câu 314',
-      image: './img/314.png',
+      image: './img/314.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4595,7 +4595,7 @@ const data = {
       tag: 'V',
       question: 'Khi gặp biển nào xe được rẽ trái?',
       title: 'Câu 315',
-      image: './img/315.png',
+      image: './img/315.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4608,7 +4608,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm xe ô tô rẽ trái?',
       title: 'Câu 316',
-      image: './img/316.png',
+      image: './img/316.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4621,7 +4621,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm các phương tiện rẽ phải?',
       title: 'Câu 317',
-      image: './img/317.png',
+      image: './img/317.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -4635,7 +4635,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm các phương tiện rẽ trái?',
       title: 'Câu 318',
-      image: './img/318.png',
+      image: './img/318.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -4649,7 +4649,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào dưới đây chỉ cấm xe ô tô quay đầu?',
       title: 'Câu 319',
-      image: './img/319.png',
+      image: './img/319.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4663,7 +4663,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào dưới đây cấm xe ô tô rẽ trái và quay đầu?',
       title: 'Câu 320',
-      image: './img/320.png',
+      image: './img/320.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4677,7 +4677,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm xe taxi mà không cấm các phương tiện khác?',
       title: 'Câu 321',
-      image: './img/321.png',
+      image: './img/321.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4690,7 +4690,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào xe được phép rẽ trái?',
       title: 'Câu 322',
-      image: './img/322.png',
+      image: './img/322.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4703,7 +4703,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào xe quay đầu không bị cấm?',
       title: 'Câu 323',
-      image: './img/323.png',
+      image: './img/323.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4716,7 +4716,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào xe được phép quay đầu nhưng không được rẽ trái?',
       title: 'Câu 324',
-      image: './img/324.png',
+      image: './img/324.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4729,7 +4729,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào là biển "Cấm đi ngược chiều"?',
       title: 'Câu 325',
-      image: './img/325.png',
+      image: './img/325.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4742,7 +4742,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào dưới đây các phương tiện không được phép đi vào?',
       title: 'Câu 326',
-      image: './img/326.png',
+      image: './img/326.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4755,7 +4755,7 @@ const data = {
       tag: 'V',
       question: 'Gặp biển nào người lái xe không được đỗ xe vào ngày chẵn?',
       title: 'Câu 327',
-      image: './img/327.png',
+      image: './img/327.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 1 và biển 3.',
@@ -4769,7 +4769,7 @@ const data = {
       tag: 'V',
       question: 'Gặp biển nào người lái xe không được đỗ xe vào ngày lẻ?',
       title: 'Câu 328',
-      image: './img/328.png',
+      image: './img/328.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 2.',
@@ -4783,7 +4783,7 @@ const data = {
       tag: 'V',
       question: 'Khi gặp biển nào xe ưu tiên theo luật định vẫn phải dừng lại?',
       title: 'Câu 329',
-      image: './img/329.png',
+      image: './img/329.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4797,7 +4797,7 @@ const data = {
       question:
         'Biển nào cấm tất cả các loại xe cơ giới và thô sơ đi lại trên đường, trừ xe ưu tiên theo luật định (nếu đường vẫn cho xe chạy được)?',
       title: 'Câu 330',
-      image: './img/330.png',
+      image: './img/330.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4810,7 +4810,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào là biển "Cấm xe chở hàng nguy hiểm"?',
       title: 'Câu 331',
-      image: './img/331.png',
+      image: './img/331.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4823,7 +4823,7 @@ const data = {
       tag: 'V',
       question: 'Gặp biển nào xe xích lô được phép đi vào?',
       title: 'Câu 332',
-      image: './img/332.png',
+      image: './img/332.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4837,7 +4837,7 @@ const data = {
       tag: 'V',
       question: 'Gặp biển nào xe lam, xe xích lô máy được phép đi vào?',
       title: 'Câu 333',
-      image: './img/333.png',
+      image: './img/333.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4850,7 +4850,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo này có ý nghĩa như thế nào?',
       title: 'Câu 334',
-      image: './img/334.png',
+      image: './img/334.jpeg',
       answers: {
         1: 'Đường cấm súc vật vận tải hàng hóa.',
         2: 'Đường cấm súc vật vận tải hành khách.',
@@ -4863,7 +4863,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo này có ý nghĩa như thế nào?',
       title: 'Câu 335',
-      image: './img/335.png',
+      image: './img/335.jpeg',
       answers: {
         1: 'Tốc độ tối đa cho phép về ban đêm cho các phương tiện là 70 km/h.',
         2: 'Tốc độ tối thiểu cho phép về ban đêm cho các phương tiện là 70 km/h.',
@@ -4876,7 +4876,7 @@ const data = {
       question:
         'Khi gặp các biển này xe ưu tiên theo luật định (có tải trọng hay chiều cao toàn bộ vượt quá chỉ số ghi trên biển) có được phép đi qua hay không?',
       title: 'Câu 336',
-      image: './img/336.png',
+      image: './img/336.jpeg',
       answers: {
         1: 'Được phép.',
         2: 'Không được phép.',
@@ -4888,7 +4888,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào hạn chế chiều cao của xe và hàng?',
       title: 'Câu 337',
-      image: './img/337.png',
+      image: './img/337.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4901,7 +4901,7 @@ const data = {
       tag: 'V',
       question: 'Biển số 2 có ý nghĩa như thế nào?',
       title: 'Câu 338',
-      image: './img/338.png',
+      image: './img/338.jpeg',
       answers: {
         1: 'Cho phép xe ô tô có tải trọng trục lớn hơn 7 tấn đi qua.',
         2: 'Cho phép xe ô tô có tải trọng trên trục xe từ 7 tấn trở xuống đi qua.',
@@ -4913,7 +4913,7 @@ const data = {
       tag: 'V',
       question: 'Biển số 3 có ý nghĩa như thế nào?',
       title: 'Câu 339',
-      image: './img/339.png',
+      image: './img/339.jpeg',
       answers: {
         1: 'Cấm các loại xe có tải trọng toàn bộ trên 10 tấn đi qua.',
         2: 'Hạn chế khối lượng hàng hóa chở trên xe.',
@@ -4926,7 +4926,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm máy kéo kéo theo rơ moóc?',
       title: 'Câu 340',
-      image: './img/340.png',
+      image: './img/340.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -4939,7 +4939,7 @@ const data = {
       tag: 'V',
       question: 'Khi gặp biển số 1, xe ô tô tải có được đi vào không?',
       title: 'Câu 341',
-      image: './img/341.png',
+      image: './img/341.jpeg',
       answers: {
         1: 'Được đi vào.',
         2: 'Không được đi vào.',
@@ -4952,7 +4952,7 @@ const data = {
       question:
         'Biển nào không có hiệu lực đối với xe ô tô tải không kéo moóc?',
       title: 'Câu 342',
-      image: './img/342.png',
+      image: './img/342.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 2 và biển 3.',
@@ -4966,7 +4966,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cấm máy kéo?',
       title: 'Câu 343',
-      image: './img/343.png',
+      image: './img/343.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -4981,7 +4981,7 @@ const data = {
       question:
         'Khi gặp biển này, xe mô tô ba bánh chở hàng có được phép rẽ trái hoặc rẽ phải hay không?',
       title: 'Câu 344',
-      image: './img/344.png',
+      image: './img/344.jpeg',
       answers: {
         1: 'Được phép.',
         2: 'Không được phép.',
@@ -4994,7 +4994,7 @@ const data = {
       question:
         'Biển này có hiệu lực đối với xe mô tô hai bánh, ba bánh chở hàng không?',
       title: 'Câu 345',
-      image: './img/345.png',
+      image: './img/345.jpeg',
       answers: {
         1: 'Có.',
         2: 'Không.',
@@ -5006,7 +5006,7 @@ const data = {
       tag: 'V',
       question: 'Biển này có ý nghĩa như thế nào?',
       title: 'Câu 346',
-      image: './img/346.png',
+      image: './img/346.jpeg',
       answers: {
         1: 'Cấm xe cơ giới (trừ xe ưu tiên theo luật định) đi thẳng.',
         2: 'Cấm các loại xe cơ giới và xe mô tô (trừ xe ưu tiên theo luật định) đi về bên trái và bên phải.',
@@ -5019,7 +5019,7 @@ const data = {
       tag: 'V',
       question: 'Biển phụ đặt dưới biển cấm bóp còi có ý nghĩa như thế nào?',
       title: 'Câu 347',
-      image: './img/347.png',
+      image: './img/347.jpeg',
       answers: {
         1: 'Báo khoảng cách đến nơi cấm bóp còi.',
         2: 'Chiều dài đoạn đường cấm bóp còi từ nơi đặt biển.',
@@ -5033,7 +5033,7 @@ const data = {
       question:
         'Chiều dài đoạn đường 500 m từ nơi đặt biển này, người lái xe có được phép bấm còi không?',
       title: 'Câu 348',
-      image: './img/348.png',
+      image: './img/348.jpeg',
       answers: {
         1: 'Được phép.',
         2: 'Không được phép.',
@@ -5045,7 +5045,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào xe mô tô hai bánh được đi vào?',
       title: 'Câu 349',
-      image: './img/349.png',
+      image: './img/349.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -5058,7 +5058,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào xe mô tô hai bánh không được đi vào?',
       title: 'Câu 350',
-      image: './img/350.png',
+      image: './img/350.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5071,7 +5071,7 @@ const data = {
       tag: 'V',
       question: 'Ba biển này có hiệu lực như thế nào?',
       title: 'Câu 351',
-      image: './img/351.png',
+      image: './img/351.jpeg',
       answers: {
         1: 'Cấm các loại xe ở biển phụ đi vào.',
         2: 'Cấm các loại xe cơ giới đi vào trừ loại xe ở biển phụ.',
@@ -5084,7 +5084,7 @@ const data = {
       question:
         'Biển nào báo hiệu chiều dài đoạn đường phải giữ cự ly tối thiểu giữa hai xe?',
       title: 'Câu 352',
-      image: './img/352.png',
+      image: './img/352.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5098,7 +5098,7 @@ const data = {
       question:
         'Biển nào báo hiệu khoảng cách thực tế từ nơi đặt biển đến nơi cần cự ly tối thiểu giữa hai xe?',
       title: 'Câu 353',
-      image: './img/353.png',
+      image: './img/353.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5111,7 +5111,7 @@ const data = {
       tag: 'V',
       question: 'Biển này có ý nghĩa như thế nào?',
       title: 'Câu 354',
-      image: './img/354.png',
+      image: './img/354.jpeg',
       answers: {
         1: 'Cấm dừng xe về hướng bên trái.',
         2: 'Cấm dừng và đỗ xe theo hướng bên phải.',
@@ -5124,7 +5124,7 @@ const data = {
       tag: 'V',
       question: 'Theo hướng bên phải có được phép đỗ xe, dừng xe không?',
       title: 'Câu 355',
-      image: './img/355.png',
+      image: './img/355.jpeg',
       answers: {
         1: 'Không được phép.',
         2: 'Được phép.',
@@ -5137,7 +5137,7 @@ const data = {
       question:
         'Gặp biển này, xe ô tô sơ mi rơ moóc có chiều dài toàn bộ kể cả xe, moóc và hàng lớn hơn trị số ghi trên biển có được phép đi vào hay không?',
       title: 'Câu 356',
-      image: './img/356.png',
+      image: './img/356.jpeg',
       answers: {
         1: 'Không được phép.',
         2: 'Được phép.',
@@ -5150,7 +5150,7 @@ const data = {
       question:
         'Xe ô tô chở hàng vượt quá phía trước và sau thùng xe, mỗi phía quá 10% chiều dài toàn bộ thân xe, tổng chiều dài xe (cả hàng) từ trước đến sau nhỏ hơn trị số ghi trên biển thì có được phép đi vào không?',
       title: 'Câu 357',
-      image: './img/357.png',
+      image: './img/357.jpeg',
       answers: {
         1: 'Không được phép.',
         2: 'Được phép.',
@@ -5162,7 +5162,7 @@ const data = {
       tag: 'V',
       question: 'Biển này có ý nghĩa như thế nào?',
       title: 'Câu 358',
-      image: './img/358.png',
+      image: './img/358.jpeg',
       answers: {
         1: 'Cấm ô tô buýt.',
         2: 'Cấm xe ô tô khách.',
@@ -5175,7 +5175,7 @@ const data = {
       tag: 'V',
       question: 'Biển này có ý nghĩa như thế nào?',
       title: 'Câu 359',
-      image: './img/359.png',
+      image: './img/359.jpeg',
       answers: {
         1: 'Hạn chế chiều cao của xe và hàng.',
         2: 'Hạn chế chiều ngang của xe và hàng.',
@@ -5188,7 +5188,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào là biển "Tốc độ tối đa cho phép về ban đêm"?',
       title: 'Câu 360',
-      image: './img/360.png',
+      image: './img/360.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5202,7 +5202,7 @@ const data = {
       question:
         'Biển báo nào báo hiệu bắt đầu đoạn đường vào phạm vi khu dân cư, các phương tiện tham gia giao thông phải tuân theo các quy định đi đường được áp dụng ở khu đông dân cư?',
       title: 'Câu 361',
-      image: './img/361.png',
+      image: './img/361.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5215,7 +5215,7 @@ const data = {
       question:
         'Biển nào báo hiệu hạn chế tốc độ của phương tiện không vượt quá trị số ghi trên biển?',
       title: 'Câu 362',
-      image: './img/362.png',
+      image: './img/362.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5228,7 +5228,7 @@ const data = {
       question:
         'Trong các biển báo dưới đây biển nào báo hiệu "Kết thúc đường cao tốc"?',
       title: 'Câu 363',
-      image: './img/363.png',
+      image: './img/363.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5241,7 +5241,7 @@ const data = {
       tag: 'V',
       question: 'Số 50 ghi trên biển báo dưới đây có ý nghĩa như thế nào?',
       title: 'Câu 364',
-      image: './img/364.png',
+      image: './img/364.jpeg',
       answers: {
         1: 'Tốc độ tối đa các xe cơ giới được phép chạy.',
         2: 'Tốc độ tối thiểu các xe cơ giới được phép chạy.',
@@ -5254,7 +5254,7 @@ const data = {
       question:
         'Biển nào dưới đây chỉ dẫn bắt đầu đường cao tốc phân làn đường có tốc độ khác nhau?',
       title: 'Câu 365',
-      image: './img/365.png',
+      image: './img/365.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5267,7 +5267,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo dưới đây có ý nghĩa như thế nào?',
       title: 'Câu 366',
-      image: './img/366.png',
+      image: './img/366.jpeg',
       answers: {
         1: 'Báo hiệu tốc độ tối đa cho phép các xe cơ giới chạy.',
         2: 'Báo hiệu tốc độ tối thiểu cho phép các xe cơ giới chạy.',
@@ -5279,7 +5279,7 @@ const data = {
       tag: 'V',
       question: 'Gặp biển nào người lái xe phải nhường đường cho người đi bộ?',
       title: 'Câu 367',
-      image: './img/367.png',
+      image: './img/367.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5293,7 +5293,7 @@ const data = {
       question:
         'Biển nào chỉ đường dành cho người đi bộ, các loại xe không được đi vào khi gặp biển này?',
       title: 'Câu 368',
-      image: './img/368.png',
+      image: './img/368.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 1 và biển 3.',
@@ -5307,7 +5307,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Đường dành cho xe thô sơ"?',
       title: 'Câu 369',
-      image: './img/369.png',
+      image: './img/369.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5320,7 +5320,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu sắp đến chỗ giao nhau nguy hiểm?',
       title: 'Câu 370',
-      image: './img/370.png',
+      image: './img/370.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 1 và biển 2.',
@@ -5334,7 +5334,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Giao nhau với đường sắt có rào chắn"?',
       title: 'Câu 371',
-      image: './img/371.png',
+      image: './img/371.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2 và biển 3.',
@@ -5347,7 +5347,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Giao nhau có tín hiệu đèn"?',
       title: 'Câu 372',
-      image: './img/372.png',
+      image: './img/372.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5361,7 +5361,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu nguy hiểm giao nhau với đường sắt?',
       title: 'Câu 373',
-      image: './img/373.png',
+      image: './img/373.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -5376,7 +5376,7 @@ const data = {
       question:
         'Biển nào báo hiệu đường bộ giao nhau với đường sắt không có rào chắn?',
       title: 'Câu 374',
-      image: './img/374.png',
+      image: './img/374.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -5391,7 +5391,7 @@ const data = {
       question:
         'Biển nào báo hiệu sắp đến chỗ giao nhau giữa đường bộ và đường sắt?',
       title: 'Câu 375',
-      image: './img/375.png',
+      image: './img/375.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5405,7 +5405,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Cửa chui"?',
       title: 'Câu 376',
-      image: './img/376.png',
+      image: './img/376.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5418,7 +5418,7 @@ const data = {
       tag: 'V',
       question: 'Hai biển này có ý nghĩa như thế nào?',
       title: 'Câu 377',
-      image: './img/377.png',
+      image: './img/377.jpeg',
       answers: {
         1: 'Để chỉ nơi đường sắt giao vuông góc với đường bộ không có rào chắn.',
         2: 'Để báo trước sắp đến vị trí giao cắt đường bộ với đường sắt cùng mức, không vuông góc và không có người gác, không có rào chắn.',
@@ -5432,7 +5432,7 @@ const data = {
       question:
         'Biển nào báo hiệu "Nơi đường sắt giao vuông góc với đường bộ"?',
       title: 'Câu 378',
-      image: './img/378.png',
+      image: './img/378.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5446,7 +5446,7 @@ const data = {
       tag: 'V',
       question: 'Các biển này có ý nghĩa như thế nào?',
       title: 'Câu 379',
-      image: './img/379.png',
+      image: './img/379.jpeg',
       answers: {
         1: 'Nơi đường sắt giao nhau với đường bộ.',
         2: 'Nơi đường sắt giao vuông góc với đường bộ.',
@@ -5459,7 +5459,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Hết đoạn đường ưu tiên"?',
       title: 'Câu 380',
-      image: './img/380.png',
+      image: './img/380.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5473,7 +5473,7 @@ const data = {
       question:
         'Biển nào báo hiệu, chỉ dẫn xe đi trên đường này được quyền ưu tiên qua nơi giao nhau?',
       title: 'Câu 381',
-      image: './img/381.png',
+      image: './img/381.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -5487,7 +5487,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Giao nhau với đường không ưu tiên"?',
       title: 'Câu 382',
-      image: './img/382.png',
+      image: './img/382.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5501,7 +5501,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Giao nhau với đường ưu tiên"?',
       title: 'Câu 383',
-      image: './img/383.png',
+      image: './img/383.jpeg',
       answers: {
         1: 'Biển 1 và biển 3.',
         2: 'Biển 2.',
@@ -5514,7 +5514,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Đường bị thu hẹp"?',
       title: 'Câu 384',
-      image: './img/384.png',
+      image: './img/384.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -5529,7 +5529,7 @@ const data = {
       question:
         'Khi gặp biển nào, người lái xe phải giảm tốc độ, chú ý xe đi ngược chiều, xe đi ở phía đường bị hẹp phải nhường đường cho xe đi ngược chiều?',
       title: 'Câu 385',
-      image: './img/385.png',
+      image: './img/385.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 1 và biển 3.',
@@ -5543,7 +5543,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Giao nhau với đường ưu tiên"?',
       title: 'Câu 386',
-      image: './img/386.png',
+      image: './img/386.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5558,7 +5558,7 @@ const data = {
       question:
         'Biển nào báo hiệu "Đường giao nhau" của các tuyến đường cùng cấp?',
       title: 'Câu 387',
-      image: './img/387.png',
+      image: './img/387.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5571,7 +5571,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Giao nhau với đường không ưu tiên"?',
       title: 'Câu 388',
-      image: './img/388.png',
+      image: './img/388.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5584,7 +5584,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Đường hai chiều"?',
       title: 'Câu 389',
-      image: './img/389.png',
+      image: './img/389.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5598,7 +5598,7 @@ const data = {
       question:
         'Biển nào báo hiệu phải giảm tốc độ, nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp?',
       title: 'Câu 390',
-      image: './img/390.png',
+      image: './img/390.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5611,7 +5611,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào chỉ dẫn "Được ưu tiên qua đường hẹp"?',
       title: 'Câu 391',
-      image: './img/391.png',
+      image: './img/391.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5625,7 +5625,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Đường đôi"?',
       title: 'Câu 392',
-      image: './img/392.png',
+      image: './img/392.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5638,7 +5638,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Đường đôi"?',
       title: 'Câu 393',
-      image: './img/393.png',
+      image: './img/393.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5651,7 +5651,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Kết thúc đường đôi"?',
       title: 'Câu 394',
-      image: './img/394.png',
+      image: './img/394.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5664,7 +5664,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Giao nhau với đường hai chiều"?',
       title: 'Câu 395',
-      image: './img/395.png',
+      image: './img/395.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5677,7 +5677,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Đường hai chiều"?',
       title: 'Câu 396',
-      image: './img/396.png',
+      image: './img/396.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5690,7 +5690,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Giao nhau với đường hai chiều"?',
       title: 'Câu 397',
-      image: './img/397.png',
+      image: './img/397.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5703,7 +5703,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Chú ý chướng ngại vật"?',
       title: 'Câu 398',
-      image: './img/398.png',
+      image: './img/398.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2 và biển 3.',
@@ -5717,7 +5717,7 @@ const data = {
       question:
         'Biển nào chỉ dẫn cho người tham gia giao thông biết vị trí và khoảng cách có làn đường cứu nạn hay làn thoát xe khẩn cấp?',
       title: 'Câu 399',
-      image: './img/399.png',
+      image: './img/399.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5730,7 +5730,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Đường hầm"?',
       title: 'Câu 400',
-      image: './img/400.png',
+      image: './img/400.jpeg',
       answers: {
         1: 'Cả ba biển.',
         2: 'Biển 2.',
@@ -5743,7 +5743,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào dưới đây là biển "Cầu hẹp"?',
       title: 'Câu 401',
-      image: './img/401.png',
+      image: './img/401.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5756,7 +5756,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào dưới đây là biển "Cầu quay - cầu cất"?',
       title: 'Câu 402',
-      image: './img/402.png',
+      image: './img/402.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5769,7 +5769,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào dưới đây là biển "Kè, vực sâu phía trước"?',
       title: 'Câu 403',
-      image: './img/403.png',
+      image: './img/403.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5783,7 +5783,7 @@ const data = {
       question:
         'Biển nào sau đây là biển "Kè, vực sâu bên đường phía bên trái"?',
       title: 'Câu 404',
-      image: './img/404.png',
+      image: './img/404.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5798,7 +5798,7 @@ const data = {
       question:
         'Biển nào sau đây là biển "Kè, vực sâu bên đường phía bên phải"?',
       title: 'Câu 405',
-      image: './img/405.png',
+      image: './img/405.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5811,7 +5811,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào sau đây là biển "Đường trơn"?',
       title: 'Câu 406',
-      image: './img/406.png',
+      image: './img/406.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5824,7 +5824,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào sau đây là biển "Lề đường nguy hiểm"?',
       title: 'Câu 407',
-      image: './img/407.png',
+      image: './img/407.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5838,7 +5838,7 @@ const data = {
       question:
         'Biển nào sau đây báo trước gần tới đoạn đường đang tiến hành thi công sửa chữa?',
       title: 'Câu 408',
-      image: './img/408.png',
+      image: './img/408.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5853,7 +5853,7 @@ const data = {
       question:
         'Biển nào sau đây cảnh báo nguy hiểm đoạn đường thường xảy ra tai nạn?',
       title: 'Câu 409',
-      image: './img/409.png',
+      image: './img/409.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5867,7 +5867,7 @@ const data = {
       question:
         'Biển nào dưới đây báo hiệu đoạn đường hay xảy ra ùn tắc giao thông?',
       title: 'Câu 410',
-      image: './img/410.png',
+      image: './img/410.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5882,7 +5882,7 @@ const data = {
       question:
         'Gặp biển nào người tham gia giao thông phải đi chậm và thận trọng đề phòng khả năng xuất hiện và di chuyển bất ngờ của trẻ em trên mặt đường?',
       title: 'Câu 411',
-      image: './img/411.png',
+      image: './img/411.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5894,7 +5894,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào chỉ dẫn nơi bắt đầu đoạn đường dành cho người đi bộ?',
       title: 'Câu 412',
-      image: './img/412.png',
+      image: './img/412.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5908,7 +5908,7 @@ const data = {
       question:
         'Biển nào dưới đây báo hiệu gần đến đoạn đường thường có trẻ em đi ngang qua?',
       title: 'Câu 413',
-      image: './img/413.png',
+      image: './img/413.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5923,7 +5923,7 @@ const data = {
       question:
         'Gặp biển nào dưới đây người tham gia giao thông cần phải điều chỉnh tốc độ xe chạy cho thích hợp, đề phòng gió ngang thổi mạnh gây lật xe?',
       title: 'Câu 414',
-      image: './img/414.png',
+      image: './img/414.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5936,7 +5936,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào sau đây là biển "Dốc xuống nguy hiểm"?',
       title: 'Câu 415',
-      image: './img/415.png',
+      image: './img/415.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5948,7 +5948,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào sau đây là biển "Dốc lên nguy hiểm"?',
       title: 'Câu 416',
-      image: './img/416.png',
+      image: './img/416.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -5960,7 +5960,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo này có ý nghĩa như thế nào?',
       title: 'Câu 417',
-      image: './img/417.png',
+      image: './img/417.jpeg',
       answers: {
         1: 'Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên phải khi đường cong vòng sang trái.',
         2: 'Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên trái khi đường cong vòng sang phải.',
@@ -5972,7 +5972,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo này có ý nghĩa như thế nào?',
       title: 'Câu 418',
-      image: './img/418.png',
+      image: './img/418.jpeg',
       answers: {
         1: 'Báo trước đoạn đường có gió ngang.',
         2: 'Báo trước đoạn đường trơn trượt.',
@@ -5985,7 +5985,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo này có ý nghĩa như thế nào?',
       title: 'Câu 419',
-      image: './img/419.png',
+      image: './img/419.jpeg',
       answers: {
         1: 'Báo hiệu đường có ổ gà, lồi lõm.',
         2: 'Báo hiệu đường có gồ giảm tốc phía trước.',
@@ -5997,7 +5997,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo này có ý nghĩa như thế nào?',
       title: 'Câu 420',
-      image: './img/420.png',
+      image: './img/420.jpeg',
       answers: {
         1: 'Báo hiệu đường có ổ gà, lồi lõm.',
         2: 'Báo hiệu đường có gồ giảm tốc phía trước.',
@@ -6009,7 +6009,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo dưới đây có ý nghĩa như thế nào?',
       title: 'Câu 421',
-      image: './img/421.png',
+      image: './img/421.jpeg',
       answers: {
         1: 'Để báo trước gần tới đoạn đường có hiện tượng đất đá từ trên ta luy dương sụt lở bất ngờ gây nguy hiểm cho xe cộ và người đi đường.',
         2: 'Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mất an toàn cho người và phương tiện tham gia giao thông.',
@@ -6022,7 +6022,7 @@ const data = {
       tag: 'V',
       question: 'Các biển báo này có ý nghĩa như thế nào?',
       title: 'Câu 422',
-      image: './img/422.png',
+      image: './img/422.jpeg',
       answers: {
         1: 'Để báo trước gần tới đoạn đường có hiện tượng đất đá từ trên ta luy dương sụt lở bất ngờ gây nguy hiểm cho xe cộ và người đi đường.',
         2: 'Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mất an toàn cho người và phương tiện tham gia giao thông.',
@@ -6035,7 +6035,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo này có ý nghĩa như thế nào?',
       title: 'Câu 423',
-      image: './img/423.png',
+      image: './img/423.jpeg',
       answers: {
         1: 'Để báo trước gần tới đoạn đường có hiện tượng đất đá từ trên ta luy dương sụt lở bất ngờ gây nguy hiểm cho xe cộ và người đi đường.',
         2: 'Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mất an toàn cho người và phương tiện tham gia giao thông.',
@@ -6048,7 +6048,7 @@ const data = {
       tag: 'V',
       question: 'Gặp biển báo này người lái xe phải xử lý thế nào?',
       title: 'Câu 424',
-      image: './img/424.png',
+      image: './img/424.jpeg',
       answers: {
         1: 'Đi chậm, quan sát và dừng lại nếu gặp gia súc trên đường.',
         2: 'Bấm còi to để gia súc tránh đường và nhanh chóng di chuyển qua đoạn đường có gia súc.',
@@ -6060,7 +6060,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo này có ý nghĩa như thế nào?',
       title: 'Câu 425',
-      image: './img/425.png',
+      image: './img/425.jpeg',
       answers: {
         1: 'Báo hiệu khu vực nguy hiểm thường xuyên có sét đánh.',
         2: 'Báo hiệu khu vực có đường dây điện cắt ngang phía trên tuyến đường.',
@@ -6073,7 +6073,7 @@ const data = {
       question:
         'Biển nào báo hiệu các phương tiện phải đi đúng làn đường quy định và tuân thủ tốc độ tối đa cho phép?',
       title: 'Câu 426',
-      image: './img/426.png',
+      image: './img/426.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6087,7 +6087,7 @@ const data = {
       question:
         'Biển nào báo hiệu các phương tiện phải tuân thủ tốc độ tối đa cho phép trên từng làn đường?',
       title: 'Câu 427',
-      image: './img/427.png',
+      image: './img/427.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6100,7 +6100,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Đường dành cho xe ô tô"?',
       title: 'Câu 428',
-      image: './img/428.png',
+      image: './img/428.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6112,7 +6112,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Hết đoạn đường dành cho xe ô tô"?',
       title: 'Câu 429',
-      image: './img/429.png',
+      image: './img/429.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6125,7 +6125,7 @@ const data = {
       question:
         'Khi gặp biển nào thì các phương tiện không được đi vào, trừ xe ô tô và xe mô tô?',
       title: 'Câu 430',
-      image: './img/430.png',
+      image: './img/430.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6137,7 +6137,7 @@ const data = {
       tag: 'V',
       question: 'Biển này có ý nghĩa như thế nào?',
       title: 'Câu 431',
-      image: './img/431.png',
+      image: './img/431.jpeg',
       answers: {
         1: 'Chỉ hướng đi phải theo.',
         2: 'Biển báo hiệu cho người lái xe biết số lượng làn đường trên mặt đường và hướng đi trên mỗi làn đường phải theo.',
@@ -6151,7 +6151,7 @@ const data = {
       question:
         'Biển nào (đặt trước ngã ba, ngã tư) cho phép xe được rẽ sang hướng khác?',
       title: 'Câu 432',
-      image: './img/432.png',
+      image: './img/432.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6164,7 +6164,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Hướng đi thẳng phải theo"?',
       title: 'Câu 433',
-      image: './img/433.png',
+      image: './img/433.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6176,7 +6176,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Đường một chiều"?',
       title: 'Câu 434',
-      image: './img/434.png',
+      image: './img/434.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6190,7 +6190,7 @@ const data = {
       question:
         'Trong các biển dưới đây biển nào là biển "Hết tốc độ tối đa cho phép"?',
       title: 'Câu 435',
-      image: './img/435.png',
+      image: './img/435.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6205,7 +6205,7 @@ const data = {
       question:
         'Hiệu lực của biển "Tốc độ tối đa cho phép" hết tác dụng khi gặp biển nào dưới đây?',
       title: 'Câu 436',
-      image: './img/436.png',
+      image: './img/436.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6220,7 +6220,7 @@ const data = {
       question:
         'Trong các biển dưới đây biển nào là biển "Hết tốc độ tối thiểu"?',
       title: 'Câu 437',
-      image: './img/437.png',
+      image: './img/437.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6234,7 +6234,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào dưới đây báo hiệu hết cấm vượt?',
       title: 'Câu 438',
-      image: './img/438.png',
+      image: './img/438.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6248,7 +6248,7 @@ const data = {
       tag: 'V',
       question: 'Trong các biển dưới đây biển nào là biển "Hết mọi lệnh cấm"?',
       title: 'Câu 439',
-      image: './img/439.png',
+      image: './img/439.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6263,7 +6263,7 @@ const data = {
       question:
         'Biển nào cho phép được quay đầu xe đi theo hướng ngược lại khi đặt biển trước ngã ba, ngã tư?',
       title: 'Câu 440',
-      image: './img/440.png',
+      image: './img/440.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6277,7 +6277,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào không cho phép rẽ phải?',
       title: 'Câu 441',
-      image: './img/441.png',
+      image: './img/441.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6292,7 +6292,7 @@ const data = {
       question:
         'Khi đến chỗ giao nhau, gặp biển nào thì người lái xe không được cho xe đi thẳng, phải rẽ sang hướng khác?',
       title: 'Câu 442',
-      image: './img/442.png',
+      image: './img/442.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -6306,7 +6306,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào cho phép quay đầu xe?',
       title: 'Câu 443',
-      image: './img/443.png',
+      image: './img/443.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6319,7 +6319,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào chỉ dẫn tên đường trên các tuyến đường đối ngoại?',
       title: 'Câu 444',
-      image: './img/444.png',
+      image: './img/444.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6333,7 +6333,7 @@ const data = {
       tag: 'V',
       question: 'Biển số 1 có ý nghĩa như thế nào?',
       title: 'Câu 445',
-      image: './img/445.png',
+      image: './img/445.jpeg',
       answers: {
         1: 'Biển chỉ dẫn hết cấm đỗ xe theo giờ trong khu vực.',
         2: 'Biển chỉ dẫn hết hiệu lực khu vực đỗ xe trên các tuyến đường đối ngoại.',
@@ -6346,7 +6346,7 @@ const data = {
       tag: 'V',
       question: 'Biển số 3 có ý nghĩa như thế nào?',
       title: 'Câu 446',
-      image: './img/446.png',
+      image: './img/446.jpeg',
       answers: {
         1: 'Biển chỉ dẫn khu vực cấm đỗ xe trên các tuyến đường đối ngoại.',
         2: 'Biển chỉ dẫn khu vực đỗ xe trên các tuyến đường đối ngoại.',
@@ -6361,7 +6361,7 @@ const data = {
       question:
         'Biển nào báo hiệu "Đường phía trước có làn đường dành cho ô tô khách"?',
       title: 'Câu 447',
-      image: './img/447.png',
+      image: './img/447.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6375,7 +6375,7 @@ const data = {
       question:
         'Biển nào báo hiệu "Rẽ ra đường có làn đường dành cho ô tô khách"?',
       title: 'Câu 448',
-      image: './img/448.png',
+      image: './img/448.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6389,7 +6389,7 @@ const data = {
       question:
         'Biển nào đặt trên đường chính trước khi đến nơi đường giao nhau để rẽ vào đường cụt?',
       title: 'Câu 449',
-      image: './img/449.png',
+      image: './img/449.jpeg',
       answers: {
         1: 'Biển 1 và 2.',
         2: 'Cả ba biển.',
@@ -6402,7 +6402,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào chỉ dẫn cho người đi bộ sử dụng cầu vượt qua đường?',
       title: 'Câu 450',
-      image: './img/450.png',
+      image: './img/450.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6416,7 +6416,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào chỉ dẫn cho người đi bộ sử dụng hầm chui qua đường?',
       title: 'Câu 451',
-      image: './img/451.png',
+      image: './img/451.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6430,7 +6430,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Nơi đỗ xe dành cho người khuyết tật"?',
       title: 'Câu 452',
-      image: './img/452.png',
+      image: './img/452.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6443,7 +6443,7 @@ const data = {
       tag: 'V',
       question: 'Gặp biển báo này, người lái xe phải đỗ xe như thế nào?',
       title: 'Câu 453',
-      image: './img/453.png',
+      image: './img/453.jpeg',
       answers: {
         1: 'Đỗ xe hoàn toàn trên hè phố.',
         2: 'Đỗ xe hoàn toàn dưới lòng đường.',
@@ -6457,7 +6457,7 @@ const data = {
       question:
         'Gặp biển báo này, người tham gia giao thông phải xử lý như thế nào?',
       title: 'Câu 454',
-      image: './img/454.png',
+      image: './img/454.jpeg',
       answers: {
         1: 'Dừng xe tại khu vực có trạm Cảnh sát giao thông.',
         2: 'Tiếp tục lưu thông với tốc độ bình thường.',
@@ -6471,7 +6471,7 @@ const data = {
       question:
         'Gặp biển báo dưới đây, người lái xe có bắt buộc phải chạy vòng theo đảo an toàn theo hướng mũi tên khi muốn chuyển hướng hay không?',
       title: 'Câu 455',
-      image: './img/455.png',
+      image: './img/455.jpeg',
       answers: {
         1: 'Bắt buộc.',
         2: 'Không bắt buộc.',
@@ -6484,7 +6484,7 @@ const data = {
       question:
         'Biển nào dưới đây chỉ dẫn địa giới hành chính giữa các thành phố, tỉnh, huyện?',
       title: 'Câu 456',
-      image: './img/456.png',
+      image: './img/456.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6497,7 +6497,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Cầu vượt liên thông"?',
       title: 'Câu 457',
-      image: './img/457.png',
+      image: './img/457.jpeg',
       answers: {
         1: 'Biển 2 và biển 3.',
         2: 'Biển 1 và biển 2.',
@@ -6511,7 +6511,7 @@ const data = {
       tag: 'V',
       question: 'Biển số 1 có ý nghĩa như thế nào?',
       title: 'Câu 458',
-      image: './img/458.png',
+      image: './img/458.jpeg',
       answers: {
         1: 'Đi thẳng hoặc rẽ trái trên cầu vượt.',
         2: 'Đi thẳng hoặc rẽ phải trên cầu vượt.',
@@ -6524,7 +6524,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu "Tuyến đường cầu vượt cắt qua"?',
       title: 'Câu 459',
-      image: './img/459.png',
+      image: './img/459.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -6537,7 +6537,7 @@ const data = {
       tag: 'V',
       question: 'Biển báo dưới đây có ý nghĩa như thế nào?',
       title: 'Câu 460',
-      image: './img/460.png',
+      image: './img/460.jpeg',
       answers: {
         1: 'Chỉ dẫn khoảng cách đến làn đường cứu nạn (làn thoát xe khẩn cấp).',
         2: 'Báo hiệu đường cụt phía trước.',
@@ -6552,7 +6552,7 @@ const data = {
       question:
         'Tại đoạn đường có biển "Làn đường dành riêng cho từng loại xe" dưới đây, các phương tiện có được phép chuyển sang làn khác để đi theo hành trình mong muốn khi đến gần nơi đường bộ giao nhau hay không?',
       title: 'Câu 461',
-      image: './img/461.png',
+      image: './img/461.jpeg',
       answers: {
         1: 'Được phép chuyển sang làn khác.',
         2: 'Không được phép chuyển sang làn khác, chỉ được đi trong làn quy định theo biển.',
@@ -6565,7 +6565,7 @@ const data = {
       question:
         'Tại đoạn đường có cắm biển dưới đây, xe tải và xe khách có được phép đi vào không?',
       title: 'Câu 462',
-      image: './img/462.png',
+      image: './img/462.jpeg',
       answers: {
         1: 'Có.',
         2: 'Không.',
@@ -6578,7 +6578,7 @@ const data = {
       question:
         'Tại đoạn đường có cắm biển dưới đây, xe tải và xe khách có được phép đi vào không?',
       title: 'Câu 463',
-      image: './img/463.png',
+      image: './img/463.jpeg',
       answers: {
         1: 'Có.',
         2: 'Không.',
@@ -6590,7 +6590,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào báo hiệu kết thúc đường cao tốc?',
       title: 'Câu 464',
-      image: './img/464.png',
+      image: './img/464.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6603,7 +6603,7 @@ const data = {
       tag: 'V',
       question: 'Biển này có ý nghĩa như thế nào?',
       title: 'Câu 465',
-      image: './img/465.png',
+      image: './img/465.jpeg',
       answers: {
         1: 'Chỉ dẫn sắp đến vị trí nhập làn xe.',
         2: 'Chỉ dẫn vị trí nhập làn xe cách 250 m.',
@@ -6616,7 +6616,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào chỉ dẫn nhập làn xe?',
       title: 'Câu 466',
-      image: './img/466.png',
+      image: './img/466.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6629,7 +6629,7 @@ const data = {
       tag: 'V',
       question: 'Biển này có ý nghĩa như thế nào?',
       title: 'Câu 467',
-      image: './img/467.png',
+      image: './img/467.jpeg',
       answers: {
         1: 'Bắt đầu đường cao tốc.',
         2: 'Chỉ dẫn địa giới đường cao tốc, chiều dài đường cao tốc.',
@@ -6643,7 +6643,7 @@ const data = {
       tag: 'V',
       question: 'Ý nghĩa các biểu tượng ghi trên biển chỉ dẫn là như thế nào?',
       title: 'Câu 468',
-      image: './img/468.png',
+      image: './img/468.jpeg',
       answers: {
         1: 'Xăng dầu, ăn uống, thông tin, sửa chữa xe.',
         2: 'Xăng dầu, ăn uống, nhà nghỉ, sửa chữa xe.',
@@ -6656,7 +6656,7 @@ const data = {
       tag: 'V',
       question: 'Biển này có ý nghĩa như thế nào?',
       title: 'Câu 469',
-      image: './img/469.png',
+      image: './img/469.jpeg',
       answers: {
         1: 'Chỉ dẫn đến trạm kiểm tra tải trọng xe.',
         2: 'Chỉ dẫn hướng rẽ vào nơi đặt trạm kiểm tra tải trọng xe.',
@@ -6670,7 +6670,7 @@ const data = {
       question:
         'Trên đường cao tốc, gặp biển nào thì người lái xe đi theo hướng bên trái để tránh chướng ngại vật?',
       title: 'Câu 470',
-      image: './img/470.png',
+      image: './img/470.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6684,7 +6684,7 @@ const data = {
       question:
         'Trên đường cao tốc, gặp biển nào thì người lái xe đi theo hướng bên phải để tránh chướng ngại vật?',
       title: 'Câu 471',
-      image: './img/471.png',
+      image: './img/471.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6698,7 +6698,7 @@ const data = {
       question:
         'Trên đường cao tốc, gặp biển nào thì người lái xe đi được cả hai hướng (bên trái hoặc bên phải) để tránh chướng ngại vật?',
       title: 'Câu 472',
-      image: './img/472.png',
+      image: './img/472.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6712,7 +6712,7 @@ const data = {
       question:
         'Trên đường cao tốc, gặp biển nào người lái xe phải chú ý đổi hướng đi khi sắp vào đường cong nguy hiểm?',
       title: 'Câu 473',
-      image: './img/473.png',
+      image: './img/473.jpeg',
       answers: {
         1: 'Biển 1 và biển 2.',
         2: 'Biển 1 và biển 3.',
@@ -6726,7 +6726,7 @@ const data = {
       tag: 'V',
       question: 'Biển nào chỉ dẫn người lái xe đi được cả hai hướng?',
       title: 'Câu 474',
-      image: './img/474.png',
+      image: './img/474.jpeg',
       answers: {
         1: 'Biển 1.',
         2: 'Biển 2.',
@@ -6738,7 +6738,7 @@ const data = {
       tag: 'V',
       question: 'Biển này có ý nghĩa như thế nào?',
       title: 'Câu 475',
-      image: './img/475.png',
+      image: './img/475.jpeg',
       answers: {
         1: 'Chỉ dẫn chướng ngại vật phía trước để cảnh báo phía trước có sự cản trở lưu thông bình thường (nằm bên trong phần xe chạy hay ngay sát phần đường xe chạy) và chỉ dẫn hướng đi qua đó cần đặt biển.',
         2: 'Chỉ dẫn hướng rẽ để nhắc người điều khiển phương tiện chuẩn bị đổi hướng đi khi sắp vào đường cong nguy hiểm, có bán kính cong nhỏ.',
@@ -6751,7 +6751,7 @@ const data = {
       question:
         'Vạch mũi tên chỉ hướng trên mặt đường nào dưới đây cho phép xe chỉ được đi thẳng và rẽ phải?',
       title: 'Câu 476',
-      image: './img/476.png',
+      image: './img/476.jpeg',
       answers: {
         1: 'Vạch 1.',
         2: 'Vạch 2 và vạch 3.',
@@ -6766,7 +6766,7 @@ const data = {
       question:
         'Vạch kẻ đường nào dưới đây là vạch phân chia các làn xe cùng chiều?',
       title: 'Câu 477',
-      image: './img/477.png',
+      image: './img/477.jpeg',
       answers: {
         1: 'Vạch 1.',
         2: 'Vạch 2.',
@@ -6781,7 +6781,7 @@ const data = {
       question:
         'Vạch kẻ đường nào dưới đây là vạch phân chia hai chiều xe chạy (vạch tim đường), xe không được lấn làn, không được đè lên vạch?',
       title: 'Câu 478',
-      image: './img/478.png',
+      image: './img/478.jpeg',
       answers: {
         1: 'Vạch 1.',
         2: 'Vạch 2.',
@@ -6796,7 +6796,7 @@ const data = {
       question:
         'Vạch kẻ đường nào dưới đây là vạch phân chia hai chiều xe chạy (vạch tim đường)?',
       title: 'Câu 479',
-      image: './img/479.png',
+      image: './img/479.jpeg',
       answers: {
         1: 'Vạch 1.',
         2: 'Vạch 2.',
@@ -6810,7 +6810,7 @@ const data = {
       tag: 'V',
       question: 'Các vạch dưới đây có tác dụng như thế nào?',
       title: 'Câu 480',
-      image: './img/480.png',
+      image: './img/480.jpeg',
       answers: {
         1: 'Phân chia hai chiều xe chạy ngược chiều nhau.',
         2: 'Phân chia các làn xe chạy cùng chiều nhau.',
@@ -6822,7 +6822,7 @@ const data = {
       tag: 'V',
       question: 'Các vạch dưới đây có tác dụng như thế nào?',
       title: 'Câu 481',
-      image: './img/481.png',
+      image: './img/481.jpeg',
       answers: {
         1: 'Phân chia hai chiều xe chạy ngược chiều nhau.',
         2: 'Phân chia các làn xe chạy cùng chiều nhau.',
@@ -6834,7 +6834,7 @@ const data = {
       tag: 'V',
       question: 'Khi gặp vạch kẻ đường nào các xe được phép đè vạch?',
       title: 'Câu 482',
-      image: './img/482.png',
+      image: './img/482.jpeg',
       answers: {
         1: 'Vạch 1.',
         2: 'Vạch 2.',
@@ -6848,7 +6848,7 @@ const data = {
       tag: 'V',
       question: 'Vạch dưới đây có tác dụng như thế nào?',
       title: 'Câu 483',
-      image: './img/483.png',
+      image: './img/483.jpeg',
       answers: {
         1: 'Để xác định làn đường.',
         2: 'Báo hiệu người lái xe chỉ được phép đi thẳng.',
@@ -6861,7 +6861,7 @@ const data = {
       tag: 'V',
       question: 'Vạch dưới đây có ý nghĩa như thế nào?',
       title: 'Câu 484',
-      image: './img/484.png',
+      image: './img/484.jpeg',
       answers: {
         1: 'Báo cho người điều khiển không được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông.',
         2: 'Báo hiệu sắp đến chỗ có bố trí vạch đi bộ qua đường.',
@@ -6874,7 +6874,7 @@ const data = {
       tag: 'VI',
       question: 'GIẢI THẾ SA HÌNH VÀ KỸ NĂNG XỬ LÝ TÌNH HUỐNG GIAO THÔNG',
       title: 'Câu 485',
-      image: './img/485.png',
+      image: './img/485.jpeg',
       answers: {
         1: 'Vị trí dừng xe của các phương tiện vận tải hành khách công cộng.',
         2: 'Báo cho người điều khiển được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông.',
@@ -6887,7 +6887,7 @@ const data = {
       tag: 'VI',
       question: 'Theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông?',
       title: 'Câu 486',
-      image: './img/486.png',
+      image: './img/486.jpeg',
       answers: {
         1: 'Xe khách, xe tải, xe mô tô.',
         2: 'Xe tải, xe mô tô.',
@@ -6901,7 +6901,7 @@ const data = {
       question:
         'Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 487',
-      image: './img/487.png',
+      image: './img/487.jpeg',
       answers: {
         1: 'Xe tải, xe khách, xe con, xe mô tô.',
         2: 'Xe tải, xe mô tô, xe khách, xe con.',
@@ -6916,7 +6916,7 @@ const data = {
       question:
         'Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 488',
-      image: './img/488.png',
+      image: './img/488.jpeg',
       answers: {
         1: 'Xe công an đi làm nhiệm vụ khẩn cấp, xe con, xe tải, xe khách.',
         2: 'Xe công an đi làm nhiệm vụ khẩn cấp, xe khách, xe con, xe tải.',
@@ -6931,7 +6931,7 @@ const data = {
       question:
         'Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 489',
-      image: './img/489.png',
+      image: './img/489.jpeg',
       answers: {
         1: 'Xe tải, xe công an đi làm nhiệm vụ khẩn cấp, xe khách, xe con.',
         2: 'Xe công an đi làm nhiệm vụ khẩn cấp, xe khách, xe con, xe tải.',
@@ -6946,7 +6946,7 @@ const data = {
       question:
         'Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 490',
-      image: './img/490.png',
+      image: './img/490.jpeg',
       answers: {
         1: 'Xe tải, xe con, xe mô tô.',
         2: 'Xe con, xe tải, xe mô tô.',
@@ -6960,7 +6960,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào phải nhường đường trong trường hợp này?',
       title: 'Câu 491',
-      image: './img/491.png',
+      image: './img/491.jpeg',
       answers: {
         1: 'Xe con.',
         2: 'Xe tải.',
@@ -6972,7 +6972,7 @@ const data = {
       tag: 'VI',
       question: 'Trường hợp này xe nào được quyền đi trước?',
       title: 'Câu 492',
-      image: './img/492.png',
+      image: './img/492.jpeg',
       answers: {
         1: 'Xe mô tô.',
         2: 'Xe con.',
@@ -6984,7 +6984,7 @@ const data = {
       tag: 'VI',
       question: 'Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 493',
-      image: './img/493.png',
+      image: './img/493.jpeg',
       answers: {
         1: 'Xe con (A), xe cứu thương đi làm nhiệm vụ cấp cứu, xe con (B).',
         2: 'Xe cứu thương đi làm nhiệm vụ cấp cứu, xe con (B), xe con (A).',
@@ -6997,7 +6997,7 @@ const data = {
       tag: 'VI',
       question: 'Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 494',
-      image: './img/494.png',
+      image: './img/494.jpeg',
       answers: {
         1: 'Xe cứu thương đi làm nhiệm vụ cấp cứu, xe chữa cháy đi làm nhiệm vụ chữa cháy, xe con.',
         2: 'Xe chữa cháy đi làm nhiệm vụ chữa cháy, xe cứu thương đi làm nhiệm vụ cấp cứu, xe con.',
@@ -7010,7 +7010,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào được quyền đi trước trong trường hợp này?',
       title: 'Câu 495',
-      image: './img/495.png',
+      image: './img/495.jpeg',
       answers: {
         1: 'Xe mô tô.',
         2: 'Xe cứu thương đi làm nhiệm vụ cấp cứu.',
@@ -7023,7 +7023,7 @@ const data = {
       question:
         'Theo hướng mũi tên, xe nào phải nhường đường đi cuối cùng qua nơi giao nhau này?',
       title: 'Câu 496',
-      image: './img/496.png',
+      image: './img/496.jpeg',
       answers: {
         1: 'Xe khách.',
         2: 'Xe tải.',
@@ -7037,7 +7037,7 @@ const data = {
       question:
         'Theo hướng mũi tên, xe nào phải nhường đường là đúng quy tắc giao thông?',
       title: 'Câu 497',
-      image: './img/497.png',
+      image: './img/497.jpeg',
       answers: {
         1: 'Xe con.',
         2: 'Xe tải.',
@@ -7049,7 +7049,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào được quyền đi trước trong trường hợp này?',
       title: 'Câu 498',
-      image: './img/498.png',
+      image: './img/498.jpeg',
       answers: {
         1: 'Xe công an đi làm nhiệm vụ khẩn cấp.',
         2: 'Xe chữa cháy đi làm nhiệm vụ chữa cháy.',
@@ -7061,7 +7061,7 @@ const data = {
       tag: 'VI',
       question: 'Theo tín hiệu đèn, xe nào được phép đi?',
       title: 'Câu 499',
-      image: './img/499.png',
+      image: './img/499.jpeg',
       answers: {
         1: 'Xe con và xe khách.',
         2: 'Xe mô tô.',
@@ -7073,7 +7073,7 @@ const data = {
       tag: 'VI',
       question: 'Theo tín hiệu đèn, xe nào đi là đúng quy tắc giao thông?',
       title: 'Câu 500',
-      image: './img/500.png',
+      image: './img/500.jpeg',
       answers: {
         1: 'Xe khách, xe mô tô.',
         2: 'Xe con, xe tải.',
@@ -7086,7 +7086,7 @@ const data = {
       tag: 'VI',
       question: 'Trong trường hợp này xe nào được quyền đi trước?',
       title: 'Câu 501',
-      image: './img/501.png',
+      image: './img/501.jpeg',
       answers: {
         1: 'Xe công an đi làm nhiệm vụ khẩn cấp.',
         2: 'Xe quân sự đi làm nhiệm vụ khẩn cấp.',
@@ -7099,7 +7099,7 @@ const data = {
       question:
         'Theo tín hiệu đèn, xe tải đi theo hướng nào là đúng quy tắc giao thông?',
       title: 'Câu 502',
-      image: './img/502.png',
+      image: './img/502.jpeg',
       answers: {
         1: 'Hướng 2, 3, 4.',
         2: 'Chỉ hướng 1.',
@@ -7114,7 +7114,7 @@ const data = {
       question:
         'Các xe đi theo hướng mũi tên, những xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 503',
-      image: './img/503.png',
+      image: './img/503.jpeg',
       answers: {
         1: 'Xe khách, xe tải, xe mô tô.',
         2: 'Xe tải, xe con, xe mô tô.',
@@ -7128,7 +7128,7 @@ const data = {
       question:
         'Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 504',
-      image: './img/504.png',
+      image: './img/504.jpeg',
       answers: {
         1: 'Xe khách, xe tải, xe mô tô, xe con.',
         2: 'Xe con, xe khách, xe tải, xe mô tô.',
@@ -7142,7 +7142,7 @@ const data = {
       tag: 'VI',
       question: 'Trong trường hợp này xe nào đỗ vi phạm quy tắc giao thông?',
       title: 'Câu 505',
-      image: './img/505.png',
+      image: './img/505.jpeg',
       answers: {
         1: 'Xe tải.',
         2: 'Xe con và mô tô.',
@@ -7157,7 +7157,7 @@ const data = {
       question:
         'Theo hướng mũi tên, xe nào được quyền đi trước? Câu 507: Theo hướng mũi tên, những hướng nào xe gắn máy được phép đi?',
       title: 'Câu 506',
-      image: './img/506.png',
+      image: './img/506.jpeg',
       answers: {
         1: 'Xe tải.',
         2: 'Xe con (B).',
@@ -7173,7 +7173,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào đỗ vi phạm quy tắc giao thông?',
       title: 'Câu 508',
-      image: './img/508.png',
+      image: './img/508.jpeg',
       answers: {
         1: 'Cả hai xe.',
         2: 'Không xe nào vi phạm.',
@@ -7187,7 +7187,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào đỗ vi phạm quy tắc giao thông?',
       title: 'Câu 509',
-      image: './img/509.png',
+      image: './img/509.jpeg',
       answers: {
         1: 'Chỉ xe mô tô.',
         2: 'Chỉ xe tải.',
@@ -7202,7 +7202,7 @@ const data = {
       question:
         'Xe tải kéo xe mô tô ba bánh như hình này có đúng quy tắc giao thông không?',
       title: 'Câu 510',
-      image: './img/510.png',
+      image: './img/510.jpeg',
       answers: {
         1: 'Đúng.',
         2: 'Không đúng.',
@@ -7214,7 +7214,7 @@ const data = {
       tag: 'VI',
       question: 'Theo hướng mũi tên, hướng nào xe không được phép đi?',
       title: 'Câu 511',
-      image: './img/511.png',
+      image: './img/511.jpeg',
       answers: {
         1: 'Hướng 2 và 5.',
         2: 'Chỉ hướng 1.',
@@ -7227,7 +7227,7 @@ const data = {
       question:
         'Theo hướng mũi tên, những hướng nào xe ô tô không được phép đi?',
       title: 'Câu 512',
-      image: './img/512.png',
+      image: './img/512.jpeg',
       answers: {
         1: 'Hướng 1 và 2.',
         2: 'Hướng 3.',
@@ -7241,7 +7241,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào vượt đúng quy tắc giao thông?',
       title: 'Câu 513',
-      image: './img/513.png',
+      image: './img/513.jpeg',
       answers: {
         1: 'Cả hai xe đều đúng.',
         2: 'Xe con.',
@@ -7255,7 +7255,7 @@ const data = {
       question:
         'Theo hướng mũi tên, gặp biển hướng đi phải theo đặt trước ngã tư, những hướng nào xe được phép đi?',
       title: 'Câu 514',
-      image: './img/514.png',
+      image: './img/514.jpeg',
       answers: {
         1: 'Hướng 2 và 3.',
         2: 'Hướng 1, 2 và 3.',
@@ -7268,7 +7268,7 @@ const data = {
       tag: 'VI',
       question: 'Xe kéo nhau như hình này có vi phạm quy tắc giao thông không?',
       title: 'Câu 515',
-      image: './img/515.png',
+      image: './img/515.jpeg',
       answers: {
         1: 'Không.',
         2: 'Vi phạm.',
@@ -7280,7 +7280,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào phải nhường đường trong trường hợp này?',
       title: 'Câu 516',
-      image: './img/516.png',
+      image: './img/516.jpeg',
       answers: {
         1: 'Xe khách.',
         2: 'Xe tải.',
@@ -7292,7 +7292,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào được quyền đi trước trong trường hợp này?',
       title: 'Câu 517',
-      image: './img/517.png',
+      image: './img/517.jpeg',
       answers: {
         1: 'Xe con.',
         2: 'Xe mô tô.',
@@ -7304,7 +7304,7 @@ const data = {
       tag: 'VI',
       question: 'Xe kéo nhau trong trường hợp này đúng quy định không?',
       title: 'Câu 518',
-      image: './img/518.png',
+      image: './img/518.jpeg',
       answers: {
         1: 'Không đúng.',
         2: 'Đúng.',
@@ -7316,7 +7316,7 @@ const data = {
       tag: 'VI',
       question: 'Theo hướng mũi tên, những hướng nào xe ô tô con được phép đi?',
       title: 'Câu 519',
-      image: './img/519.png',
+      image: './img/519.jpeg',
       answers: {
         1: 'Hướng 1.',
         2: 'Hướng 1, 3 và 4.',
@@ -7331,7 +7331,7 @@ const data = {
       question:
         'Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 520',
-      image: './img/520.png',
+      image: './img/520.jpeg',
       answers: {
         1: 'Xe con (A), xe mô tô, xe con (B), xe đạp.',
         2: 'Xe con (B), xe đạp, xe mô tô, xe con (A).',
@@ -7345,7 +7345,7 @@ const data = {
       tag: 'VI',
       question: 'Theo hướng mũi tên, những hướng nào xe tải được phép đi?',
       title: 'Câu 521',
-      image: './img/521.png',
+      image: './img/521.jpeg',
       answers: {
         1: 'Chỉ hướng 1.',
         2: 'Hướng 1, 3 và 4.',
@@ -7359,7 +7359,7 @@ const data = {
       tag: 'VI',
       question: 'Những hướng nào xe tải được phép đi?',
       title: 'Câu 522',
-      image: './img/522.png',
+      image: './img/522.jpeg',
       answers: {
         1: 'Cả ba hướng.',
         2: 'Hướng 2 và 3.',
@@ -7371,7 +7371,7 @@ const data = {
       tag: 'VI',
       question: 'Những hướng nào xe ô tô tải được phép đi?',
       title: 'Câu 523',
-      image: './img/523.png',
+      image: './img/523.jpeg',
       answers: {
         1: 'Chỉ hướng 1.',
         2: 'Hướng 1 và 4.',
@@ -7385,7 +7385,7 @@ const data = {
       tag: 'VI',
       question: 'Những hướng nào xe ô tô tải được phép đi?',
       title: 'Câu 524',
-      image: './img/524.png',
+      image: './img/524.jpeg',
       answers: {
         1: 'Cả bốn hướng.',
         2: 'Trừ hướng 2.',
@@ -7399,7 +7399,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào được quyền đi trước trong trường hợp này?',
       title: 'Câu 525',
-      image: './img/525.png',
+      image: './img/525.jpeg',
       answers: {
         1: 'Xe mô tô.',
         2: 'Xe con.',
@@ -7412,7 +7412,7 @@ const data = {
       question:
         'Xe ô tô con đi theo chiều mũi tên có vi phạm quy tắc giao thông không?',
       title: 'Câu 526',
-      image: './img/526.png',
+      image: './img/526.jpeg',
       answers: {
         1: 'Không vi phạm.',
         2: 'Vi phạm.',
@@ -7424,7 +7424,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 527',
-      image: './img/527.png',
+      image: './img/527.jpeg',
       answers: {
         1: 'Xe khách.',
         2: 'Xe mô tô.',
@@ -7438,7 +7438,7 @@ const data = {
       tag: 'VI',
       question: 'Các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 528',
-      image: './img/528.png',
+      image: './img/528.jpeg',
       answers: {
         1: 'Các xe ở phía tay phải và tay trái của người điều khiển được phép đi thẳng.',
         2: 'Cho phép các xe ở mọi hướng được phép rẽ phải.',
@@ -7451,7 +7451,7 @@ const data = {
       tag: 'VI',
       question: 'Theo hướng mũi tên, xe nào được phép đi?',
       title: 'Câu 529',
-      image: './img/529.png',
+      image: './img/529.jpeg',
       answers: {
         1: 'Xe mô tô, xe con.',
         2: 'Xe con, xe tải.',
@@ -7465,7 +7465,7 @@ const data = {
       tag: 'VI',
       question: 'Xe con vượt xe tải như trường hợp này có đúng không?',
       title: 'Câu 530',
-      image: './img/530.png',
+      image: './img/530.jpeg',
       answers: {
         1: 'Đúng.',
         2: 'Không đúng.',
@@ -7477,7 +7477,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào vượt đúng quy tắc giao thông?',
       title: 'Câu 531',
-      image: './img/531.png',
+      image: './img/531.jpeg',
       answers: {
         1: 'Xe tải.',
         2: 'Cả hai xe.',
@@ -7490,7 +7490,7 @@ const data = {
       tag: 'VI',
       question: 'Đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 532',
-      image: './img/532.png',
+      image: './img/532.jpeg',
       answers: {
         1: 'Xe chữa cháy đi làm nhiệm vụ chữa cháy.',
         2: 'Xe tải.',
@@ -7503,7 +7503,7 @@ const data = {
       tag: 'VI',
       question: 'Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 533',
-      image: './img/533.png',
+      image: './img/533.jpeg',
       answers: {
         1: 'Xe khách, xe tải, xe con.',
         2: 'Xe con, xe tải, xe khách.',
@@ -7517,7 +7517,7 @@ const data = {
       question:
         'Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 534',
-      image: './img/534.png',
+      image: './img/534.jpeg',
       answers: {
         1: 'Xe khách và xe tải, xe con.',
         2: 'Xe tải, xe khách, xe con.',
@@ -7530,7 +7530,7 @@ const data = {
       tag: 'VI',
       question: 'Những hướng nào xe ô tô tải được phép đi?',
       title: 'Câu 535',
-      image: './img/535.png',
+      image: './img/535.jpeg',
       answers: {
         1: 'Cả bốn hướng.',
         2: 'Chỉ hướng 1 và 2.',
@@ -7543,7 +7543,7 @@ const data = {
       tag: 'VI',
       question: 'Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng?',
       title: 'Câu 536',
-      image: './img/536.png',
+      image: './img/536.jpeg',
       answers: {
         1: 'Xe công an đi làm nhiệm vụ khẩn cấp, xe con, xe tải, xe khách.',
         2: 'Xe con, xe khách và xe công an đi làm nhiệm vụ khẩn cấp, xe tải.',
@@ -7557,7 +7557,7 @@ const data = {
       tag: 'VI',
       question: 'Những hướng nào ô tô tải được phép đi?',
       title: 'Câu 537',
-      image: './img/537.png',
+      image: './img/537.jpeg',
       answers: {
         1: 'Cả bốn hướng.',
         2: 'Hướng 1, 2 và 3.',
@@ -7572,7 +7572,7 @@ const data = {
       question:
         'Trong hình dưới đây, xe nào chấp hành đúng quy tắc giao thông?',
       title: 'Câu 538',
-      image: './img/538.png',
+      image: './img/538.jpeg',
       answers: {
         1: 'Chỉ xe khách, xe mô tô.',
         2: 'Tất cả các loại xe trên.',
@@ -7585,7 +7585,7 @@ const data = {
       tag: 'VI',
       question: 'Theo hướng mũi tên, những hướng nào xe mô tô được phép đi?',
       title: 'Câu 539',
-      image: './img/539.png',
+      image: './img/539.jpeg',
       answers: {
         1: 'Cả ba hướng.',
         2: 'Hướng 1 và 2.',
@@ -7600,7 +7600,7 @@ const data = {
       question:
         'Trong trường hợp này, thứ tự xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 540',
-      image: './img/540.png',
+      image: './img/540.jpeg',
       answers: {
         1: 'Xe công an đi làm nhiệm vụ khẩn cấp, xe quân sự đi làm nhiệm vụ khẩn cấp, xe con + xe mô tô.',
         2: 'Xe quân sự đi làm nhiệm vụ khẩn cấp, xe công an đi làm nhiệm vụ khẩn cấp, xe con + xe mô tô.',
@@ -7613,7 +7613,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào phải nhường đường là đúng quy tắc giao thông?',
       title: 'Câu 541',
-      image: './img/541.png',
+      image: './img/541.jpeg',
       answers: {
         1: 'Xe A.',
         2: 'Xe B.',
@@ -7626,7 +7626,7 @@ const data = {
       question:
         'Xe con quay đầu đi ngược lại như hình vẽ dưới có vi phạm quy tắc giao thông không?',
       title: 'Câu 542',
-      image: './img/542.png',
+      image: './img/542.jpeg',
       answers: {
         1: 'Không vi phạm.',
         2: 'Vi phạm.',
@@ -7638,7 +7638,7 @@ const data = {
       tag: 'VI',
       question: 'Trong hình dưới, những xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 543',
-      image: './img/543.png',
+      image: './img/543.jpeg',
       answers: {
         1: 'Xe con (E), xe mô tô (C).',
         2: 'Xe tải (A), xe mô tô (D).',
@@ -7653,7 +7653,7 @@ const data = {
       question:
         'Để điều khiển cho xe đi thẳng, người lái xe phải làm gì là đúng quy tắc giao thông?',
       title: 'Câu 544',
-      image: './img/544.png',
+      image: './img/544.jpeg',
       answers: {
         1: 'Nhường xe con rẽ trái trước.',
         2: 'Đi thẳng không nhường.',
@@ -7666,7 +7666,7 @@ const data = {
       question:
         'Người lái xe điều khiển xe đi theo hướng nào là đúng quy tắc giao thông?',
       title: 'Câu 545',
-      image: './img/545.png',
+      image: './img/545.jpeg',
       answers: {
         1: 'Chỉ hướng 2.',
         2: 'Hướng 1 và 2.',
@@ -7680,7 +7680,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào phải nhường đường là đúng quy tắc giao thông?',
       title: 'Câu 546',
-      image: './img/546.png',
+      image: './img/546.jpeg',
       answers: {
         1: 'Xe con (A).',
         2: 'Xe con (B).',
@@ -7693,7 +7693,7 @@ const data = {
       question:
         'Người lái xe điều khiển xe rẽ trái như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 547',
-      image: './img/547.png',
+      image: './img/547.jpeg',
       answers: {
         1: 'Rẽ trái ngay trước xe buýt.',
         2: 'Rẽ trái trước xe tải.',
@@ -7706,7 +7706,7 @@ const data = {
       tag: 'VI',
       question: 'Trong hình dưới, những xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 548',
-      image: './img/548.png',
+      image: './img/548.jpeg',
       answers: {
         1: 'Xe con (B), xe mô tô (C).',
         2: 'Xe con (A), xe mô tô (C).',
@@ -7720,7 +7720,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào đi trước là đúng quy tắc giao thông?',
       title: 'Câu 549',
-      image: './img/549.png',
+      image: './img/549.jpeg',
       answers: {
         1: 'Xe của bạn.',
         2: 'Xe tải.',
@@ -7746,7 +7746,7 @@ const data = {
       tag: 'VI',
       question: 'Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 551',
-      image: './img/551.png',
+      image: './img/551.jpeg',
       answers: {
         1: 'Xe con và xe tải, xe của bạn.',
         2: 'Xe của bạn, xe tải, xe con.',
@@ -7761,7 +7761,7 @@ const data = {
       question:
         'Khi muốn vượt xe tải, người lái xe phải làm gì là đúng quy tắc giao thông?',
       title: 'Câu 552',
-      image: './img/552.png',
+      image: './img/552.jpeg',
       answers: {
         1: 'Tăng tốc cho xe chạy vượt qua.',
         2: 'Bật tín hiệu báo hiệu bằng đèn hoặc còi, khi đủ điều kiện an toàn, tăng tốc cho xe chạy vượt qua.',
@@ -7775,7 +7775,7 @@ const data = {
       question:
         'Theo tín hiệu đèn, xe nào phải dừng lại là đúng quy tắc giao thông?',
       title: 'Câu 553',
-      image: './img/553.png',
+      image: './img/553.jpeg',
       answers: {
         1: 'Xe khách, xe mô tô.',
         2: 'Xe tải, xe mô tô.',
@@ -7788,7 +7788,7 @@ const data = {
       tag: 'VI',
       question: 'Trong hình dưới, những xe nào chấp hành quy tắc giao thông?',
       title: 'Câu 554',
-      image: './img/554.png',
+      image: './img/554.jpeg',
       answers: {
         1: 'Xe tải ( D), xe con (B).',
         2: 'Xe con (A), xe con (C), xe con (E), xe buýt (G).',
@@ -7802,7 +7802,7 @@ const data = {
       question:
         'Người lái xe có được phép vượt xe tải để đi thẳng trong trường hợp này không?',
       title: 'Câu 555',
-      image: './img/555.png',
+      image: './img/555.jpeg',
       answers: {
         1: 'Được vượt.',
         2: 'Cấm vượt.',
@@ -7814,7 +7814,7 @@ const data = {
       tag: 'VI',
       question: 'Bạn có được phép vượt xe mô tô phía trước không?',
       title: 'Câu 556',
-      image: './img/556.png',
+      image: './img/556.jpeg',
       answers: {
         1: 'Cho phép.',
         2: 'Không được vượt.',
@@ -7826,7 +7826,7 @@ const data = {
       tag: 'VI',
       question: 'Người lái xe dừng tại vị trí nào là đúng quy tắc giao thông?',
       title: 'Câu 557',
-      image: './img/557.png',
+      image: './img/557.jpeg',
       answers: {
         1: 'Vị trí A và B.',
         2: 'Vị trí A và C.',
@@ -7840,7 +7840,7 @@ const data = {
       tag: 'VI',
       question: 'Bạn được dừng xe ở vị trí nào trong tình huống này?',
       title: 'Câu 558',
-      image: './img/558.png',
+      image: './img/558.jpeg',
       answers: {
         1: 'Được phép dừng ở vị trí A.',
         2: 'Được phép dừng ở vị trí B.',
@@ -7855,7 +7855,7 @@ const data = {
       question:
         'Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 559',
-      image: './img/559.png',
+      image: './img/559.jpeg',
       answers: {
         1: 'Xe mô tô.',
         2: 'Xe ô tô con.',
@@ -7870,7 +7870,7 @@ const data = {
       question:
         'Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 560',
-      image: './img/560.png',
+      image: './img/560.jpeg',
       answers: {
         1: 'Xe con.',
         2: 'Xe tải.',
@@ -7884,7 +7884,7 @@ const data = {
       question:
         'Các xe đi theo hướng mũi tên, những xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 561',
-      image: './img/561.png',
+      image: './img/561.jpeg',
       answers: {
         1: 'Xe tải, xe con.',
         2: 'Xe khách, xe con.',
@@ -7898,7 +7898,7 @@ const data = {
       question:
         'Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 562',
-      image: './img/562.png',
+      image: './img/562.jpeg',
       answers: {
         1: 'Xe con, xe tải, xe khách.',
         2: 'Xe tải, xe khách, xe mô tô.',
@@ -7913,7 +7913,7 @@ const data = {
       question:
         'Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 563',
-      image: './img/563.png',
+      image: './img/563.jpeg',
       answers: {
         1: 'Xe khách, xe tải.',
         2: 'Xe khách, xe con.',
@@ -7928,7 +7928,7 @@ const data = {
       question:
         'Trong tình huống dưới đây, để tránh xe phía trước bị hỏng đột xuất trên đường, người lái xe phải làm gì?',
       title: 'Câu 564',
-      image: './img/564.png',
+      image: './img/564.jpeg',
       answers: {
         1: 'Đánh lái sang trái cho xe vượt qua.',
         2: 'Quan sát phía trước, phía sau, khi đủ điều kiện an toàn, bật tín hiệu bằng đèn hoặc còi rồi cho xe chạy vượt qua.',
@@ -7942,7 +7942,7 @@ const data = {
       question:
         'Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông?',
       title: 'Câu 565',
-      image: './img/565.png',
+      image: './img/565.jpeg',
       answers: {
         1: 'Xe tải, xe mô tô.',
         2: 'Xe khách, xe mô tô.',
@@ -7956,7 +7956,7 @@ const data = {
       tag: 'VI',
       question: 'Trong hình dưới, những xe nào vi phạm quy tắc giao thông?',
       title: 'Câu 566',
-      image: './img/566.png',
+      image: './img/566.jpeg',
       answers: {
         1: 'Xe con (A), xe con (B), xe tải (D).',
         2: 'Xe tải (D), xe con (E), xe buýt (G).',
@@ -7971,7 +7971,7 @@ const data = {
       question:
         'Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?',
       title: 'Câu 567',
-      image: './img/567.png',
+      image: './img/567.jpeg',
       answers: {
         1: 'Xe của bạn, xe mô tô, xe con.',
         2: 'Xe con, xe của bạn, xe mô tô.',
@@ -7985,7 +7985,7 @@ const data = {
       question:
         'Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?',
       title: 'Câu 568',
-      image: './img/568.png',
+      image: './img/568.jpeg',
       answers: {
         1: 'Xe của bạn, xe mô tô, xe con.',
         2: 'Xe con, xe của bạn, xe mô tô.',
@@ -7998,7 +7998,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào phải dừng lại trong trường hợp này?',
       title: 'Câu 569',
-      image: './img/569.png',
+      image: './img/569.jpeg',
       answers: {
         1: 'Xe con.',
         2: 'Xe của bạn.',
@@ -8011,7 +8011,7 @@ const data = {
       tag: 'VI',
       question: 'Xe của bạn được đi theo hướng nào trong trường hợp này?',
       title: 'Câu 570',
-      image: './img/570.png',
+      image: './img/570.jpeg',
       answers: {
         1: 'Đi thẳng, rẽ trái.',
         2: 'Đi thẳng, rẽ phải.',
@@ -8025,7 +8025,7 @@ const data = {
       tag: 'VI',
       question: 'Xe của bạn được đi theo hướng nào trong trường hợp này?',
       title: 'Câu 571',
-      image: './img/571.png',
+      image: './img/571.jpeg',
       answers: {
         1: 'Chuyển sang làn đường bên phải và rẽ phải.',
         2: 'Dừng lại trước vạch dừng và rẽ phải khi đèn xanh.',
@@ -8038,7 +8038,7 @@ const data = {
       tag: 'VI',
       question: 'Bạn xử lý như thế nào trong trường hợp này?',
       title: 'Câu 572',
-      image: './img/572.png',
+      image: './img/572.jpeg',
       answers: {
         1: 'Tăng tốc độ, rẽ phải trước xe tải và xe đạp.',
         2: 'Giảm tốc độ, rẽ phải sau xe tải và xe đạp.',
@@ -8051,7 +8051,7 @@ const data = {
       tag: 'VI',
       question: 'Bạn xử lý như thế nào trong trường hợp này?',
       title: 'Câu 573',
-      image: './img/573.png',
+      image: './img/573.jpeg',
       answers: {
         1: 'Tăng tốc độ, rẽ phải trước xe con màu xanh phía trước và người đi bộ.',
         2: 'Giảm tốc độ, để người đi bộ qua đường và rẽ phải trước xe con màu xanh.',
@@ -8064,7 +8064,7 @@ const data = {
       tag: 'VI',
       question: 'Bạn xử lý như thế nào trong trường hợp này?',
       title: 'Câu 574',
-      image: './img/574.png',
+      image: './img/574.jpeg',
       answers: {
         1: 'Nhường đường cho xe khách và đi trước xe đạp.',
         2: 'Nhường đường cho xe đạp và đi trước xe khách.',
@@ -8077,7 +8077,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào phải nhường đường trong trường hợp này?',
       title: 'Câu 575',
-      image: './img/575.png',
+      image: './img/575.jpeg',
       answers: {
         1: 'Xe con.',
         2: 'Xe tải.',
@@ -8090,7 +8090,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào phải nhường đường trong trường hợp này?',
       title: 'Câu 576',
-      image: './img/576.png',
+      image: './img/576.jpeg',
       answers: {
         1: 'Xe đi ngược chiều.',
         2: 'Xe của bạn.',
@@ -8103,7 +8103,7 @@ const data = {
       question:
         'Bạn xử lý như thế nào khi lái xe ô tô vượt qua đoàn người đi xe đạp có tổ chức?',
       title: 'Câu 577',
-      image: './img/577.png',
+      image: './img/577.jpeg',
       answers: {
         1: 'Tăng tốc độ, chuyển sang làn đường bên trái để vượt.',
         2: 'Không được vượt những người đi xe đạp.',
@@ -8116,7 +8116,7 @@ const data = {
       question:
         'Phía trước có một xe đang lùi vào nơi đỗ, xe con phía trước đang chuyển sang làn đường bên trái, bạn xử lý như thế nào trong trường hợp này?',
       title: 'Câu 578',
-      image: './img/578.png',
+      image: './img/578.jpeg',
       answers: {
         1: 'Nếu phía sau không có xe xin vượt, chuyển sang làn đường bên trái.',
         2: 'Nếu phía sau có xe xin vượt, thì giảm tốc độ, ở lại làn đường, dừng lại khi cần thiết.',
@@ -8131,7 +8131,7 @@ const data = {
       question:
         'Bạn xử lý như thế nào khi xe phía trước đang lùi ra khỏi nơi đỗ?',
       title: 'Câu 579',
-      image: './img/579.png',
+      image: './img/579.jpeg',
       answers: {
         1: 'Chuyển sang nửa đường bên trái để đi tiếp.',
         2: 'Bấm còi, nháy đèn báo hiệu và đi tiếp.',
@@ -8145,7 +8145,7 @@ const data = {
       question:
         'Phía trước có một xe màu xanh đang vượt xe màu vàng trên làn đường của bạn, bạn xử lý như thế nào trong trường hợp này?',
       title: 'Câu 580',
-      image: './img/580.png',
+      image: './img/580.jpeg',
       answers: {
         1: 'Phanh xe giảm tốc độ và đi sát lề đường bên phải.',
         2: 'Bấm còi, nháy đèn báo hiệu, giữ nguyên tốc độ và đi tiếp.',
@@ -8159,7 +8159,7 @@ const data = {
       question:
         'Xe tải phía trước có tín hiệu xin chuyển làn đường, bạn xử lý như thế nào trong trường hợp này?',
       title: 'Câu 581',
-      image: './img/581.png',
+      image: './img/581.jpeg',
       answers: {
         1: 'Bật tín hiệu xin chuyển làn đường sang trái để vượt xe tải.',
         2: 'Phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường.',
@@ -8172,7 +8172,7 @@ const data = {
       tag: 'VI',
       question: 'Bạn xử lý như thế nào trong trường hợp này?',
       title: 'Câu 582',
-      image: './img/582.png',
+      image: './img/582.jpeg',
       answers: {
         1: 'Tăng tốc độ và đi thẳng qua ngã tư.',
         2: 'Dừng xe trước vạch dừng.',
@@ -8186,7 +8186,7 @@ const data = {
       question:
         'Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?',
       title: 'Câu 583',
-      image: './img/583.png',
+      image: './img/583.jpeg',
       answers: {
         1: 'Xe của bạn, xe mô tô, xe đạp.',
         2: 'Xe mô tô, xe đạp, xe của bạn.',
@@ -8200,7 +8200,7 @@ const data = {
       question:
         'Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?',
       title: 'Câu 584',
-      image: './img/584.png',
+      image: './img/584.jpeg',
       answers: {
         1: 'Xe của bạn, xe tải, xe con.',
         2: 'Xe con, xe tải, xe của bạn.',
@@ -8214,7 +8214,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào phải nhường đường trong trường hợp này?',
       title: 'Câu 585',
-      image: './img/585.png',
+      image: './img/585.jpeg',
       answers: {
         1: 'Xe của bạn.',
         2: 'Xe con.',
@@ -8226,7 +8226,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào phải nhường đường trong trường hợp này?',
       title: 'Câu 586',
-      image: './img/586.png',
+      image: './img/586.jpeg',
       answers: {
         1: 'Xe con.',
         2: 'Xe của bạn.',
@@ -8238,7 +8238,7 @@ const data = {
       tag: 'VI',
       question: 'Bạn xử lý như thế nào trong trường hợp này?',
       title: 'Câu 587',
-      image: './img/587.png',
+      image: './img/587.jpeg',
       answers: {
         1: 'Tăng tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.',
         2: 'Giảm tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.',
@@ -8251,7 +8251,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào được đi trước trong trường hợp này?',
       title: 'Câu 588',
-      image: './img/588.png',
+      image: './img/588.jpeg',
       answers: {
         1: 'Xe con.',
         2: 'Xe của bạn.',
@@ -8264,7 +8264,7 @@ const data = {
       question:
         'Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?',
       title: 'Câu 589',
-      image: './img/589.png',
+      image: './img/589.jpeg',
       answers: {
         1: 'Xe con, xe tải, xe của bạn.',
         2: 'Xe tải, xe con, xe của bạn.',
@@ -8277,7 +8277,7 @@ const data = {
       tag: 'VI',
       question: 'Bạn xử lý như thế nào trong trường hợp này?',
       title: 'Câu 590',
-      image: './img/590.png',
+      image: './img/590.jpeg',
       answers: {
         1: 'Tăng tốc độ cho xe lấn sang phần đường bên trái.',
         2: 'Giảm tốc độ cho xe lấn sang phần đường bên trái.',
@@ -8290,7 +8290,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào được đi trước trong trường hợp này?',
       title: 'Câu 591',
-      image: './img/591.png',
+      image: './img/591.jpeg',
       answers: {
         1: 'Xe tải.',
         2: 'Xe của bạn.',
@@ -8302,7 +8302,7 @@ const data = {
       tag: 'VI',
       question: 'Xe nào dừng đúng theo quy tắc giao thông?',
       title: 'Câu 592',
-      image: './img/592.png',
+      image: './img/592.jpeg',
       answers: {
         1: 'Xe con.',
         2: 'Xe mô tô.',
@@ -8316,7 +8316,7 @@ const data = {
       question:
         'Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?',
       title: 'Câu 593',
-      image: './img/593.png',
+      image: './img/593.jpeg',
       answers: {
         1: 'Xe tải, xe đạp, xe của bạn.',
         2: 'Xe của bạn, xe đạp, xe tải.',
@@ -8329,7 +8329,7 @@ const data = {
       tag: 'VI',
       question: 'Để điều khiển xe rẽ trái, bạn chọn hướng đi nào dưới đây?',
       title: 'Câu 594',
-      image: './img/594.png',
+      image: './img/594.jpeg',
       answers: {
         1: 'Hướng 1.',
         2: 'Hướng 2.',
@@ -8343,7 +8343,7 @@ const data = {
       question:
         'Khi gặp xe ngược chiều bật đèn pha trong tình huống dưới dây, bạn xử lý như thế nào?',
       title: 'Câu 595',
-      image: './img/595.png',
+      image: './img/595.jpeg',
       answers: {
         1: 'Bật đèn chiếu xa, tăng tốc độ vượt xe cùng chiều.',
         2: 'Giữ nguyên đèn chiếu gần, giảm tốc độ, đi sau xe phía trước.',
@@ -8357,7 +8357,7 @@ const data = {
       question:
         'Xe của bạn đang di chuyển gần đến khu vực giao cắt với đường sắt, khi rào chắn đang dịch chuyển, bạn điều khiển xe như thế nào là đúng quy tắc giao thông?',
       title: 'Câu 596',
-      image: './img/596.png',
+      image: './img/596.jpeg',
       answers: {
         1: 'Quan sát nếu thấy không có tàu thì tăng tốc cho xe vượt qua đường sắt.',
         2: 'Dừng lại trước rào chắn một khoảng cách an toàn.',
@@ -8371,7 +8371,7 @@ const data = {
       question:
         'Trong tình huống dưới đây, xe con màu đỏ nhập làn đường cao tốc theo hướng mũi tên là đúng hay sai?',
       title: 'Câu 597',
-      image: './img/597.png',
+      image: './img/597.jpeg',
       answers: {
         1: 'Đúng.',
         2: 'Sai.',
@@ -8384,7 +8384,7 @@ const data = {
       question:
         'Trong tình huống dưới đây, xe con màu đỏ có được phép vượt khi xe con màu xanh đang vượt xe tải hay không?',
       title: 'Câu 598',
-      image: './img/598.png',
+      image: './img/598.jpeg',
       answers: {
         1: 'Được vượt.',
         2: 'Không được vượt.',
@@ -8397,7 +8397,7 @@ const data = {
       question:
         'Trong tình huống dưới đây, xe con màu vàng vượt xe con màu đỏ là đúng quy tắc giao thông hay không?',
       title: 'Câu 599',
-      image: './img/599.png',
+      image: './img/599.jpeg',
       answers: {
         1: 'Đúng.',
         2: 'Không đúng.',
@@ -8410,7 +8410,7 @@ const data = {
       question:
         'Trong tình huống dưới đây, xe đầu kéo kéo rơ moóc (xe container) đang rẽ phải, xe con màu xanh và xe máy phía sau xe container đi như thế nào để bảo đảm an toàn?',
       title: 'Câu 600',
-      image: './img/600.png',
+      image: './img/600.jpeg',
       answers: {
         1: 'Vượt về phía bên phải để đi tiếp.',
         2: 'Giảm tốc độ chờ xe container rẽ xong rồi tiếp tục đi.',
