@@ -1,9 +1,38 @@
 (function () {
-  let selectedQuestions = [];
+  const SELECTED_QUESTIONS_KEY = 'SelectedQuestions';
+  const SELECTED_ANSWERS_KEY = 'SelectedAnswers';
+  const SELECTED_LICENCE_KEY = 'SelectedLicence';
+
+  function setLocalStorage(key, value) {
+    localStorage.setItem(key, JSON.stringify(value));
+  }
+
+  function removeLocalStorage(key) {
+    localStorage.removeItem(key);
+  }
+
+  function getLocalStorage() {
+    const selectedQuestions = JSON.parse(
+      localStorage.getItem(SELECTED_QUESTIONS_KEY) ?? '[]',
+    );
+    const selectedAnswers = JSON.parse(
+      localStorage.getItem(SELECTED_ANSWERS_KEY) ?? '{}',
+    );
+    const selectedLicence = JSON.parse(
+      localStorage.getItem(SELECTED_LICENCE_KEY) ?? null,
+    );
+    if (selectedQuestions.length < 1) {
+      return [[], {}, null];
+    }
+    return [selectedQuestions, selectedAnswers, selectedLicence];
+  }
+
+  let [selectedQuestions, selectedAnswers, selectedLicence] = getLocalStorage();
   let currentSlide = 0;
-  let answersArray = [];
 
   let slides = null;
+
+  const playAgainButton = document.getElementById('playAgain');
 
   const confirmButton = document.getElementById('confirm');
 
@@ -14,6 +43,19 @@
   const backButton = document.getElementById('back');
 
   const submitButton = document.getElementById('submit');
+
+  const selecting = document.getElementById('selecting');
+
+  const introduction = document.getElementById('introduction');
+
+  const quiz = document.getElementById('quiz');
+
+  function selectQuestion(question, value) {
+    Object.assign(selectedAnswers, {
+      [`${question}`]: { selected: value },
+    });
+    setLocalStorage(SELECTED_ANSWERS_KEY, selectedAnswers);
+  }
 
   function getRandomNItems(arr, n) {
     const shuffled = [...arr];
@@ -38,7 +80,10 @@
       const answers = [];
       Object.entries(currentQuestion.answers).forEach(([index, answer]) => {
         answers.push(
-          `<input id="question-${questionNumber}-${index}" type="radio" name="question-${questionNumber}" class="with-font" value="${index}">
+          `<input id="question-${questionNumber}-${index}" type="radio" name="question-${questionNumber}" 
+          data-question="${questionNumber}" ${
+            selectedAnswers?.[questionNumber]?.selected === index ? 'checked' : ''
+          } class="questions with-font" value="${index}">
           <label for="question-${questionNumber}-${index}">${index}. ${answer}</label>`,
         );
       });
@@ -50,57 +95,62 @@
             <div id="title" class="wow slideInDown">
               <h2>Câu: ${output.length + 1}/${selectedQuestions.length}</h2>
             </div>
-
-            <div class="question wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">
+            <div class="question wow fadeIn" data-wow-delay="0.5s" data-wow-duration="1s">
               <p>${currentQuestion.question}</p>
               ${image}
             </div>
-            <div class="answers wow fadeIn" data-wow-delay="2s" data-wow-duration="2s">
+            <div class="answers wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
               <p>${answers.join('')}</p>
             </div>
          </div>`,
       );
     });
     quizContainer.innerHTML = output.join('');
+    const questions = quizContainer.querySelectorAll('.questions');
+    questions.forEach((item) =>
+      item.addEventListener('click', () => {
+        const value = item.getAttribute('value');
+        const question = item.getAttribute('data-question');
+        selectQuestion(question, value);
+      }),
+    );
   }
 
   function showAnswer() {
-    const selector = `input[name=question-${currentSlide}]:checked`;
-
-    const answer = quizContainer.querySelector(selector);
+    const answer = selectedAnswers[currentSlide];
     if (!answer) {
       return;
     }
-
     const currentQuestion = selectedQuestions[currentSlide];
-    if (answer.value === currentQuestion.correctAnswer) {
-      answersArray.push(
-        `<div class="answer-slide" id="answer-${currentSlide}">
+    let answerResult = '';
+    if (answer.selected === currentQuestion.correctAnswer) {
+      answerResult = `<div class="answer-slide active-slide" id="answer-${currentSlide}">
             <div class="answer-text wow slideInRight">
-              <p><span style='font-size:50px;'>&#9989;</span></p>
+              <p><span style='font-size:20px;'>&#9989;</span></p>
             </div>
-          </div>`,
-      );
+          </div>`;
     } else {
-      answersArray.push(
-        `<div class="answer-slide" id="answer-${currentSlide}">
+      answerResult = `<div class="answer-slide active-slide" id="answer-${currentSlide}">
             <div class="answer-text wow slideInRight">
-              <p><span style='font-size:50px;'>&#10060;</span> ${currentQuestion.title}</p>
+              <p><span style='font-size:20px;'>&#10060;</span> ${currentQuestion.title}</p>
             </div>
-          </div>`,
-      );
+          </div>`;
     }
-
-    resultsTextContainer.innerHTML = answersArray.join('');
+    resultsTextContainer.innerHTML = answerResult;
+    if (!answer.submited) {
+      answer.submited = true;
+      setLocalStorage(SELECTED_ANSWERS_KEY, selectedAnswers);
+    }
     showResult();
   }
 
   function showResult() {
-    const answerSlide = document.getElementById(`answer-${currentSlide}`);
-    if (answerSlide) {
-      answerSlide.classList.add('active-slide');
+    const answerSlide = selectedAnswers[currentSlide];
+    if (answerSlide?.submited) {
       confirmButton.classList.add('disabled');
+      $('.answers').addClass('disabled');
     } else {
+      $('.answers').removeClass('disabled');
       confirmButton.classList.remove('disabled');
     }
   }
@@ -114,53 +164,42 @@
   }
 
   function showResults() {
-    // gather answer containers from our quiz
-    const answerContainers = quizContainer.querySelectorAll('.answers');
-
-    // keep track of user's answers
     let numCorrect = 0;
-
-    // for each question...
-    myQuestions.forEach((currentQuestion, questionNumber) => {
-      // find selected answer
-      // First, we’re making sure we’re looking inside the answer container for the current question.
-      const answerContainer = answerContainers[questionNumber];
-      // In the next line, we’re defining a CSS selector that will let us find which radio button is checked.
-      const selector = `input[name=question${questionNumber}]:checked`;
-      // Then we’re using JavaScript’s querySelector to search for our CSS selector in the previously defined answerContainer.
-      // this means that we’ll find which answer’s radio button is checked. Finally, we can get the value of that answer by using .value.
-      // But what if the user left an answer blank? Then using .value would cause an error because you can’t get the value of something that’s not there.
-      // To solve this, we’ve added ||, which means “or” and {} which is an empty object.
-      const userAnswer = (answerContainer.querySelector(selector) || {}).value;
-      // if answer is correct
+    selectedQuestions.forEach((currentQuestion, questionNumber) => {
+      const userAnswer = selectedAnswers?.[questionNumber]?.selected;
       if (userAnswer === currentQuestion.correctAnswer) {
-        // add to the number of correct answers
         numCorrect++;
       }
     });
+    const { requestPassed, numberOfQuestions, licence } = selectedLicence ?? {};
 
-    // create dynamic quiz length
-    const quizLength = Number(`${myQuestions.length}`);
-    // calculate the half of the length
-    const quizHalf = Number(`${myQuestions.length}`) / 2;
-
-    // show number of correct answers out of total
-    if (numCorrect === quizLength) {
-      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Congratulations!</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>Very good, you seem to be a pro!</p><p>You answered ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="http://geobon.org"><button class="btn btn-default">My Dashboard</button></a></div>`;
-    } else if (numCorrect >= quizHalf && numCorrect < quizLength) {
-      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Not bad...</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>but not enough to be a winner.</p><p>You answered just ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="./index.html"><button id="playAgain" class="btn btn-default">Play again</button></a></div>`;
+    if (numCorrect >= requestPassed) {
+      resultsContainer.innerHTML = `<div class="wow slideInDown">
+      <h2>Chúc mừng bạn đã vượt quá!</h2></div>
+      <div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">
+      <p>Bạn đã vượt qua bài kiêm tra cho hạng <strong>${licence}</strong>!</p>
+      <p>Bạn đúng ${numCorrect} trên ${numberOfQuestions} của bài kiểm tra</p>
+      <a href="./doc.pdf">Bạn có thể xem thêm tại liều ở đây!</a>
+      </div>`;
     } else {
-      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Very bad...</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>You need to practice! All employees need to be familiar with the iDiv Health & Security rules.</p><p>You answered just ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="./index.html"><button id="playAgain" class="btn btn-default">Play again</button></a></div>`;
+      resultsContainer.innerHTML = `<div class="wow slideInDown">
+      <h2>Rất tiếc bạn chưa vượt quá!...</h2></div>
+      <div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">
+      <p>Bạn chưa hoàn thành bài thi.</p><p>Bạn chỉ đúng ${numCorrect} trên ${numberOfQuestions} của hàng <strong>${licence}</strong></p>
+      <a href="./doc.pdf">Bạn có thể xem thêm tại liều ở đây!</a>
+      </div>`;
     }
 
-    // switch off Title, Question and Answers
     $('#title h2').css('display', 'none');
     $('.question').css('display', 'none');
     $('.answers').css('display', 'none');
     submitButton.classList.add('display-none');
     nextButton.classList.add('display-none');
+    backButton.classList.add('display-none');
     confirmButton.classList.add('display-none');
+    quizContainer.innerHTML = '';
     resultsTextContainer.innerHTML = '';
+    playAgainButton.classList.remove('display-none');
   }
 
   function showSlide(n) {
@@ -168,6 +207,7 @@
     slides[n].classList.add('active-slide');
     currentSlide = n;
     showResult();
+    showAnswer();
     if (n > 0) {
       backButton.classList.remove('display-none');
     } else {
@@ -189,13 +229,100 @@
     showSlide(currentSlide + 1);
   }
 
+  function selectLicence(key) {
+    let currentLicences = selecting.querySelector(
+      `#${selectedLicence?.licence}`,
+    );
+    !!currentLicences && currentLicences.classList.remove('licence-active');
+    Object.values(data.assess).some((item) => {
+      if (item.licence[key]) {
+        const selected = item.licence[key];
+        selectedLicence = {
+          licence: key,
+          numberOfQuestions: selected.numberOfQuestions,
+          requestPassed: selected.requestPassed,
+          time: selected.time,
+          paralysis: selected.paralysis,
+        };
+        return true;
+      }
+    });
+    setLocalStorage(SELECTED_LICENCE_KEY, selectedLicence);
+    currentLicences = selecting.querySelector(`#${selectedLicence.licence}`);
+    currentLicences.classList.add('licence-active');
+    startButton.classList.remove('disabled');
+  }
+
+  function playAgain() {
+    removeLocalStorage(SELECTED_LICENCE_KEY);
+    removeLocalStorage(SELECTED_ANSWERS_KEY);
+    removeLocalStorage(SELECTED_QUESTIONS_KEY);
+    selectedQuestions = undefined;
+    selectedAnswers = undefined;
+    selectedLicence = undefined;
+    resultsContainer.innerHTML = '';
+    playAgainButton.classList.add('display-none');
+    buildSubject();
+  }
+
   function startTest() {
-    selectedQuestions = getRandomNItems(Object.values(data.questions), 27);
+    if (selectedLicence === null) {
+      return;
+    }
+    const { numberOfQuestions } = selectedLicence;
+    if (selectedQuestions.length < 1) {
+      selectedQuestions = getRandomNItems(
+        Object.values(data.questions),
+        numberOfQuestions,
+      );
+      setLocalStorage(SELECTED_QUESTIONS_KEY, selectedQuestions);
+    }
     buildQuestions();
     slides = document.querySelectorAll('.slide');
     showSlide(0);
     confirmButton.classList.remove('display-none');
     startButton.classList.add('display-none');
+    selecting.classList.add('display-none');
+    quiz.classList.remove('display-none');
+  }
+
+  function buildSubject() {
+    introduction.innerHTML = `<h1>${data.info}</h1>`;
+
+    let choose = '';
+    Object.values(data.assess).forEach((item) => {
+      let licences = '';
+      Object.entries(item.licence).forEach(([key, licence]) => {
+        licences += `<div class="licence wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.1s" id="${key}" data-licence="${key}">`;
+        licences += `<p><strong>${key}:</strong> ${licence.title}</p>`;
+        licences += `<p><strong>Số câu hỏi:</strong> ${licence.description} <strong>Thời gian:</strong> ${licence.time} phút</p>`;
+        licences += `</div>`;
+      });
+      choose += `<div>
+    <h5>${item.icon} ${item.title}</h5>
+    ${licences}
+    </div>`;
+    });
+    selecting.innerHTML = `<div id="warper">
+  <h3>Học bằng hạng:</h3>
+  ${choose}
+  </div>`;
+    const subjects = selecting.querySelectorAll('.licence');
+    subjects.forEach((item) =>
+      item.addEventListener('click', () => {
+        const licence = item.getAttribute('data-licence');
+        selectLicence(licence);
+      }),
+    );
+    if (!selectedLicence) {
+      quiz.classList.add('display-none');
+      selecting.classList.remove('display-none');
+      startButton.classList.remove('display-none');
+      startButton.classList.add('disabled');
+    }
+    if (selectedQuestions.length > 0) {
+      startTest();
+    }
   }
 
   const quizContainer = document.getElementById('optionContainer');
@@ -214,16 +341,13 @@
 
   startButton.addEventListener('click', startTest);
 
+  playAgainButton.addEventListener('click', playAgain);
+
   submitButton.classList.add('display-none');
+  playAgainButton.classList.add('display-none');
   nextButton.classList.add('display-none');
   backButton.classList.add('display-none');
   confirmButton.classList.add('display-none');
 
-  const introduction = document.getElementById('introduction');
-  introduction.innerHTML = `<h1>${data.info}</h1>`;
-
-  const selecting = document.getElementById('selecting');
-  selecting.innerHTML = `<div id="selecting">
-    </div>
-    `;
+  buildSubject();
 })();

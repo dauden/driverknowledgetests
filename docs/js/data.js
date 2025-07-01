@@ -1,5 +1,166 @@
 const data = {
-  info: '600 CÂU HỎI\nDÙNG CHO SÁT HẠCH LÁI XE\nCƠ GIỚI ĐƯỜNG BỘ',
+  info: '600 CÂU HỎI DÙNG CHO SÁT HẠCH LÁI XE CƠ GIỚI ĐƯỜNG BỘ',
+  note: 'Câu điểm liệt: sai 1 câu này là trượt lý thuyết ngay cả khi nhiều câu khác đúng.',
+  assess: {
+    moto: {
+      icon: '🏍️',
+      title: 'Mô tô hai bánh & ba bánh (A1, A)',
+      licence: {
+        A1: {
+          title: 'xe mô tô hai bánh ≤ 125 cm³ (hoặc ≤ 11 kW)',
+          description: '25 câu (trong đó có 1 câu điểm liệt)',
+          numberOfQuestions: 25,
+          requestPassed: 21,
+          time: 19,
+          paralysis: 0,
+        },
+        A: {
+          title:
+            'mô tô dung tích xi-lanh > 125 cm³ (hoặc > 11 kW); được điều khiển cả xe hạng A1',
+          description: '25 câu (trong đó có 1 câu điểm liệt)',
+          numberOfQuestions: 25,
+          requestPassed: 23,
+          time: 19,
+          paralysis: 0,
+        },
+      },
+    },
+    smallCar: {
+      icon: '🚗',
+      title: 'Ô tô hạng B, B1',
+      licence: {
+        B1: {
+          title: 'mô tô ba bánh và các xe hạng A1',
+          description: '30 câu (1 câu điểm liệt)',
+          numberOfQuestions: 30,
+          requestPassed: 27,
+          time: 20,
+          paralysis: 0,
+        },
+        B: {
+          title:
+            'ô tô chở người đến 8 chỗ, ô tô tải/chuyên dùng ≤ 3.500 kg, kéo rơ-moóc ≤ 750 kg',
+          description: '30 câu (1 câu điểm liệt)',
+          numberOfQuestions: 30,
+          requestPassed: 27,
+          time: 20,
+          paralysis: 0,
+        },
+      },
+    },
+    car: {
+      icon: '🚛',
+      title: 'Ô tô tải trung & lớn',
+      licence: {
+        C1: {
+          title:
+            'ô tô tải/chuyên dùng > 3.500 kg–≤ 7.500 kg; có thể kéo rơ-moóc ≤ 750 kg; và tất cả xe hạng B',
+          description: '35 câu (1 câu điểm liệt)',
+          numberOfQuestions: 35,
+          requestPassed: 32,
+          time: 22,
+          paralysis: 0,
+        },
+        C: {
+          title:
+            'ô tô tải/chuyên dùng > 7.500 kg; kéo rơ-moóc ≤ 750 kg; và tất cả xe hạng B + C1',
+          description: '35 câu (1 câu điểm liệt)',
+          numberOfQuestions: 40,
+          requestPassed: 36,
+          time: 24,
+          paralysis: 0,
+        },
+      },
+    },
+    buss: {
+      icon: '🚌',
+      title: 'Các hạng xe chở người nhiều chỗ',
+      licence: {
+        D1: {
+          title:
+            'ô tô chở người từ > 8 đến ≤ 16 chỗ; kéo rơ-moóc ≤ 750 kg; và B, C1, C',
+          description: '45 câu (1 câu điểm liệt)',
+          numberOfQuestions: 45,
+          requestPassed: 41,
+          time: 26,
+          paralysis: 0,
+        },
+        D2: {
+          title:
+            'ô tô chở người > 16 đến ≤ 29 chỗ; kéo rơ-moóc ≤ 750 kg; và B, C1, C, D1',
+          description: '45 câu (1 câu điểm liệt)',
+          numberOfQuestions: 45,
+          requestPassed: 41,
+          time: 26,
+          paralysis: 0,
+        },
+        D: {
+          title:
+            'ô tô chở người > 29 chỗ (xe buýt, giường nằm); kéo rơ-moóc ≤ 750 kg; và B, C1, C, D1, D2',
+          description: '45 câu (1 câu điểm liệt)',
+          numberOfQuestions: 45,
+          requestPassed: 41,
+          time: 26,
+          paralysis: 0,
+        },
+      },
+    },
+    truck: {
+      icon: '🚐',
+      title: 'Các hạng kéo rơ-moóc lớn',
+      licence: {
+        BE: {
+          title: 'xe hạng B kéo rơ-moóc > 750 kg',
+          description: '45 câu (1 câu điểm liệt)',
+          numberOfQuestions: 45,
+          requestPassed: 41,
+          time: 26,
+          paralysis: 0,
+        },
+        C1E: {
+          title: 'xe hạng C1 kéo rơ-moóc > 750 kg',
+          description: '45 câu (1 câu điểm liệt)',
+          numberOfQuestions: 45,
+          requestPassed: 41,
+          time: 26,
+          paralysis: 0,
+        },
+        CE: {
+          title:
+            'xe hạng C kéo rơ-moóc > 750 kg, bao gồm đầu kéo – sơ-mi rơ-moóc',
+          description: '45 câu (1 câu điểm liệt)',
+          numberOfQuestions: 45,
+          requestPassed: 41,
+          time: 26,
+          paralysis: 0,
+        },
+        D1E: {
+          title: 'xe hạng D1 kéo rơ-moóc > 750 kg',
+          description: '45 câu (1 câu điểm liệt)',
+          numberOfQuestions: 45,
+          requestPassed: 41,
+          time: 26,
+          paralysis: 0,
+        },
+        D2E: {
+          title: 'xe hạng D2 kéo rơ-moóc > 750 kg',
+          description: '45 câu (1 câu điểm liệt)',
+          numberOfQuestions: 45,
+          requestPassed: 41,
+          time: 26,
+          paralysis: 0,
+        },
+        DE: {
+          title: 'xe hạng D kéo rơ-moóc > 750 kg (bao gồm xe khách nối toa)',
+          description: '45 câu (1 câu điểm liệt)',
+          numberOfQuestions: 45,
+          requestPassed: 41,
+          time: 26,
+          paralysis: 0,
+        },
+      },
+    },
+  },
   chapters: {
     I: {
       id: 'I',
@@ -53,7 +214,7 @@ const data = {
         2: 'Phần đường xe chạy.',
         3: 'Phần đường xe cơ giới.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     2: {
       id: '2',
@@ -66,7 +227,7 @@ const data = {
         2: 'Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ chiều rộng cho xe chạy an toàn.',
         3: 'Là đường cho xe ô tô chạy, dừng, đỗ an toàn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     3: {
       id: '3',
@@ -79,7 +240,7 @@ const data = {
         2: 'Là khoảng trống có kích thước giới hạn về chiều rộng của đường, cầu, bến phà, hầm trên đường bộ để các xe kể cả hàng hóa xếp trên xe đi qua được an toàn.',
         3: 'Là khoảng trống có kích thước giới hạn về chiều cao của cầu, bến phà, hầm trên đường bộ để các xe đi qua được an toàn.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     4: {
       id: '4',
@@ -92,7 +253,7 @@ const data = {
         2: 'Để phân chia phần đường xe chạy thành hai chiều riêng biệt hoặc để phân chia phần đường dành cho xe cơ giới và xe thô sơ hoặc của nhiều loại xe khác nhau trên cùng một chiều đường.',
         3: 'Để phân tách phần đường xe chạy và hành lang an toàn giao thông.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     5: {
       id: '5',
@@ -106,7 +267,7 @@ const data = {
         3: 'Là báo hiệu cho người tham gia giao thông đường bộ về các thông tin của đường bộ.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     6: {
       id: '6',
@@ -120,7 +281,7 @@ const data = {
         2: 'Là người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     7: {
       id: '7',
@@ -133,7 +294,7 @@ const data = {
         2: 'Là người điều khiển xe thô sơ.',
         3: 'Là người điều khiển xe máy chuyên dùng.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     8: {
       id: '8',
@@ -146,7 +307,7 @@ const data = {
         1: 'Xe ô tô; máy kéo; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy; xe cơ giới dùng cho người khuyết tật và xe máy chuyên dùng; xe đạp, xe đạp máy, xe đạp điện.',
         2: 'Xe ô tô; rơ moóc được kéo bởi xe ô tô; sơ mi rơ moóc được kéo bởi ô tô đầu kéo; xe chở người bốn bánh có gắn động cơ; xe chở hàng bốn bánh có gắn động cơ; xe mô tô, xe gắn máy và các loại xe tương tự.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     9: {
       id: '9',
@@ -160,7 +321,7 @@ const data = {
         2: 'Xe đạp (kể cả xe đạp máy, xe đạp điện), xe gắn máy, xe cơ giới dùng cho người khuyết tật và xe máy chuyên dùng.',
         3: 'Xe ô tô, máy kéo, rơ moóc hoặc sơ mi rơ moóc được kéo bởi xe ô tô, máy kéo.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     10: {
       id: '10',
@@ -173,7 +334,7 @@ const data = {
         2: 'Phương tiện giao thông thô sơ đường bộ, xe máy chuyên dùng và các loại xe tương tự.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     11: {
       id: '11',
@@ -186,7 +347,7 @@ const data = {
         2: 'Người điều khiển, dẫn dắt vật nuôi trên đường bộ; người đi bộ trên đường bộ.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     12: {
       id: '12',
@@ -200,7 +361,7 @@ const data = {
         2: 'Người điều khiển xe máy chuyên dùng.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     13: {
       id: '13',
@@ -214,7 +375,7 @@ const data = {
         2: 'Là Cảnh sát giao thông và người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ.',
         3: 'Là người tham gia giao thông đường bộ.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     14: {
       id: '14',
@@ -227,7 +388,7 @@ const data = {
         2: 'Là trạng thái đứng yên tạm thời của xe trong một khoảng thời gian cần thiết đủ để cho người lên xe, xuống xe, xếp dỡ hàng hóa, kiểm tra kỹ thuật xe hoặc hoạt động khác. Khi dừng xe không được tắt máy và không được rời khỏi vị trí lái, trừ trường hợp rời khỏi vị trí lái để đóng, mở cửa xe, xếp dỡ hàng hóa, kiểm tra kỹ thuật xe nhưng phải sử dụng phanh đỗ xe hoặc thực hiện biện pháp an toàn khác.',
         3: 'Là trạng thái đứng yên của xe không giới hạn thời gian giữa 02 lần vận chuyển hàng hóa hoặc hành khách.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     15: {
       id: '15',
@@ -239,7 +400,7 @@ const data = {
         1: 'Là trạng thái đứng yên của xe có giới hạn thời gian trong một khoảng thời gian cần thiết đủ để cho người lên, xuống xe đó, xếp dỡ hàng hóa hoặc thực hiện công việc khác.',
         2: 'Là trạng thái đứng yên của xe không giới hạn thời gian. Khi đỗ xe, người điều khiển phương tiện tham gia giao thông đường bộ chỉ được rời khỏi xe khi đã sử dụng phanh đỗ xe hoặc thực hiện biện pháp an toàn khác. Xe đỗ trên đoạn đường dốc phải đánh lái về phía lề đường, chèn bánh.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     16: {
       id: '16',
@@ -251,7 +412,7 @@ const data = {
         1: 'Là một cấp kỹ thuật của đường bộ, chỉ dành cho một số loại xe cơ giới, xe máy chuyên dùng tham gia giao thông theo quy định của pháp luật. Có dải phân cách phân chia hai chiều xe chạy riêng biệt, không giao nhau cùng mức với một hoặc các đường khác, chỉ cho xe ra, vào ở những điểm nhất định. Có hàng rào bảo vệ, trang thiết bị phục vụ, bảo đảm giao thông liên tục, an toàn, rút ngắn thời gian hành trình.',
         2: 'Là đường nối liền Thủ đô Hà Nội với trung tâm hành chính cấp tỉnh; đường nối liền các trung tâm hành chính cấp tỉnh; đường có vị trí quan trọng đối với sự phát triển kinh tế- xã hội, bảo đảm quốc phòng, an ninh của vùng, khu vực.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     17: {
       id: '17',
@@ -263,7 +424,7 @@ const data = {
         1: 'Là thiết bị có đủ khả năng bảo đảm an toàn cho trẻ em ở tư thế ngồi hoặc nằm trên xe ô tô, được thiết kế để giảm nguy cơ chấn thương cho người dùng trong trường hợp xảy ra va chạm hoặc xe ô tô giảm tốc độ đột ngột, bằng cách hạn chế sự di chuyển của cơ thể trẻ em.',
         2: 'Là thiết bị có đủ khả năng bảo đảm an toàn cho trẻ em ở tư thế đứng hoặc nằm trên xe ô tô, được thiết kế để giảm nguy cơ chấn thương cho người dùng trong trường hợp xe ô tô lưu thông bình thường.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     18: {
       id: '18',
@@ -277,7 +438,7 @@ const data = {
         2: 'Đường chính, đường nhánh, đường gom, đường dành cho giao thông công cộng, đường nội bộ, đường dành riêng cho người đi bộ, người đi xe đạp và các đường khác.',
         3: 'Đường chính, đường nhánh, đường gom, đường bên, đường dành cho giao thông công cộng, đường dành riêng cho người đi bộ, người đi xe đạp và các đường khác.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     19: {
       id: '19',
@@ -290,7 +451,7 @@ const data = {
         2: 'Rải vật sắc nhọn, đổ chất gây trơn trượt trên đường bộ.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     20: {
       id: '20',
@@ -304,7 +465,7 @@ const data = {
         2: 'Hết niên hạn sử dụng.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     21: {
       id: '21',
@@ -317,7 +478,7 @@ const data = {
         2: 'Được người dân ủng hộ.',
         3: 'Được cơ quan có thẩm quyền cấp phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     22: {
       id: '22',
@@ -329,7 +490,7 @@ const data = {
         1: 'Chỉ bị nhắc nhở.',
         2: 'Tùy theo mức độ của hành vi vi phạm có thể bị xử lý hành chính hoặc xử lý hình sự.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     23: {
       id: '23',
@@ -343,7 +504,7 @@ const data = {
         2: 'Bị tước giấy phép lái xe.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     24: {
       id: '24',
@@ -357,7 +518,7 @@ const data = {
         2: 'Không bị nghiêm cấm.',
         3: 'Không bị nghiêm cấm, nếu nồng độ cồn trong máu ở mức nhẹ, có thể điều khiển phương tiện tham gia giao thông.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     25: {
       id: '25',
@@ -371,7 +532,7 @@ const data = {
         2: 'Có thể bị tước giấy phép lái xe.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     26: {
       id: '26',
@@ -385,7 +546,7 @@ const data = {
         2: 'Người được chở trên xe cơ giới.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     27: {
       id: '27',
@@ -400,7 +561,7 @@ const data = {
         3: 'Người có giấy phép lái xe nhưng đã bị trừ hết 12 điểm.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     28: {
       id: '28',
@@ -413,7 +574,7 @@ const data = {
         2: 'Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh, hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     29: {
       id: '29',
@@ -426,7 +587,7 @@ const data = {
         1: 'Cải tạo xe ô tô loại khác thành xe ô tô chở người phục vụ mục đích quốc phòng, an ninh.',
         2: 'Cải tạo trái phép; cố ý can thiệp làm sai lệch chỉ số trên đồng hồ báo quãng đường đã chạy của xe ô tô; cắt, hàn, tẩy xóa, đục sửa, đóng lại trái phép số khung, số động cơ của xe cơ giới, xe máy chuyên dùng.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     30: {
       id: '30',
@@ -439,7 +600,7 @@ const data = {
         2: 'Cản trở người, phương tiện tham gia giao thông trên đường bộ; ném gạch, đất, đá, cát hoặc vật thể khác vào người, phương tiện đang tham gia giao thông trên đường bộ.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     31: {
       id: '31',
@@ -453,7 +614,7 @@ const data = {
         2: 'Bị nghiêm cấm.',
         3: 'Bị nghiêm cấm tuỳ trường hợp.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     32: {
       id: '32',
@@ -467,7 +628,7 @@ const data = {
         2: 'Điều khiển phương tiện sau 23 giờ trong ngày.',
         3: 'Lạng lách, đánh võng, rú ga liên tục.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     33: {
       id: '33',
@@ -480,7 +641,7 @@ const data = {
         2: 'Bốn nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh và biển phụ.',
         3: 'Năm nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh, biển chỉ dẫn, biển phụ.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     34: {
       id: '34',
@@ -494,7 +655,7 @@ const data = {
         2: 'Quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn cho người đi bộ, xe lăn của người khuyết tật qua đường.',
         3: 'Quan sát, tăng tốc độ và điều khiển phương tiện nhanh chóng đi qua.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     35: {
       id: '35',
@@ -509,7 +670,7 @@ const data = {
         3: 'Trời mưa, gió, sương, khói, bụi, mặt đường trơn trượt, lầy lội, có nhiều đất đá, vật liệu rơi vãi ảnh hưởng đến an toàn giao thông đường bộ.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     36: {
       id: '36',
@@ -524,7 +685,7 @@ const data = {
         3: 'Người tham gia giao thông đường bộ ở phía trước và phía sau người điều khiển được đi tất cả các hướng; người tham gia giao thông đường bộ ở phía bên phải và phía bên trái người điều khiển phải dừng lại.',
         4: 'Người tham gia giao thông đường bộ ở phía trước và phía sau người điều khiển phải dừng lại; người tham gia giao thông đường bộ ở phía bên phải và phía bên trái người điều khiển được đi tất cả các hướng.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     37: {
       id: '37',
@@ -539,7 +700,7 @@ const data = {
         3: 'Người tham gia giao thông đường bộ ở tất cả các hướng phải dừng lại, trừ các xe đã ở trong khu vực giao nhau.',
         4: 'Người tham gia giao thông đường bộ ở phía trước Cảnh sát giao thông phải dừng lại, các hướng khác được đi.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     38: {
       id: '38',
@@ -553,7 +714,7 @@ const data = {
         2: 'Theo tín hiệu đèn giao thông.',
         3: 'Theo biển báo hiệu đường bộ.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     39: {
       id: '39',
@@ -567,7 +728,7 @@ const data = {
         2: 'Biển báo hiệu tạm thời.',
         3: 'Theo quyết định của người tham gia giao thông nhưng phải bảo đảm an toàn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     40: {
       id: '40',
@@ -581,7 +742,7 @@ const data = {
         2: 'Tăng tốc độ nhanh chóng vượt qua nút giao.',
         3: 'Quan sát, giảm tốc độ, từ từ vượt qua nút giao.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     41: {
       id: '41',
@@ -595,7 +756,7 @@ const data = {
         2: 'Chỉ lớn hơn tốc độ tối đa cho phép khi vào ban đêm.',
         3: 'Không vượt quá tốc độ tối đa cho phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     42: {
       id: '42',
@@ -608,7 +769,7 @@ const data = {
         1: 'Không được cho trẻ em ngồi cùng hàng ghế với người lái xe, trừ loại xe ô tô chỉ có một hàng ghế; người lái xe phải sử dụng, hướng dẫn sử dụng thiết bị an toàn phù hợp cho trẻ em.',
         2: 'Cho trẻ em ngồi cùng hàng ghế với người lái xe, người lái xe phải sử dụng, hướng dẫn sử dụng thiết bị an toàn phù hợp cho trẻ em.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     43: {
       id: '43',
@@ -622,7 +783,7 @@ const data = {
         2: 'Đi về bên phải theo chiều đi của mình.',
         3: 'Đi ở bất cứ bên nào nhưng phải bấm đèn cảnh báo nguy hiểm để báo hiệu cho các phương tiện khác.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     44: {
       id: '44',
@@ -636,7 +797,7 @@ const data = {
         2: 'Đi trên làn đường bên trái.',
         3: 'Đi ở bất cứ làn nào nhưng phải bảo đảm tốc độ cho phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     45: {
       id: '45',
@@ -651,7 +812,7 @@ const data = {
         3: 'Khi xe sau xin vượt nếu đủ điều kiện an toàn.',
         4: 'Khi xe sau có tín hiệu vượt bên phải.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     46: {
       id: '46',
@@ -663,7 +824,7 @@ const data = {
         1: 'Là tình huống giao thông trên đường mà mỗi chiều đường xe chạy chỉ có một làn đường dành cho xe cơ giới, xe đi phía sau di chuyển sang bên trái để di chuyển lên trước xe phía trước.',
         2: 'Là tình huống giao thông trên đường có từ hai làn đường dành cho xe cơ giới cùng chiều trở lên được phân biệt bằng vạch kẻ đường, xe đi phía sau di chuyển lên trước xe phía trước theo quy tắc sử dụng làn đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     47: {
       id: '47',
@@ -677,7 +838,7 @@ const data = {
         2: 'Không được phép vượt.',
         3: 'Được phép vượt khi có việc gấp.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     48: {
       id: '48',
@@ -691,7 +852,7 @@ const data = {
         2: 'Rú ga liên tục để xe phía trước biết xe mình xin vượt.',
         3: 'Báo hiệu nhấp nháy bằng đèn chiếu sáng phía trước hoặc còi.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     49: {
       id: '49',
@@ -705,7 +866,7 @@ const data = {
         2: 'Từ 05 giờ đến 22 giờ.',
         3: 'Từ 23 giờ ngày hôm trước đến 05 giờ sáng hôm sau.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     50: {
       id: '50',
@@ -719,7 +880,7 @@ const data = {
         2: 'Để báo hiệu cho người tham gia giao thông đường bộ từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh, trừ xe ưu tiên.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     51: {
       id: '51',
@@ -733,7 +894,7 @@ const data = {
         2: 'Bật đèn chiếu xa (đèn pha) khi đường vắng, bật đèn chiếu gần (đèn cốt) khi có xe đi ngược chiều.',
         3: 'Chỉ bật đèn chiếu gần (đèn cốt).',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     52: {
       id: '52',
@@ -746,7 +907,7 @@ const data = {
         1: 'Dùng tay cầm và sử dụng điện thoại hoặc thiết bị điện tử khác.',
         2: 'Chỉ được chở người trên thùng xe ô tô chở hàng trong trường hợp chở người đi làm nhiệm vụ cứu nạn, cứu hộ, phòng, chống thiên tai, dịch bệnh hoặc thực hiện nhiệm vụ khẩn cấp.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     53: {
       id: '53',
@@ -758,12 +919,23 @@ const data = {
       answers: {
         1: 'Trên cầu hẹp có một làn đường; nơi đường giao nhau, đường bộ giao nhau cùng mức với đường sắt; khi gặp xe ưu tiên.',
         2: 'Trên cầu có từ 02 làn xe trở lên.',
-        3: 'Trên đường có 02 làn đường được phân chia làn bằng vạch kẻ nét đứt. Câu 54. Nơi nào cấm quay đầu xe?',
-        4: 'Ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, gầm cầu vượt, ngầm.',
-        5: 'Tại nơi đường bộ giao nhau cùng mức với đường sắt, đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, trên đường cao tốc, trong hầm đường bộ, trên đường một chiều.',
-        6: 'Cả hai ý trên.',
+        3: 'Trên đường có 02 làn đường được phân chia làn bằng vạch kẻ nét đứt.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
+    },
+    54: {
+      id: '54',
+      tag: 'I',
+      question:
+        'Trên đường có 02 làn đường được phân chia làn bằng vạch kẻ nét đứt.',
+      title: 'Câu 54',
+      image: null,
+      answers: {
+        1: 'Ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, gầm cầu vượt, ngầm.',
+        2: 'Tại nơi đường bộ giao nhau cùng mức với đường sắt, đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, trên đường cao tốc, trong hầm đường bộ, trên đường một chiều.',
+        3: 'Cả hai ý trên.',
+      },
+      correctAnswer: '3',
     },
     55: {
       id: '55',
@@ -777,7 +949,7 @@ const data = {
         2: 'Ở phía trước hoặc phía sau của phần đường dành cho người đi bộ qua đường, trên đường quốc lộ.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     56: {
       id: '56',
@@ -792,7 +964,7 @@ const data = {
         3: 'Chuyển dần sang làn gần nhất với hướng rẽ. Khi bảo đảm an toàn, không gây trở ngại cho người và phương tiện khác mới được chuyển hướng.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     57: {
       id: '57',
@@ -806,7 +978,7 @@ const data = {
         2: 'Trước khi thay đổi làn đường.',
         3: 'Sau khi thay đổi làn đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     58: {
       id: '58',
@@ -820,7 +992,7 @@ const data = {
         3: 'Nơi tầm nhìn bị che khuất, trong hầm đường bộ, trên đường cao tốc.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     59: {
       id: '59',
@@ -834,7 +1006,7 @@ const data = {
         2: 'Trong phạm vi an toàn của đường sắt.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     60: {
       id: '60',
@@ -849,7 +1021,7 @@ const data = {
         3: '0,4 mét.',
         4: '0,5 mét.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     61: {
       id: '61',
@@ -864,7 +1036,7 @@ const data = {
         3: '20 mét.',
         4: '25 mét.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     62: {
       id: '62',
@@ -878,7 +1050,7 @@ const data = {
         2: 'Song song cùng chiều với một xe khác đang dừng, đỗ trên đường; trên đoạn đường cong hoặc gần đầu dốc mà tầm nhìn bị che khuất; bên trái đường một chiều.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     63: {
       id: '63',
@@ -893,7 +1065,7 @@ const data = {
         3: 'Tùy trường hợp.',
         4: 'Không được phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     64: {
       id: '64',
@@ -906,7 +1078,7 @@ const data = {
         1: 'Buông cả hai tay; đứng, nằm trên xe điều khiển xe; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy.',
         2: 'Chở tối đa hai người phía sau khi chở người bệnh đi cấp cứu, áp giải người có hành vi vi phạm pháp luật, trẻ em dưới 12 tuổi và người già yếu hoặc người khuyết tật.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     65: {
       id: '65',
@@ -921,7 +1093,7 @@ const data = {
         3: 'Đội mũ bảo hiểm; chạy xe đúng tốc độ quy định và chấp hành đúng quy tắc giao thông đường bộ.',
         4: 'Chở người ngồi sau dưới 16 tuổi.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     66: {
       id: '66',
@@ -936,7 +1108,7 @@ const data = {
         3: 'Dùng tay cầm điện thoại hoặc các thiết bị điện tử khác.',
         4: 'Ý 1 và ý 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     67: {
       id: '67',
@@ -951,7 +1123,7 @@ const data = {
         3: 'Được kéo, đẩy trong trường hợp phương tiện khác bị hỏng.',
         4: 'Không được phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     68: {
       id: '68',
@@ -965,7 +1137,7 @@ const data = {
         2: 'Người lái xe phải đội mũ bảo hiểm, người được chở trên xe không nhất thiết phải đội mũ bảo hiểm.',
         3: 'Phải đội mũ bảo hiểm nhưng không nhất thiết phải cài quai.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     69: {
       id: '69',
@@ -979,7 +1151,7 @@ const data = {
         2: 'Người đã uống rượu, bia; người trong cơ thể có chất ma tuý.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     70: {
       id: '70',
@@ -994,7 +1166,7 @@ const data = {
         3: 'Ngồi về một bên điều khiển xe; đứng, nằm trên xe điều khiển xe; thay người lái xe khi xe đang chạy; quay người về phía sau để điều khiển xe hoặc bịt mắt điều khiển xe; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     71: {
       id: '71',
@@ -1008,7 +1180,7 @@ const data = {
         2: 'Sử dụng ô, thiết bị âm thanh, trừ thiết bị trợ thính.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     72: {
       id: '72',
@@ -1022,7 +1194,7 @@ const data = {
         2: 'Đi xe dàn hàng ngang, đi xe vào phần đường dành cho người đi bộ.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     73: {
       id: '73',
@@ -1037,7 +1209,7 @@ const data = {
         3: 'Không được sử dụng.',
         4: 'Được sử dụng nếu không có áo mưa.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     74: {
       id: '74',
@@ -1051,7 +1223,7 @@ const data = {
         2: 'Không được phép.',
         3: 'Chỉ được thực hiện trên đường vắng.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     75: {
       id: '75',
@@ -1066,7 +1238,7 @@ const data = {
         3: 'Người được chở bị xử phạt, không xử phạt người điều khiển xe mô tô, xe gắn máy.',
         4: 'Xử phạt cả người điều khiển và người được chở trên xe mô tô, xe gắn máy.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     76: {
       id: '76',
@@ -1080,7 +1252,7 @@ const data = {
         2: 'Phải đội mũ bảo hiểm khi trời mưa gió hoặc trời quá nắng; có thể sử dụng ô, điện thoại di động, thiết bị âm thanh nhưng phải bảo đảm an toàn.',
         3: 'Phải đội mũ bảo hiểm khi cảm thấy mất an toàn giao thông hoặc khi chuẩn bị di chuyển quãng đường xa.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     77: {
       id: '77',
@@ -1093,7 +1265,7 @@ const data = {
         2: 'Xe cơ giới, xe máy chuyên dùng xuống trước, xe thô sơ, người đi bộ xuống sau.',
         3: 'Xe cơ giới, xe thô sơ xuống trước, xe máy chuyên dùng, người đi bộ xuống sau.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     78: {
       id: '78',
@@ -1107,7 +1279,7 @@ const data = {
         2: 'Phải cho xe đi trong một làn đường và chỉ được chuyển làn đường ở những nơi cho phép; mỗi lần chuyển làn đường chỉ được phép chuyển sang một làn đường liền kề; khi chuyển làn đường phải có tín hiệu báo trước; phải quan sát bảo đảm khoảng cách an toàn với xe phía trước, phía sau và hai bên mới được chuyển làn.',
         3: 'Phải cho xe đi trong một làn đường, chỉ được chuyển làn đường khi vượt xe phía trước cùng làn đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     79: {
       id: '79',
@@ -1121,7 +1293,7 @@ const data = {
         2: 'Xe thô sơ phải đi trên làn đường bên phải trong cùng, xe cơ giới, xe máy chuyên dùng đi trên làn đường bên trái.',
         3: 'Xe thô sơ phải đi trên làn đường bên phải trong cùng, xe cơ giới, xe máy chuyên dùng được đi trên tất cả các làn đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     80: {
       id: '80',
@@ -1135,7 +1307,7 @@ const data = {
         2: 'Phải báo hiệu bằng cả còi và đèn.',
         3: 'Chỉ được báo hiệu bằng đèn.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     81: {
       id: '81',
@@ -1149,7 +1321,7 @@ const data = {
         2: 'Giảm tốc độ, có tín hiệu rẽ phải để báo hiệu cho người điều khiển phương tiện tham gia giao thông đường bộ phía sau biết được vượt và đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua, không được cản trở đối với xe xin vượt.',
         3: 'Cho xe đi sát về bên trái của phần đường xe chạy và ra hiệu cho xe sau vượt, không được gây trở ngại cho xe xin vượt.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     82: {
       id: '82',
@@ -1163,7 +1335,7 @@ const data = {
         2: 'Tiếp tục đi cho đến khi đủ điều kiện an toàn, nếu xe sau vẫn xin vượt thì báo hiệu cho xe sau vượt.',
         3: 'Tăng tốc độ để báo hiệu cho xe xin vượt biết là chưa được vượt.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     83: {
       id: '83',
@@ -1177,7 +1349,7 @@ const data = {
         2: 'Nhanh chóng chuyển hướng để không gây trở ngại hoặc nguy hiểm cho người, phương tiện khác.',
         3: 'Ra tín hiệu chuyển hướng để yêu cầu các phương tiện khác dừng lại cho xe chuyển hướng di chuyển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     84: {
       id: '84',
@@ -1191,7 +1363,7 @@ const data = {
         2: 'Quan sát, bảo đảm khoảng cách an toàn với xe phía sau, giảm tốc độ và có tín hiệu báo hướng rẽ hoặc có tín hiệu bằng tay theo hướng rẽ đối với xe thô sơ không có đèn báo hướng rẽ, chuyển dần sang làn gần nhất với hướng rẽ. Tín hiệu báo hướng rẽ hoặc tín hiệu bằng tay phải sử dụng liên tục trong quá trình chuyển hướng. Khi bảo đảm an toàn, không gây trở ngại cho người và phương tiện khác mới được chuyển hướng.',
         3: 'Quan sát gương, tăng tốc độ, ra tín hiệu và chuyển hướng.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     85: {
       id: '85',
@@ -1205,7 +1377,7 @@ const data = {
         2: 'Có tín hiệu báo lùi, nếu phía sau không có người hoặc phương tiện khác thì nhanh chóng lùi để bảo đảm an toàn.',
         3: 'Phải quan sát hai bên và phía sau xe, có tín hiệu lùi và chỉ lùi xe khi bảo đảm an toàn.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     86: {
       id: '86',
@@ -1219,7 +1391,7 @@ const data = {
         2: 'Bấm còi 3 lần liên tiếp trước khi lùi.',
         3: 'Không được lùi xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     87: {
       id: '87',
@@ -1233,7 +1405,7 @@ const data = {
         2: 'Một trong hai xe phải dừng lại cho xe kia đi qua mới được đi.',
         3: 'Tăng tốc độ, cho xe đi về bên phải theo chiều xe chạy của mình để nhanh chóng vượt qua.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     88: {
       id: '88',
@@ -1248,7 +1420,7 @@ const data = {
         3: 'Xe có chướng ngại vật phía trước phải nhường đường cho xe không có chướng ngại vật phía trước.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     89: {
       id: '89',
@@ -1262,7 +1434,7 @@ const data = {
         2: 'Nhường đường cho xe lên dốc.',
         3: 'Chỉ nhường đường khi xe lên dốc nháy đèn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     90: {
       id: '90',
@@ -1276,7 +1448,7 @@ const data = {
         2: 'Đi sang làn đường của xe ngược chiều để mở rộng tầm nhìn và vượt xe khác.',
         3: 'Cho xe đi sát bên phải làn đường, bật tín hiệu báo hiệu để vượt bên phải xe khác.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     91: {
       id: '91',
@@ -1290,7 +1462,7 @@ const data = {
         2: 'Nhường đường cho xe đi ở bên trái mình tới.',
         3: 'Nhường đường cho xe đi trên đường ưu tiên hoặc đường chính từ bất kỳ hướng nào tới.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     92: {
       id: '92',
@@ -1304,7 +1476,7 @@ const data = {
         2: 'Nhường đường cho xe đi đến từ bên trái.',
         3: 'Không phải nhường đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     93: {
       id: '93',
@@ -1318,7 +1490,7 @@ const data = {
         2: 'Xe báo hiệu xin đường trước, xe đó được đi trước.',
         3: 'Phải nhường đường cho xe đi đến từ bên trái.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     94: {
       id: '94',
@@ -1332,7 +1504,7 @@ const data = {
         2: 'Xe ưu tiên gồm xe chữa cháy của Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ và xe chữa cháy của các lực lượng khác được huy động đi làm nhiệm vụ chữa cháy; xe của lực lượng quân sự, công an và kiểm sát đi làm nhiệm vụ khẩn cấp; đoàn xe có xe Cảnh sát giao thông dẫn đường; xe cứu thương đi làm nhiệm vụ cấp cứu; xe hộ đê đi làm nhiệm vụ; xe đi làm nhiệm vụ cứu nạn, cứu hộ, khắc phục sự cố thiên tai, dịch bệnh hoặc xe đi làm nhiệm vụ trong tình trạng khẩn cấp theo quy định của pháp luật; đoàn xe tang.',
         3: 'Xe ô tô, xe máy, đoàn xe đang diễu hành có tổ chức có báo tín hiệu xin vượt bằng còi và đèn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     95: {
       id: '95',
@@ -1347,7 +1519,7 @@ const data = {
         3: 'Được đi ngược chiều trên làn dừng xe khẩn cấp trên đường cao tốc.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     96: {
       id: '96',
@@ -1361,7 +1533,7 @@ const data = {
         2: 'Tăng tốc độ và đi sát lề đường bên phải để nhường đường.',
         3: 'Giảm tốc độ, đi sát lề đường bên trái để nhường đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     97: {
       id: '97',
@@ -1375,7 +1547,7 @@ const data = {
         2: 'Được phép vượt ở phần đường dành cho người đi bộ qua đường.',
         3: 'Được vượt khi bảo đảm an toàn.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     98: {
       id: '98',
@@ -1390,7 +1562,7 @@ const data = {
         3: 'Được phép vượt khi đi qua nơi giao nhau có ít phương tiện cùng tham gia giao thông.',
         4: 'Được vượt khi bảo đảm an toàn.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     99: {
       id: '99',
@@ -1404,7 +1576,7 @@ const data = {
         2: 'Quan sát hai phía, khi không có phương tiện giao thông đường sắt tới thì nhanh chóng đi qua.',
         3: 'Dừng lại khoảng cách tối thiểu 3 mét tính từ ray đường sắt gần nhất, khi khôngcó phương tiện giao thông đường sắt tới thì nhanh chóng đi qua.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     100: {
       id: '100',
@@ -1418,7 +1590,7 @@ const data = {
         2: 'Dừng lại giữa đường của mình, trước vạch dừng xe.',
         3: 'Dừng lại về bên phải đường của mình, trước vạch dừng xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     101: {
       id: '101',
@@ -1432,7 +1604,7 @@ const data = {
         2: 'Để xe lại, tìm cách báo cho người quản lý đường sắt, nhà ga nơi gần nhất.',
         3: 'Không di chuyển phương tiện, tự khắc phục sửa chữa.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     102: {
       id: '102',
@@ -1447,7 +1619,7 @@ const data = {
         3: 'Chắn đường bộ đang dịch chuyển hoặc đã đóng.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     103: {
       id: '103',
@@ -1461,7 +1633,7 @@ const data = {
         2: 'Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu xa; được dừng xe, đỗ xe khi cần thiết.',
         3: 'Phải cho xe chạy trên một làn đường và chỉ chuyển làn ở nơi được phép; được quay đầu xe, lùi xe khi cần thiết.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     104: {
       id: '104',
@@ -1475,7 +1647,7 @@ const data = {
         2: 'Nối bằng dây cáp có độ dài 8 mét.',
         3: 'Nối bằng thanh nối cứng.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     105: {
       id: '105',
@@ -1489,7 +1661,7 @@ const data = {
         2: 'Phải có tổng trọng lượng tương đương tổng trọng lượng của rơ moóc hoặc phải có hệ thống hãm có hiệu lực cho rơ moóc.',
         3: 'Phải được lắp phanh phụ theo quy định để đảm bảo an toàn.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     106: {
       id: '106',
@@ -1503,7 +1675,7 @@ const data = {
         2: 'Xe được kéo phải có người điều khiển và hệ thống lái của xe đó phải còn hiệu lực; việc nối xe kéo với xe được kéo phải bảo đảm chắc chắn, an toàn; trường hợp hệ thống hãm của xe được kéo không còn hiệu lực thì xe kéo nhau phải nối bằng thanh nối cứng. Phía trước của xe kéo và phía sau của xe được kéo phải có biển báo hiệu, có đèn cảnh báo nhấp nháy màu vàng.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     107: {
       id: '107',
@@ -1518,7 +1690,7 @@ const data = {
         3: 'Điểm dừng xe, đỗ xe trên đường bộ có khách đang lên, xuống xe.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     108: {
       id: '108',
@@ -1532,7 +1704,7 @@ const data = {
         2: 'Xe chạy phía trước đã có tín hiệu rẽ phải và tránh về bên phải.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     109: {
       id: '109',
@@ -1546,7 +1718,7 @@ const data = {
         2: 'Xe phía trước đang đi sát lề đường bên trái.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     110: {
       id: '110',
@@ -1560,7 +1732,7 @@ const data = {
         2: 'Lái xe vào lề đường bên trái và giảm tốc độ để xe phía sau vượt qua, không được gây trở ngại đối với xe xin vượt.',
         3: 'Tăng tốc độ, đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     111: {
       id: '111',
@@ -1573,7 +1745,7 @@ const data = {
         1: 'Xe máy chuyên dùng có tốc độ thiết kế nhỏ hơn tốc độ tối thiểu quy định đối với đường cao tốc, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô, xe gắn máy, xe thô sơ, người đi bộ.',
         2: 'Xe máy chuyên dùng có tốc độ thiết kế lớn hơn tốc độ tối thiểu quy định đối với đường cao tốc. Xe ô tô và xe máy chuyên dùng có tốc độ thiết kế lớn hơn 80 km/h.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     112: {
       id: '112',
@@ -1587,7 +1759,7 @@ const data = {
         2: 'Chỉ được đi ngược chiều trên làn dừng xe khẩn cấp.',
         3: 'Chỉ được đi ngược chiều trên làn đường sát dải phân cách của đường cao tốc.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     113: {
       id: '113',
@@ -1601,7 +1773,7 @@ const data = {
         2: 'Lùi xe, quay đầu xe.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     114: {
       id: '114',
@@ -1615,7 +1787,7 @@ const data = {
         2: 'Bật tín hiệu khẩn cấp, lập tức đưa xe vào làn đường xe chạy bên phải trong cùng, đặt biển báo hiệu nguy hiểm để cảnh báo cho các xe khác.',
         3: 'Dừng xe, đỗ xe ở làn dừng khẩn cấp cùng chiều xe chạy và phải có báo hiệu bằng đèn khẩn cấp; trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     115: {
       id: '115',
@@ -1629,7 +1801,7 @@ const data = {
         2: 'Lùi xe trên lề đường có lối ra và rẽ khỏi đường cao tốc.',
         3: 'Tiếp tục lái xe và rẽ ở lối ra tiếp theo.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     116: {
       id: '116',
@@ -1642,7 +1814,7 @@ const data = {
         1: 'Có.',
         2: 'Không.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     117: {
       id: '117',
@@ -1657,7 +1829,7 @@ const data = {
         3: 'Nếu có làn đường tăng tốc thì phải cho xe chạy trên làn đường đó trước khi nhập vào làn đường của đường cao tốc.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     118: {
       id: '118',
@@ -1671,7 +1843,7 @@ const data = {
         2: '17 tuổi.',
         3: '16 tuổi.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     119: {
       id: '119',
@@ -1685,7 +1857,7 @@ const data = {
         2: '17 tuổi',
         3: '18 tuổi.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     120: {
       id: '120',
@@ -1700,7 +1872,7 @@ const data = {
         3: '27 tuổi.',
         4: '30 tuổi.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     121: {
       id: '121',
@@ -1714,7 +1886,7 @@ const data = {
         2: 'Đủ 55 tuổi đối với nam và nữ.',
         3: 'Đủ 57 tuổi đối với nam và đủ 55 tuổi đối với nữ.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     122: {
       id: '122',
@@ -1728,7 +1900,7 @@ const data = {
         2: '24 tuổi.',
         3: '22 tuổi.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     123: {
       id: '123',
@@ -1743,7 +1915,7 @@ const data = {
         3: 'Xe ô tô chở người đến 08 chỗ (không kể chỗ của người lái xe); xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế đến 3.500 kg; các loại xe ô tô quy định cho giấy phép lái xe hạng B kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     124: {
       id: '124',
@@ -1757,7 +1929,7 @@ const data = {
         2: 'Xe mô tô ba bánh.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     125: {
       id: '125',
@@ -1771,7 +1943,7 @@ const data = {
         2: 'Xe mô tô ba bánh.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     126: {
       id: '126',
@@ -1785,7 +1957,7 @@ const data = {
         2: 'Xe mô tô hai bánh có dung tích xi-lanh trên 125 cm3 hoặc có công suất động',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     127: {
       id: '127',
@@ -1799,7 +1971,7 @@ const data = {
         2: 'Xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế đến 3.500 kg.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     128: {
       id: '128',
@@ -1813,7 +1985,7 @@ const data = {
         2: 'Xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế trên 3.500 kg đến 7.500 kg; các loại xe ô tô tải quy định cho giấy phép lái xe hạng C1 kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     129: {
       id: '129',
@@ -1827,7 +1999,7 @@ const data = {
         2: 'Xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế trên 7.500 kg; các loại xe ô tô tải quy định cho giấy phép lái xe hạng C kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     130: {
       id: '130',
@@ -1841,7 +2013,7 @@ const data = {
         2: 'Xe ô tô chở người trên 08 chỗ (không kể chỗ của người lái xe) đến 16 chỗ (không kể chỗ của người lái xe); các loại xe ô tô chở người quy định cho giấy phép lái xe hạng D1 kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     131: {
       id: '131',
@@ -1855,7 +2027,7 @@ const data = {
         2: 'Xe ô tô chở người trên 08 chỗ (không kể chỗ của người lái xe) đến 16 chỗ (không kể chỗ của người lái xe); các loại xe ô tô chở người quy định cho giấy phép lái xe hạng D1 kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     132: {
       id: '132',
@@ -1870,7 +2042,7 @@ const data = {
         3: 'Các loại xe ô tô quy định cho giấy phép lái xe hạng C kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg; xe ô tô đầu kéo kéo sơ mi rơ moóc.',
         4: 'Ý 1 và ý 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     133: {
       id: '133',
@@ -1884,7 +2056,7 @@ const data = {
         2: 'Các loại xe ô tô quy định cho giấy phép lái xe hạng B kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg.',
         3: 'Xe ô tô chở người (kể cả xe buýt) trên 16 chỗ (không kể chỗ của người lái xe) đến 29 chỗ (không kể chỗ của người lái xe); các loại xe ô tô chở người quy định cho giấy phép lái xe hạng D2 kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     134: {
       id: '134',
@@ -1898,7 +2070,7 @@ const data = {
         2: 'Các loại xe ô tô quy định cho giấy phép lái xe hạng D1 kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     135: {
       id: '135',
@@ -1912,7 +2084,7 @@ const data = {
         2: 'Các loại xe ô tô quy định cho giấy phép lái xe hạng C kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg; xe ô tô đầu kéo kéo sơ mi rơ moóc.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     136: {
       id: '136',
@@ -1926,7 +2098,7 @@ const data = {
         2: 'Phải mang theo giấy phép xe tập lái.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     137: {
       id: '137',
@@ -1940,7 +2112,7 @@ const data = {
         2: 'Phải là người đứng tên trong đăng ký xe.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     138: {
       id: '138',
@@ -1955,7 +2127,7 @@ const data = {
         3: 'Trường hợp các giấy tờ nêu trên đã được tích hợp vào tài khoản định danh điện tử thì việc xuất trình, kiểm tra có thể thực hiện thông qua tài khoản định danh điện tử.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     139: {
       id: '139',
@@ -1969,7 +2141,7 @@ const data = {
         3: 'Giấy phép lái xe đã quá thời hạn tạm giữ hoặc hết thời hiệu thi hành quyết định xử phạt vi phạm hành chính theo quy định của pháp luật về xử lý vi phạm hành chính nếu người vi phạm không đến nhận mà không có lý do chính đáng.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     140: {
       id: '140',
@@ -1982,7 +2154,7 @@ const data = {
         1: 'Không được phục hồi.',
         2: 'Được phục hồi đủ 12 điểm, nếu không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     141: {
       id: '141',
@@ -1996,7 +2168,7 @@ const data = {
         2: 'Sau thời hạn ít nhất là 06 tháng kể từ ngày bị trừ hết điểm, người có phép lái xe được tham gia kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ theo quy định, có kết quả đạt yêu cầu thì được phục hồi đủ 12 điểm.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     142: {
       id: '142',
@@ -2009,7 +2181,7 @@ const data = {
         1: 'Tiếp tục chịu trách nhiệm của chủ xe.',
         2: 'Không chịu trách nhiệm sau khi đã chuyển nhượng, trao đổi, tặng, cho.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     143: {
       id: '143',
@@ -2023,7 +2195,7 @@ const data = {
         2: 'Xe ô tô chở người từ 08 chỗ trở lên (không kể chỗ của người lái xe) kinh doanh vận tải, xe ô tô đầu kéo, xe cứu thương.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     144: {
       id: '144',
@@ -2037,7 +2209,7 @@ const data = {
         2: '40 km/h.',
         3: '60 km/h.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     145: {
       id: '145',
@@ -2051,7 +2223,7 @@ const data = {
         2: '50 km/h.',
         3: '40 km/h.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     146: {
       id: '146',
@@ -2065,7 +2237,7 @@ const data = {
         2: '50 km/h.',
         3: '40 km/h.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     147: {
       id: '147',
@@ -2079,7 +2251,7 @@ const data = {
         2: 'Xe gắn máy, xe máy chuyên dùng.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     148: {
       id: '148',
@@ -2093,7 +2265,7 @@ const data = {
         2: 'Xe gắn máy, xe máy chuyên dùng.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     149: {
       id: '149',
@@ -2107,7 +2279,7 @@ const data = {
         2: 'Xe ô tô chở người trên 28 chỗ không kể chỗ người lái xe (trừ xe buýt); ô tô tải có trọng tải trên 3,5 tấn (trừ ô tô xi téc).',
         3: 'Xe buýt; ô tô đầu kéo kéo sơ mi rơ moóc (trừ ô tô đầu kéo kéo sơ mi rơ moóc xi téc); xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông lưu động).',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     150: {
       id: '150',
@@ -2122,7 +2294,7 @@ const data = {
         3: 'Xe buýt; ô tô đầu kéo kéo sơ mi rơ moóc (trừ ô tô đầu kéo kéo sơ mi rơ moóc xi téc); xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông lưu động).',
         4: 'Ô tô kéo rơ moóc; ô tô kéo xe khác; ô tô trộn vữa, ô tô trộn bê tông lưu động, ô tô xi téc, ô tô đầu kéo kéo sơ mi rơ moóc xi téc, ô tô kéo theo rơ moóc xi téc).',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     151: {
       id: '151',
@@ -2137,7 +2309,7 @@ const data = {
         3: 'Xe buýt; ô tô đầu kéo kéo sơ mi rơ moóc (trừ ô tô đầu kéo kéo sơ mi rơ moóc xi téc); xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông lưu động).',
         4: 'Ô tô kéo rơ moóc; ô tô kéo xe khác; ô tô trộn vữa, ô tô trộn bê tông lưu động, ô tô xi téc, ô tô đầu kéo kéo sơ mi rơ moóc xi téc, ô tô kéo theo rơ moóc xi téc.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     152: {
       id: '152',
@@ -2152,7 +2324,7 @@ const data = {
         3: 'Xe buýt; ô tô đầu kéo kéo sơ mi rơ moóc (trừ ô tô đầu kéo kéo sơ mi rơ moóc xi téc); xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông lưu động).',
         4: 'Ô tô kéo rơ moóc; ô tô kéo xe khác; ô tô trộn vữa, ô tô trộn bê tông lưu động, ô tô xi téc, ô tô đầu kéo kéo sơ mi rơ moóc xi téc, ô tô kéo theo rơ moóc xi téc.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     153: {
       id: '153',
@@ -2166,7 +2338,7 @@ const data = {
         2: 'Xe ô tô chở người trên 28 chỗ không kể chỗ người lái xe (trừ xe buýt); ô tô tải có trọng tải trên 3,5 tấn (trừ ô tô xi téc).',
         3: 'Xe buýt; ô tô đầu kéo kéo sơ mi rơ moóc (trừ ô tô đầu kéo kéo sơ mi rơ moóc xi téc); xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông lưu động).',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     154: {
       id: '154',
@@ -2181,7 +2353,7 @@ const data = {
         3: 'Xe buýt; ô tô đầu kéo kéo sơ mi rơ moóc (trừ ô tô đầu kéo kéo sơ mi rơ moóc xi téc); xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông lưu động).',
         4: 'Ô tô kéo rơ moóc; ô tô kéo xe khác; ô tô trộn vữa, ô tô trộn bê tông lưu động, ô tô xi téc, ô tô đầu kéo kéo sơ mi rơ moóc xi téc, ô tô kéo theo rơ moóc xi téc.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     155: {
       id: '155',
@@ -2196,7 +2368,7 @@ const data = {
         3: 'Xe buýt; ô tô đầu kéo kéo sơ mi rơ moóc (trừ ô tô đầu kéo kéo sơ mi rơ moóc xi téc); xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông lưu động).',
         4: 'Ô tô kéo rơ moóc; ô tô kéo xe khác; ô tô trộn vữa, ô tô trộn bê tông lưu động, ô tô xi téc, ô tô đầu kéo kéo sơ mi rơ moóc xi téc, ô tô kéo theo rơ moóc xi téc.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     156: {
       id: '156',
@@ -2211,7 +2383,7 @@ const data = {
         3: 'Xe buýt; ô tô đầu kéo kéo sơ mi rơ moóc (trừ ô tô đầu kéo kéo sơ mi rơ moóc xi téc); xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông lưu động).',
         4: 'Ô tô kéo rơ moóc; ô tô kéo xe khác; ô tô trộn vữa, ô tô trộn bê tông lưu động, ô tô xi téc, ô tô đầu kéo kéo sơ mi rơ moóc xi téc, ô tô kéo theo rơ moóc xi téc.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     157: {
       id: '157',
@@ -2225,7 +2397,7 @@ const data = {
         2: 'Xe chở người bốn bánh có gắn động cơ khi tham gia giao thông trong phạm vi và thời gian cho phép hoạt động.',
         3: 'Xe chở hàng bốn bánh có gắn động cơ khi tham gia giao thông trong phạm vi và thời gian cho phép hoạt động.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     158: {
       id: '158',
@@ -2239,7 +2411,7 @@ const data = {
         2: '55 m.',
         3: '70 m.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     159: {
       id: '159',
@@ -2253,7 +2425,7 @@ const data = {
         2: '70 m.',
         3: '100 m.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     160: {
       id: '160',
@@ -2267,7 +2439,7 @@ const data = {
         2: '70 m.',
         3: '100 m.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     161: {
       id: '161',
@@ -2281,7 +2453,7 @@ const data = {
         2: '55 m.',
         3: '70 m.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     162: {
       id: '162',
@@ -2295,7 +2467,7 @@ const data = {
         2: 'Bảo đảm khoảng cách an toàn tùy thuộc vào mật độ phương tiện, tình hình giao thông thực tế.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     163: {
       id: '163',
