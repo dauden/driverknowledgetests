@@ -1321,7 +1321,7 @@ const data = {
         2: 'Giảm tốc độ, có tín hiệu rẽ phải để báo hiệu cho người điều khiển phương tiện tham gia giao thông đường bộ phía sau biết được vượt và đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua, không được cản trở đối với xe xin vượt.',
         3: 'Cho xe đi sát về bên trái của phần đường xe chạy và ra hiệu cho xe sau vượt, không được gây trở ngại cho xe xin vượt.',
       },
-      correctAnswer: '1',
+      correctAnswer: '2',
     },
     82: {
       id: '82',
@@ -2482,7 +2482,7 @@ const data = {
         3: 'Gặp biển báo hết mọi lệnh cấm.',
         4: 'Gặp biển báo hết hạn chế tốc độ tối đa cho phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     164: {
       id: '164',
@@ -2496,7 +2496,7 @@ const data = {
         2: 'Được bố trí xe dẫn đường để bảo đảm an toàn giao thông.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     165: {
       id: '165',
@@ -2511,7 +2511,7 @@ const data = {
         3: 'Khu vực có trường học, bệnh viện, bến xe, công trình công cộng tập trung đông người, khu vực đông dân cư, chợ, khu vực đang thi công trên đường bộ, hiện trường vụ tai nạn giao thông đường bộ.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     166: {
       id: '166',
@@ -2525,7 +2525,7 @@ const data = {
         2: 'Được phép lái xe không hạn chế tốc độ và khoảng cách an toàn tối thiểu với xe phía trước cùng làn đường hoặc phần đường khi tham gia giao thông trên đường nhánh.',
         3: 'Chấp hành quy định về tốc độ, khoảng cách an toàn tối thiểu với xe phía trước cùng làn đường hoặc phần đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     167: {
       id: '167',
@@ -2538,7 +2538,7 @@ const data = {
         1: 'Tăng tốc độ để nhanh chóng vượt qua xe buýt.',
         2: 'Quan sát, giảm tốc độ đi qua xe buýt hoặc dừng lại để bảo đảm an toàn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     168: {
       id: '168',
@@ -2551,7 +2551,7 @@ const data = {
         1: 'Đón, trả hành khách đúng nơi quy định; hướng dẫn sử dụng trang thiết bị an toàn trên xe; có biện pháp giữ gìn vệ sinh trong xe; vận chuyển hành khách đúng lịch trình, lộ trình đã đăng ký, trừ trường hợp bất khả kháng; không chở hành khách trên nóc xe, trong khoang chở hành lý hoặc để hành khách đu, bám bên ngoài xe.',
         2: 'Đón, trả hành khách theo yêu cầu của hành khách trên xe; hướng dẫn sử dụng trang thiết bị an toàn trên xe; có biện pháp giữ gìn vệ sinh trong xe; vận chuyển hành khách đúng lịch trình, lộ trình đã đăng ký, trừ trường hợp bất khả kháng; không chở hành khách trên nóc xe, trong khoang chở hành lý hoặc để hành khách đu, bám bên ngoài xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     169: {
       id: '169',
@@ -2566,7 +2566,7 @@ const data = {
         3: 'Vận chuyển động vật hoang dã.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     170: {
       id: '170',
@@ -2581,7 +2581,7 @@ const data = {
         3: 'Đe dọa, xúc phạm, tranh giành, lôi kéo hành khách; đe doạ, cưỡng ép hành khách sử dụng dịch vụ ngoài ý muốn; chuyển tải, xuống khách hoặc các hành vi khác nhằm trốn tránh phát hiện xe chở quá tải, quá số người theo quy định của pháp luật.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     171: {
       id: '171',
@@ -2596,7 +2596,7 @@ const data = {
         3: 'Không quá 8 giờ.',
         4: 'Liên tục tùy thuộc vào sức khỏe và khả năng của người lái xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     172: {
       id: '172',
@@ -2611,7 +2611,7 @@ const data = {
         3: 'Không quá 10 giờ trong một ngày.',
         4: 'Không hạn chế tùy thuộc vào sức khỏe và khả năng của người lái xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     173: {
       id: '173',
@@ -2626,7 +2626,7 @@ const data = {
         3: 'Kiểm tra nhân thân và hành lý của hành khách đi xe.',
         4: 'Ý 1 và ý 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     174: {
       id: '174',
@@ -2641,7 +2641,7 @@ const data = {
         3: 'Được cấp chứng nhận đăng kí xe và gắn biển số xe, bảo đảm an toàn kĩ thuật và bảo vệ môi trường theo quy định của pháp luật; xe ô tô chở người từ 08 chỗ trở lên (không kể chỗ của người lái xe) phải lắp thiết bị giám sát hành trình và thiết bị ghi nhận hình ảnh người lái xe.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     175: {
       id: '175',
@@ -2656,7 +2656,7 @@ const data = {
         3: 'Trong quá trình vận chuyển phải chấp hành các quy định của pháp luật về trật tự, an toàn giao thông đường bộ, vệ sinh dịch tễ, phòng dịch và bảo đảm vệ sinh môi trường.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     176: {
       id: '176',
@@ -2669,7 +2669,7 @@ const data = {
         1: 'Phải có giấy phép vận chuyển; trong trường hợp cần thiết, đơn vị vận chuyển hàng hoá nguy hiểm phải bố trí người áp tải để bảo đảm trật tự, an toàn giao thông đường bộ.',
         2: 'Phải có giấy phép vận chuyển; không phải bố trí người áp tải khi tham gia giao thông đường bộ.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     177: {
       id: '177',
@@ -2684,7 +2684,7 @@ const data = {
         3: 'Xe ô tô của người nước ngoài đăng ký tại nước ngoài có tay lái ở bên phải phải đi theo đoàn và có người, phương tiện hỗ trợ, hướng dẫn giao thông.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     178: {
       id: '178',
@@ -2698,7 +2698,7 @@ const data = {
         2: 'Kiểm tra việc sắp xếp hàng hóa bảo đảm an toàn; không chở quá số người, chở hành lý, hàng hoá vượt quá khối lượng cho phép hoặc vượt quá khổ giới hạn của xe.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     179: {
       id: '179',
@@ -2711,7 +2711,7 @@ const data = {
         1: 'Phải chạy với tốc độ quy định trong giấy phép và phải có báo hiệu kích thước của hàng; trường hợp cần thiết, phải có người, phương tiện hỗ trợ lái xe, cảnh báo cho người, phương tiện tham gia giao thông đường bộ khác và thực hiện các biện pháp bảo đảm an toàn giao thông khi vận chuyển hàng siêu trường, siêu trọng trên đường bộ.',
         2: 'Phải chạy với tốc độ quy định trong giấy phép; phải có người, phương tiện hỗ trợ lái xe, cảnh báo cho người, phương tiện tham gia giao thông đường bộ khác và thực hiện các biện pháp bảo đảm an toàn giao thông khi vận chuyển hàng siêu trường, siêu trọng trên đường dành cho giao thông công cộng.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     180: {
       id: '180',
@@ -2725,7 +2725,7 @@ const data = {
         2: 'Phải tuân thủ quy định của pháp luật về khối lượng hàng hóa chuyên chở của xe cứu hộ và khối lượng của xe được cứu hộ ghi trên Chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     181: {
       id: '181',
@@ -2739,7 +2739,7 @@ const data = {
         2: 'Được cộng điểm vào giấy phép lái xe.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     182: {
       id: '182',
@@ -2754,7 +2754,7 @@ const data = {
         3: 'Bấm còi và nháy đèn liên tục để cảnh báo xe khác.',
         4: 'Tránh nhường đường để đi nhanh hơn.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     183: {
       id: '183',
@@ -2768,7 +2768,7 @@ const data = {
         2: 'Nắm vững và tự giác chấp hành các quy định của pháp luật về trật tự, an toàn giao thông đường bộ, lái xe an toàn; thực hiện đầy đủ trách nhiệm với khách hàng; có ý thức tổ chức kỷ luật và xây dựng doanh nghiệp vững mạnh; có tinh thần hợp tác, tương trợ, giúp đỡ đồng nghiệp.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     184: {
       id: '184',
@@ -2782,7 +2782,7 @@ const data = {
         2: 'Luôn tu dưỡng bản thân, có lối sống lành mạnh, khiêm tốn, có tác phong làm việc công nghiệp, không tham gia vào các tệ nạn xã hội; tôn trọng người cùng tham gia giao thông đường bộ và có ý thức bảo vệ môi trường.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     185: {
       id: '185',
@@ -2796,7 +2796,7 @@ const data = {
         2: 'Là sự tôn trọng, nhường nhịn, giúp đỡ và ứng xử có văn hóa giữa những người tham gia giao thông với nhau.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     186: {
       id: '186',
@@ -2810,7 +2810,7 @@ const data = {
         2: 'Giảm tốc độ cho xe chạy chậm qua vũng nước.',
         3: 'Giảm tốc độ cho xe chạy qua làn đường dành cho mô tô để tránh vũng nước.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     187: {
       id: '187',
@@ -2823,7 +2823,7 @@ const data = {
         1: 'Là thiếu văn hóa giao thông, vi phạm pháp luật về trật tự, an toàn giao thông đường bộ.',
         2: 'Là thiếu văn hóa giao thông.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     188: {
       id: '188',
@@ -2836,7 +2836,7 @@ const data = {
         1: 'Thực hiện cầm máu trực tiếp.',
         2: 'Thực hiện cầm máu không trực tiếp (chặn động mạch).',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     189: {
       id: '189',
@@ -2849,7 +2849,7 @@ const data = {
         1: 'Hiểu biết và chấp hành nghiêm chỉnh pháp luật về giao thông đường bộ; có ý thức trách nhiệm với cộng đồng khi tham gia giao thông; tôn trọng, nhường nhịn, giúp đỡ và ứng xử có văn hóa với những người cùng tham gia giao thông.',
         2: 'Điều khiển xe vượt quá tốc độ, đi không đúng làn đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     190: {
       id: '190',
@@ -2862,7 +2862,7 @@ const data = {
         1: 'Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm.',
         2: 'Chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông, quy định về tốc',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     191: {
       id: '191',
@@ -2876,7 +2876,7 @@ const data = {
         2: 'Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông.',
         3: 'Điều khiển xe và đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     192: {
       id: '192',
@@ -2890,7 +2890,7 @@ const data = {
         2: 'Điều khiển xe đi trên phần đường, làn đường có ít phương tiện giao thông; dừng xe, đỗ xe ở nơi thuận tiện hoặc theo yêu cầu của hành khách, của người thân.',
         3: 'Dừng và đỗ xe ở nơi thuận tiện cho việc chuyên chở hành khách và giao nhận hàng hóa; sử dụng ít rượu, bia thì có thể lái xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     193: {
       id: '193',
@@ -2905,7 +2905,7 @@ const data = {
         3: 'Bấm còi to khi đi qua khu vực đông dân cư.',
         4: 'Không cần dùng còi, tránh gây tiếng ồn là văn minh.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     194: {
       id: '194',
@@ -2920,7 +2920,7 @@ const data = {
         3: 'Cung cấp thông tin xác định danh tính về bản thân, người liên quan đến vụ tai nạn giao thông đường bộ và thông tin liên quan của vụ tai nạn giao thông đường bộ cho cơ quan có thẩm quyền.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     195: {
       id: '195',
@@ -2933,7 +2933,7 @@ const data = {
         1: 'Giúp đỡ, cứu chữa kịp thời người bị nạn; báo tin ngay cho cơ quan Công an, cơ sở khám bệnh, chữa bệnh hoặc Ủy ban nhân dân nơi gần nhất; tham gia bảo vệ hiện trường; tham gia bảo vệ tài sản của người bị nạn; cung cấp thông tin liên quan về vụ tai nạn theo yêu cầu của cơ quan có thẩm quyền.',
         2: 'Chụp lại hình ảnh vụ tai nạn (nếu có thiết bị ghi hình) và nhanh chóng rời khỏi hiện trường vụ tai nạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     196: {
       id: '196',
@@ -2946,7 +2946,7 @@ const data = {
         1: 'Đặt nạn nhân nằm ngửa, khai thông đường thở của nạn nhân; thực hiện các biện pháp hô hấp nhân tạo.',
         2: 'Thực hiện các biện pháp hô hấp nhân tạo.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     197: {
       id: '197',
@@ -2960,7 +2960,7 @@ const data = {
         2: 'Nghiêm cấm tuỳ từng trường hợp cụ thể.',
         3: 'Bị nghiêm cấm.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     198: {
       id: '198',
@@ -2975,7 +2975,7 @@ const data = {
         3: 'Tiếp tục đi nếu đang vội.',
         4: 'Vượt qua nếu thấy khoảng trống đủ rộng.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     199: {
       id: '199',
@@ -2990,7 +2990,7 @@ const data = {
         3: 'Chỉ quan sát rồi tiếp tục di chuyển.',
         4: 'Chỉ giúp đỡ nếu có người thân trong vụ tai nạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     200: {
       id: '200',
@@ -3004,7 +3004,7 @@ const data = {
         2: 'Điều khiển xe trên vỉa hè để nhanh chóng thoát khỏi nơi ùn tắc.',
         3: 'Kiên nhẫn tuân thủ hướng dẫn của người điều khiển giao thông hoặc tín hiệu đèn giao thông, di chuyển trên đúng phần đường bên phải theo chiều đi, nhường đường cho các phương tiện đi ngược chiều.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     201: {
       id: '201',
@@ -3017,7 +3017,7 @@ const data = {
         1: 'Bấm còi liên tục thúc giục các phương tiện phía trước nhường đường; đi trên vỉa hè, tận dụng mọi khoảng trống để nhanh chóng thoát khỏi nơi ùn tắc; lấn sang trái đường cố gắng vượt lên xe khác.',
         2: 'Tuân thủ hướng dẫn của người điều khiển giao thông hoặc tín hiệu giao thông, đi đúng phần đường, làn đường quy định.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     202: {
       id: '202',
@@ -3032,7 +3032,7 @@ const data = {
         3: 'Không để các chất dễ cháy, dễ bắt lửa trong xe, dưới yên xe, trong cốp xe, trong khoang động cơ. Đối với xe điện cần chọn địa điểm sạc an toàn, sử dụng các thiết bị sạc đúng cách và giám sát quá trình sạc.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     203: {
       id: '203',
@@ -3046,7 +3046,7 @@ const data = {
         2: 'Nếu nhiên liệu chưa trào ra ngoài (ngọn lửa chưa cháy dữ dội) thì có thể sử dụng nước, hoặc bất kỳ chất, phương tiện chữa cháy có được để dập lửa; nếu nhiên liệu đã trào ra ngoài (ngọn lửa cháy dữ dội) thì phải sử dụng các bình chữa cháy, cát, chăn chiên, bao tải, vải nhúng nước để dập lửa.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     204: {
       id: '204',
@@ -3061,7 +3061,7 @@ const data = {
         3: 'Nếu nhiên liệu trào ra ngoài, ngọn lửa chưa cháy dữ dội thì tiếp tục sử dụng nước, hoặc bất kỳ chất, phương tiện chữa cháy có được để dập lửa.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     205: {
       id: '205',
@@ -3075,7 +3075,7 @@ const data = {
         3: 'Nếu nạn nhân còn tỉnh, cần cho uống bù nước. Trong thời tiết lạnh, cần giữ ấm cho cơ thể nạn nhân, sau đó nhanh chóng đưa đến cơ sở y tế gần nhất.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     206: {
       id: '206',
@@ -3089,7 +3089,7 @@ const data = {
         2: 'Nhả hết tay ga, tắt động cơ, sử dụng phanh trước và phanh sau để giảm tốc độ.',
         3: 'Sử dụng phanh trước để giảm tốc độ kết hợp với tắt chìa khóa điện của xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     207: {
       id: '207',
@@ -3102,7 +3102,7 @@ const data = {
         1: 'Đạp bàn đạp phanh chân hết hành trình, vào số và nhả phanh đỗ, kiểm tra lại xem có bị nhầm số không rồi mới cho xe lăn bánh.',
         2: 'Đạp bàn đạp để tăng ga với mức độ phù hợp, vào số và kiểm tra lại xem có bị nhầm số không rồi mới cho xe lăn bánh.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     208: {
       id: '208',
@@ -3116,7 +3116,7 @@ const data = {
         2: 'Dùng lực tay phải bóp khóa hãm đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải kéo cần phanh tay về phía sau đồng thời bóp khóa hãm.',
         3: 'Dùng lực tay phải đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải đẩy mạnh phanh tay về phía trước, sau đó bóp khóa hãm.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     209: {
       id: '209',
@@ -3129,7 +3129,7 @@ const data = {
         1: 'Kiểm tra an toàn xung quanh xe ô tô; nhả từ từ đến 1/2 hành trình bàn đạp ly hợp (côn) và giữ trong khoảng 3 giây; vào số 1; nhả hết phanh tay, báo hiệu bằng còi, đèn trước khi xuất phát; tăng ga đủ để xuất phát, sau đó vừa tăng ga vừa nhả hết côn để cho xe ô tô chuyển động.',
         2: 'Kiểm tra an toàn xung quanh xe ô tô; đạp ly hợp (côn) hết hành trình; vào số 1; nhả hết phanh tay, báo hiệu bằng còi, đèn trước khi xuất phát; tăng ga đủ để xuất phát; nhả từ từ đến 1/2 hành trình bàn đạp côn và giữ trong khoảng 3 giây, sau đó vừa tăng ga vừa nhả hết côn để cho xe ô tô chuyển động.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     210: {
       id: '210',
@@ -3142,7 +3142,7 @@ const data = {
         1: 'Quan sát biển báo hiệu để biết nơi được phép quay đầu; quan sát kỹ địa hình nơi chọn để quay đầu; lựa chọn quỹ đạo quay đầu xe cho thích hợp; quay đầu xe với tốc độ thấp; thường xuyên báo tín hiệu để người, các phương tiện xung quanh được biết; nếu quay đầu xe ở nơi nguy hiểm thì đưa đầu xe về phía nguy hiểm, đưa đuôi xe về phía an toàn.',
         2: 'Quan sát biển báo hiệu để biết nơi được phép quay đầu; quan sát kỹ địa hình nơi chọn để quay đầu; lựa chọn quỹ đạo quay đầu xe; quay đầu xe với tốc độ tối đa; thường xuyên báo tín hiệu để người, các phương tiện xung quanh được biết; nếu quay đầu xe ở nơi nguy hiểm thì đưa đuôi xe về phía nguy hiểm và đầu xe về phía an toàn.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     211: {
       id: '211',
@@ -3156,7 +3156,7 @@ const data = {
         2: 'Ngồi sát vô lăng để dễ quan sát hoặc ngồi tự do, không cần điều chỉnh ghế.',
         3: 'Ngồi ngả người về phía sau nhiều để thư giãn, chân trái để ở vị trí chân ga, hai tay nắm vô lăng ở vị trí bất kỳ.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     212: {
       id: '212',
@@ -3169,7 +3169,7 @@ const data = {
         1: 'Tăng lên số cao từ chân dốc, điều chỉnh ga cho xe nhanh lên dốc; đến gần đỉnh dốc phải tăng ga để xe nhanh chóng qua dốc; về số thấp, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.',
         2: 'Về số thấp từ chân dốc, điều chỉnh ga cho xe từ từ lên dốc; đến gần đỉnh dốc phải đi chậm, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     213: {
       id: '213',
@@ -3183,7 +3183,7 @@ const data = {
         2: 'Về số thấp, nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.',
         3: 'Về số không (0), nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     214: {
       id: '214',
@@ -3197,7 +3197,7 @@ const data = {
         2: 'Có tín hiệu rẽ phải, điều khiển xe sát vào lề đường bên trái; đạp hết hành trình ly hợp (côn) và nhả bàn đạp ga để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được tại chỗ dừng; khi xe đã dừng, đạp và giữ phanh chân.',
         3: 'Có tín hiệu rẽ trái, điều khiển xe sát vào lề đường bên phải; đạp phanh sớm và mạnh hơn lúc dừng xe trên đường bằng để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được; về số không (N) để xe đi đến chỗ dừng, khi xe đã dừng, sử dụng phanh đỗ.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     215: {
       id: '215',
@@ -3210,7 +3210,7 @@ const data = {
         1: 'Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng coi, đèn; giảm tốc độ tới mức cần thiết, về số thấp và thực hiện quay vòng với tốc độ phù hợp với bán kính cong của đường vòng.',
         2: 'Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng còi, đèn; tăng tốc để nhanh chóng qua đường vòng và giảm tốc độ sau khi qua đường vòng.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     216: {
       id: '216',
@@ -3224,7 +3224,7 @@ const data = {
         2: 'Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ phải; giảm tốc độ, quan sát an toàn phía trước, sau, bên phải và điều khiển xe từ từ rẽ phải.',
         3: 'Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ phải; quan sát an toàn phía',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     217: {
       id: '217',
@@ -3237,7 +3237,7 @@ const data = {
         1: 'Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ trái; giảm tốc độ, quan sát an toàn xung quanh đặc biệt là bên trái; đổi sang làn đường bên trái và điều khiển xe từ từ rẽ trái.',
         2: 'Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ trái, tăng tốc độ để xe nhanh chóng qua chỗ đường giao nhau; có tín hiệu xin đổi làn đường; quan sát an toàn xung quanh đặc biệt là bên trái; đổi làn đường sang phải để mở rộng vòng cua.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     218: {
       id: '218',
@@ -3251,7 +3251,7 @@ const data = {
         2: 'Tăng ga, tăng số để hai bánh xe trước và bánh xe sau vượt qua khỏi rãnh và chạy bình thường.',
         3: 'Vào số một (1) và từ từ cho hai bánh xe trước xuống rãnh, tăng ga cho hai bánh xe trước vượt lên khỏi rãnh, tiếp tục để bánh xe sau từ từ xuống rãnh rồi tăng dần ga cho xe ô tô lên khỏi rãnh.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     219: {
       id: '219',
@@ -3265,7 +3265,7 @@ const data = {
         2: 'Khi không có chuông báo hoặc thanh chắn không hạ xuống, người lái xe cần phải quan sát nếu thấy đủ điều kiện an toàn thì về số thấp, tăng ga nhẹ và không thay đổi số trong quá trình vượt qua đường sắt để tránh động cơ chết máy cho xe cho vượt qua.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     220: {
       id: '220',
@@ -3280,7 +3280,7 @@ const data = {
         3: 'Khi đổ hàng phải chọn vị trí có nền đường cứng và phẳng, dừng hẳn xe, kéo hết phanh đỗ; sau đó mới điều khiển cơ cấu nâng "ben" để đổ hàng, đổ xong hàng mới hạ thùng xuống.',
         4: 'Ý 1 và ý 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     221: {
       id: '221',
@@ -3293,7 +3293,7 @@ const data = {
         1: 'Không được nhìn xuống buồng lái, cần phải tăng thứ tự từ thấp đến cao, phối hợp các động tác phải nhịp nhàng, chính xác.',
         2: 'Nhìn xuống buồng lái để biết chính xác vị trí các tay số, cần phải tăng thứ tự từ thấp đến cao, phối hợp các động tác phải nhịp nhàng, vù ga phải phù hợp với tốc độ.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     222: {
       id: '222',
@@ -3306,7 +3306,7 @@ const data = {
         1: 'Nhìn xuống buồng lái để biết chính xác vị trí các tay số, cần phải giảm thứ tự từ cao xuống thấp, phối hợp các động tác phải nhịp nhàng, chính xác.',
         2: 'Không được nhìn xuống buồng lái, cần phải giảm thứ tự từ cao xuống thấp, phối hợp các động tác phải nhịp nhàng, chính xác, vù ga phải phù hợp với tốc độ.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     223: {
       id: '223',
@@ -3320,7 +3320,7 @@ const data = {
         2: 'Về số thấp phù hợp, nhả bàn đạp ga, kết hợp đạp phanh chân với mức độ phù hợp để giảm tốc độ.',
         3: 'Nhả bàn đạp ga, tăng lên số cao, đạp phanh chân với mức độ phù hợp để giảm tốc độ.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     224: {
       id: '224',
@@ -3334,7 +3334,7 @@ const data = {
         2: 'Đạp ly hợp (côn) hết hành trình, tăng ga và giảm ga liên tục để thay đổi tốc độ, giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.',
         3: 'Quan sát, ước lượng độ ngập nước mà xe ô tô có thể vượt qua an toàn, về số thấp, giữ đều ga và giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     225: {
       id: '225',
@@ -3348,7 +3348,7 @@ const data = {
         2: 'Chuyển từ đèn chiếu gần sang đèn chiếu xa; không nhìn thẳng vào đèn của xe chạy ngược chiều mà nhìn chếch sang phía phải theo chiều chuyển động của xe mình.',
         3: 'Chuyển từ đèn chiếu xa sang đèn chiếu gần; nhìn thẳng vào đèn của xe chạy ngược chiều để tránh xe bảo đảm an toàn.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     226: {
       id: '226',
@@ -3361,7 +3361,7 @@ const data = {
         1: 'Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm, giữ đều ga, đánh lái ngoặt và phanh gấp khi cần thiết.',
         2: 'Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm, gài cầu (nếu có), giữ đều ga, không lấy nhiều lái, không đánh lái ngoặt và phanh gấp.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     227: {
       id: '227',
@@ -3375,7 +3375,7 @@ const data = {
         2: 'Nhiệt độ nước làm mát quá mức cho phép.',
         3: 'Cửa xe đang mở.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     228: {
       id: '228',
@@ -3390,7 +3390,7 @@ const data = {
         3: 'Nhiệt độ nước làm mát tăng quá mức cho phép.',
         4: 'Áp suất dầu ở mức thấp.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     229: {
       id: '229',
@@ -3405,7 +3405,7 @@ const data = {
         3: 'Dầu bôi trơn bị thiếu.',
         4: 'Ý 2 và ý 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     230: {
       id: '230',
@@ -3420,7 +3420,7 @@ const data = {
         3: 'Lái xe và người ngồi ghế trước chưa cài dây đai an toàn.',
         4: 'Cửa đóng chưa chặt, có cửa chưa đóng.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     231: {
       id: '231',
@@ -3435,7 +3435,7 @@ const data = {
         3: 'Đang sử dụng phanh đỗ.',
         4: 'Sắp hết nhiên liệu.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     232: {
       id: '232',
@@ -3449,7 +3449,7 @@ const data = {
         2: 'Xăng sinh học và khí sinh học.',
         3: 'Ý 1 và ý 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     233: {
       id: '233',
@@ -3462,7 +3462,7 @@ const data = {
         2: 'Kiểm tra áp suất lốp theo quy định và chạy xe với tốc độ phù hợp với tình trạng mặt đường và mật độ giao thông trên đường.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     234: {
       id: '234',
@@ -3476,7 +3476,7 @@ const data = {
         2: 'Mở cánh cửa và quan sát tình hình giao thông phía trước, nếu đảm bảo an toàn thì mở cửa ở mức cần thiết để xuống xe ô tô.',
         3: 'Mở cánh cửa hết hành trình và nhanh chóng ra khỏi xe ô tô.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     235: {
       id: '235',
@@ -3490,7 +3490,7 @@ const data = {
         2: 'Nếu thấy có tàu đi tới thì dừng lại trước vạch dừng, chỉ khi tàu đi qua mới được đi.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     236: {
       id: '236',
@@ -3504,7 +3504,7 @@ const data = {
         2: 'Đúng.',
         3: 'Không cần thiết, vì nếu nhìn thấy tàu còn cách xa, người lái xe có thể tăng số cao, tăng ga để cho xe nhanh chóng vượt qua đường sắt.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     237: {
       id: '237',
@@ -3518,7 +3518,7 @@ const data = {
         2: 'Giữ nguyên tay số D, kết hợp phanh đỗ để giảm tốc độ.',
         3: 'Về số N (số 0), kết hợp phanh chân để giảm tốc độ.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     238: {
       id: '238',
@@ -3532,7 +3532,7 @@ const data = {
         2: 'Vị trí D hoặc số 1.',
         3: 'Vị trí R.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     239: {
       id: '239',
@@ -3546,7 +3546,7 @@ const data = {
         2: 'Chân trái điều khiển bàn đạp phanh, chân phải điều khiển bàn đạp ga.',
         3: 'Không sử dụng chân phải; chân trái điều khiển bàn đạp phanh và bàn đạp ga.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     240: {
       id: '240',
@@ -3560,7 +3560,7 @@ const data = {
         2: 'Giảm tốc độ, chạy cách xa xe trước với khoảng cách an toàn, bật đèn sương mù và đèn chiếu gần.',
         3: 'Tăng tốc độ, bật đèn pha vượt qua xe chạy trước.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     241: {
       id: '241',
@@ -3574,7 +3574,7 @@ const data = {
         2: 'Bật đèn pha chiếu xa và giữ nguyên tốc độ.',
         3: 'Tăng tốc độ, bật đèn pha đối diện xe phía trước.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     242: {
       id: '242',
@@ -3588,7 +3588,7 @@ const data = {
         2: 'Sử dụng phanh sau.',
         3: 'Giảm hết ga, sử dụng đồng thời cả phanh sau và phanh trước.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     243: {
       id: '243',
@@ -3602,7 +3602,7 @@ const data = {
         2: 'Tăng tốc độ cho xe lướt qua nhanh.',
         3: 'Tăng tốc độ, đánh lái liên tục để tránh "ổ gà".',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     244: {
       id: '244',
@@ -3616,7 +3616,7 @@ const data = {
         2: 'Bật đèn chiếu xa và đèn vàng, điều khiển gạt nước, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa hoặc sương mù.',
         3: 'Tăng tốc độ, bật đèn pha vượt qua xe chạy phía trước.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     245: {
       id: '245',
@@ -3630,7 +3630,7 @@ const data = {
         2: 'Phanh gấp khi xe đi vào vũng nước và tăng ga ngay sau khi ra khỏi vũng nước.',
         3: 'Bật đèn chiếu xa, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     246: {
       id: '246',
@@ -3644,7 +3644,7 @@ const data = {
         2: 'Quan sát phía trước xe và lùi xe với tốc độ nhanh.',
         3: 'Quan sát bên trái và phía trước của xe và lùi xe với tốc độ nhanh.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     247: {
       id: '247',
@@ -3658,7 +3658,7 @@ const data = {
         2: 'Đi đúng làn đường quy định, chỉ được chuyển làn đường ở nơi cho phép, nhưng phải quan sát.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     248: {
       id: '248',
@@ -3672,7 +3672,7 @@ const data = {
         2: 'Phát tín hiệu, quan sát các xe đang chạy phía trước, nếu bảo đảm các điều kiện an toàn thì tăng tốc độ cho xe nhập ngay vào làn đường cao tốc.',
         3: 'Phát tín hiệu và lái xe nhập vào làn đường tăng tốc, quan sát các xe phía sau đang chạy trên đường cao tốc, khi đủ điều kiện an toàn thì giảm tốc độ, từ từ cho xe nhập vào làn đường cao tốc.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     249: {
       id: '249',
@@ -3685,7 +3685,7 @@ const data = {
         1: 'Quan sát phía trước để tìm biển báo chỉ dẫn "lối ra đường cao tốc", kiểm tra tình trạng giao thông phía sau và bên phải, nếu bảo đảm điều kiện an toàn thì phát tín hiệu và điều khiển xe chuyển dần sang làn bên phải, nếu có làn đường giảm tốc thì phải cho xe di chuyển trên làn đường đó trước khi ra khỏi đường cao tốc.',
         2: 'Quan sát phía trước để tìm biển báo chỉ dẫn "lối ra đường cao tốc", trường hợp vượt qua "lối ra đường cao tốc" thì phát tín hiệu, di chuyển sang làn đường giảm tốc và lùi xe quay trở lại.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     250: {
       id: '250',
@@ -3699,7 +3699,7 @@ const data = {
         2: 'Để nghỉ ngơi, đi vệ sinh, chụp ảnh, làm việc riêng...',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     251: {
       id: '251',
@@ -3714,7 +3714,7 @@ const data = {
         3: 'Khi vượt qua, phải quan sát gương chiếu hậu bên phải nếu có khoảng trống an toàn mới được cho xe chạy vào làn của mình, tắt xi nhan và tiếp tục hành trình.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     252: {
       id: '252',
@@ -3727,7 +3727,7 @@ const data = {
         1: 'Nhả bàn đạp ga, về số thấp, đạp phanh chân với mức độ phù hợp để giảm tốc độ.',
         2: 'Nhả bàn đạp ga, về số N đạp phanh chân và kéo phanh tay để giảm tốc độ.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     253: {
       id: '253',
@@ -3741,7 +3741,7 @@ const data = {
         2: 'Nháy đèn, bấm còi để xe đi trên đường chính biết và tăng tốc độ cho xe đi ra đường chính.',
         3: 'Quan sát xe đang đi trên đường chính, nếu là xe có kích thước lớn hơn thì nhường đường, xe có kích thước nhỏ hơn thì tăng tốc độ cho xe đi ra đường chính.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     254: {
       id: '254',
@@ -3755,7 +3755,7 @@ const data = {
         2: 'Giảm tốc độ để dừng xe ở nơi cho phép sau đó sử dụng điện thoại để liên lạc.',
         3: 'Tăng tốc độ để cách xa xe phía sau và sử dụng điện thoại để liên lạc.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     255: {
       id: '255',
@@ -3769,7 +3769,7 @@ const data = {
         2: 'Phanh đồng thời cả phanh trước và phanh sau.',
         3: 'Chỉ sử dụng phanh trước.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     256: {
       id: '256',
@@ -3782,7 +3782,7 @@ const data = {
         1: 'Quan sát phía trước, phía sau và bên phía mở cửa để phát hiện các phương tiện đang di chuyển tới gần, khi đủ điều kiện an toàn, mở hé cửa, sau đó mở ở mức cần thiết để xuống xe.',
         2: 'Quan sát tình hình giao thông phía trước, không cần quan sát phía sau và bên mở cửa; mở cánh cửa hết hành trình và nhanh chóng ra khỏi xe ô tô.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     257: {
       id: '257',
@@ -3797,7 +3797,7 @@ const data = {
         3: 'Quan sát an toàn các phương tiện tới từ phía trước, phía sau, hai bên đồng thời nhường đường cho xe từ bên phải và phía trước đi tới.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     258: {
       id: '258',
@@ -3811,7 +3811,7 @@ const data = {
         3: 'Để điều khiển xe chạy lùi.',
         4: 'Ý 1 và ý 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     259: {
       id: '259',
@@ -3826,7 +3826,7 @@ const data = {
         3: 'Để quan sát an toàn phía sau của bên trái và bên phải trước khi chuyển hướng.',
         4: 'Để quan sát an toàn phía trước cả bên trái và bên phải trước khi chuyển hướng.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     260: {
       id: '260',
@@ -3841,7 +3841,7 @@ const data = {
         3: 'Tăng ga từ từ, giảm ga thật nhanh.',
         4: 'Tăng ga từ từ, giảm ga từ từ.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     261: {
       id: '261',
@@ -3856,7 +3856,7 @@ const data = {
         3: 'Không được lắc người sang trái hoặc phải nhiều, trọng tâm cơ thể cần trùng với trọng tâm của xe.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     262: {
       id: '262',
@@ -3871,7 +3871,7 @@ const data = {
         3: 'Rà phanh chân để kịp thời xử lý tình huống khẩn cấp.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     263: {
       id: '263',
@@ -3885,7 +3885,7 @@ const data = {
         3: 'Lái xe tốc độ chậm, không tạo sóng và giữ khoảng cách an toàn với các phương tiện xung quanh, nhất là người đi bộ.',
         4: 'Cả ba ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     264: {
       id: '264',
@@ -3899,7 +3899,7 @@ const data = {
         2: 'Rút que thăm dầu trên các-te. Quan sát vệt dầu trên que thăm, mức dầu này phải nằm ở mức tối thiểu được thể hiện trên que thăm.',
         3: 'Rút que thăm dầu trên các-te, lau sạch que thăm sau đó cắm vào các-te và rút ra quan sát vệt dầu trên que thăm, mức dầu phải nằm trong khoảng vạch mức tối thiểu và tối đa được thể hiện trên que thăm.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     265: {
       id: '265',
@@ -3913,7 +3913,7 @@ const data = {
         2: 'Có đủ đèn chiếu sáng gần và xa, đèn soi biển số, đèn báo hãm, đèn tín hiệu; có đủ bộ phận giảm thanh, giảm khói, các kết cấu phải đủ độ bền và bảo đảm tính năng vận hành ổn định.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     266: {
       id: '266',
@@ -3927,7 +3927,7 @@ const data = {
         2: 'Bắt buộc.',
         3: 'Tùy từng trường hợp.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     267: {
       id: '267',
@@ -3942,7 +3942,7 @@ const data = {
         3: 'Dàn đèn pha trên nóc xe.',
         4: 'Ý 1 và ý 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     268: {
       id: '268',
@@ -3954,7 +3954,7 @@ const data = {
         1: 'Là loại kính an toàn, kính nhiều lớp, đúng quy cách, không rạn nứt, bảo đảm hình ảnh quan sát rõ ràng, không bị méo mó.',
         2: 'Là loại kính trong suốt, không rạn nứt, bảo đảm tầm nhìn cho người điều khiển về phía trước mặt và hai bên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     269: {
       id: '269',
@@ -3968,7 +3968,7 @@ const data = {
         2: 'Lốp phải đủ số lượng, đủ áp suất, không phồng rộp, đúng cỡ lốp của nhà sản xuất hoặc tài liệu kỹ thuật quy định; lốp trên cùng một trục của xe sử dụng trong điều kiện hoạt động bình thường phải cùng kiểu loại.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     270: {
       id: '270',
@@ -3981,7 +3981,7 @@ const data = {
         2: 'Khi hoạt động các cơ cấu chuyển động của hệ thống lái không được va chạm với bất kỳ bộ phận nào của xe; khi quay vô lăng lái về bên phải và bên trái thì không được có sự khác biệt đáng kể về lực tác động lên vành tay lái.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     271: {
       id: '271',
@@ -3995,7 +3995,7 @@ const data = {
         2: 'Ngăn ngừa và phát hiện kịp thời các hư hỏng và sai lệch kỹ thuật để khắc phục, giữ gìn được hình thức bên ngoài.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     272: {
       id: '272',
@@ -4009,7 +4009,7 @@ const data = {
         2: 'Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí, không có tia lửa điện.',
         3: 'Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí và nước, không có tia lửa điện.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     273: {
       id: '273',
@@ -4023,7 +4023,7 @@ const data = {
         2: 'Miệng thoát khí thải của ống xả không được hướng về phía trước và không được hướng về bên phải theo chiều tiến của xe.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     274: {
       id: '274',
@@ -4037,7 +4037,7 @@ const data = {
         2: 'Đủ số lượng, lắp đặt chắc chắn không bị rách, đứt, khóa cài đóng, mở nhẹ nhàng, không tự mở, không bị kẹt; kéo ra thu vào dễ dàng, cơ cấu hãm mở ra khi giật dây đột ngột.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     275: {
       id: '275',
@@ -4049,7 +4049,7 @@ const data = {
         1: 'Là loại động cơ: để hoàn thành một chu trình công tác của động cơ, pít tông thực hiện 2 (hai) hành trình, trong đó có một lần sinh công.',
         2: 'Là loại động cơ: để hoàn thành một chu trình công tác của động cơ, pít tông thực hiện 4 (bốn) hành trình, trong đó có một lần sinh công.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     276: {
       id: '276',
@@ -4062,7 +4062,7 @@ const data = {
         2: 'Cung cấp một lượng nhiên liệu đầy đủ và sạch để cho động cơ ô tô hoạt động.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     277: {
       id: '277',
@@ -4076,7 +4076,7 @@ const data = {
         2: '20 năm.',
         3: '25 năm.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     278: {
       id: '278',
@@ -4090,7 +4090,7 @@ const data = {
         2: '20 năm.',
         3: '25 năm.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     279: {
       id: '279',
@@ -4103,7 +4103,7 @@ const data = {
         2: 'Khi làm việc, cơ năng được biến đổi thành nhiệt năng và truyền đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho xe ô tô.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     280: {
       id: '280',
@@ -4116,7 +4116,7 @@ const data = {
         2: 'Dùng để thay đổi hướng chuyển động hoặc giữ cho xe ô tô chuyển động ổn định theo hướng xác định.',
         3: 'Dùng để làm giảm tốc độ, dừng chuyển động của xe ô tô.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     281: {
       id: '281',
@@ -4129,7 +4129,7 @@ const data = {
         2: 'Dùng để truyền hoặc ngắt truyền động từ động cơ đến hộp số của xe ô tô.',
         3: 'Dùng để truyền truyền động từ hộp số đến bánh xe chủ động của ô tô.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     282: {
       id: '282',
@@ -4142,7 +4142,7 @@ const data = {
         2: 'Truyền và thay đổi mô men xoắn giữa các trục không cùng nằm trên một đường thẳng và góc lệch trục luôn thay đổi trong quá trình ô tô chuyển động, chuyển số êm dịu, dễ điều khiển.',
         3: 'Truyền và thay đổi mô men từ động cơ đến bánh xe chủ động, cắt truyền động từ động cơ đến bánh xe chủ động, bảo đảm cho xe ô tô chuyển động lùi.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     283: {
       id: '283',
@@ -4155,7 +4155,7 @@ const data = {
         2: 'Dùng để thay đổi mô men giữa các trục vuông góc nhau khi xe ô tô chuyển động theo hướng xác định.',
         3: 'Dùng để thay đổi hướng chuyển động hoặc giữ cho xe ô tô chuyển động ổn định theo hướng xác định.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     284: {
       id: '284',
@@ -4168,7 +4168,7 @@ const data = {
         2: 'Dùng để thay đổi hướng chuyển động hoặc giữ cho xe ô tô chuyển động ổn định theo hướng xác định.',
         3: 'Dùng để truyền hoặc ngắt truyền động từ động cơ đến bánh xe chủ động của xe ô tô.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     285: {
       id: '285',
@@ -4181,7 +4181,7 @@ const data = {
         2: 'Có tác dụng định vị vào ban đêm với các xe từ phía sau tới để tránh va chạm.',
         3: 'Cả hai ý trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     286: {
       id: '286',
@@ -4196,7 +4196,7 @@ const data = {
         3: 'Đang hãm phanh tay.',
         4: 'Cần kiểm tra động cơ.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     287: {
       id: '287',
@@ -4211,7 +4211,7 @@ const data = {
         3: 'Đang hãm phanh tay.',
         4: 'Cần kiểm tra động cơ.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     288: {
       id: '288',
@@ -4226,7 +4226,7 @@ const data = {
         3: 'Đang hãm phanh tay.',
         4: 'Sắp hết nhiên liệu.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     289: {
       id: '289',
@@ -4241,7 +4241,7 @@ const data = {
         3: 'Đang hãm phanh tay.',
         4: 'Sắp hết nhiên liệu.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     290: {
       id: '290',
@@ -4255,7 +4255,7 @@ const data = {
         2: 'Không cần đạp phanh.',
         3: 'Tùy từng trường hợp.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     291: {
       id: '291',
@@ -4269,7 +4269,7 @@ const data = {
         3: 'Hỗ trợ người lái xe khởi hành ngang dốc.',
         4: 'Để tích trữ điện năng, cung cấp cho các phụ tải khi máy phát chưa làm việc.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     292: {
       id: '292',
@@ -4284,7 +4284,7 @@ const data = {
         3: 'Hỗ trợ người lái xe khởi hành ngang dốc.',
         4: 'Để tích trữ điện năng và cung cấp điện cho các phụ tải làm việc.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     293: {
       id: '293',
@@ -4297,7 +4297,7 @@ const data = {
         1: 'Ổn định chuyển động của xe ô tô khi đi vào đường vòng.',
         2: 'Giữ chặt người lái và hành khách trên ghế ngồi khi xe ô tô đột ngột dừng lại.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     294: {
       id: '294',
@@ -4311,7 +4311,7 @@ const data = {
         3: 'Hấp thụ một phần lực va đập lên người lái và hành khách.',
         4: 'Ý 2 và ý 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     295: {
       id: '295',
@@ -4326,7 +4326,7 @@ const data = {
         3: 'Đang hãm phanh tay.',
         4: 'Hệ thống lái gặp sự cố.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     296: {
       id: '296',
@@ -4341,7 +4341,7 @@ const data = {
         3: 'Ổn định chuyển động của xe ô tô khi đi vào đường vòng.',
         4: 'Giữ chặt người lái và hành khách trên ghế ngồi khi xe ô tô đột ngột dừng lại.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     297: {
       id: '297',
@@ -4356,7 +4356,7 @@ const data = {
         3: 'Phá cửa kính xe ô tô trong các trường hợp khẩn cấp.',
         4: 'Vặn ốc để tháo lắp bánh xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     298: {
       id: '298',
@@ -4370,7 +4370,7 @@ const data = {
         2: 'Chữa cháy trong các trường hợp hỏa hoạn.',
         3: 'Cầm máu cho người bị nạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     299: {
       id: '299',
@@ -4385,7 +4385,7 @@ const data = {
         3: 'Báo hiệu xe đang ở tình huống nguy hiểm.',
         4: 'Báo hiệu đến thời gian cần bảo dưỡng.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     300: {
       id: '300',
@@ -4399,7 +4399,7 @@ const data = {
         3: 'Báo hiệu chế độ lái tiết kiệm nhiên liệu đã bật.',
         4: 'Báo hiệu đèn cảnh báo khoảng cách đã bật.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     301: {
       id: '301',
@@ -4414,7 +4414,7 @@ const data = {
         3: 'Biển 1 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     302: {
       id: '302',
@@ -4428,7 +4428,7 @@ const data = {
         3: 'Biển 1 và biển 3.',
         4: 'Biển 1 và biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     303: {
       id: '303',
@@ -4442,7 +4442,7 @@ const data = {
         3: 'Biển 1 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     304: {
       id: '304',
@@ -4455,7 +4455,7 @@ const data = {
         2: 'Biển 1 và biển 3.',
         3: 'Biển 2 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     305: {
       id: '305',
@@ -4468,7 +4468,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     306: {
       id: '306',
@@ -4481,7 +4481,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     307: {
       id: '307',
@@ -4495,7 +4495,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     308: {
       id: '308',
@@ -4509,7 +4509,7 @@ const data = {
         3: 'Biển 1 và biển 3.',
         4: 'Biển 2 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     309: {
       id: '309',
@@ -4522,7 +4522,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     310: {
       id: '310',
@@ -4536,7 +4536,7 @@ const data = {
         3: 'Biển 1 và biển 3.',
         4: 'Biển 2 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     311: {
       id: '311',
@@ -4549,7 +4549,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     312: {
       id: '312',
@@ -4561,7 +4561,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     313: {
       id: '313',
@@ -4575,7 +4575,7 @@ const data = {
         3: 'Không biển nào.',
         4: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     314: {
       id: '314',
@@ -4588,7 +4588,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     315: {
       id: '315',
@@ -4601,7 +4601,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Không biển nào.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     316: {
       id: '316',
@@ -4614,7 +4614,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     317: {
       id: '317',
@@ -4628,7 +4628,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     318: {
       id: '318',
@@ -4642,7 +4642,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     319: {
       id: '319',
@@ -4656,7 +4656,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 1 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     320: {
       id: '320',
@@ -4670,7 +4670,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 1 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     321: {
       id: '321',
@@ -4683,7 +4683,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Không biển nào.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     322: {
       id: '322',
@@ -4696,7 +4696,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Không biển nào.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     323: {
       id: '323',
@@ -4709,7 +4709,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     324: {
       id: '324',
@@ -4722,7 +4722,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     325: {
       id: '325',
@@ -4735,7 +4735,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     326: {
       id: '326',
@@ -4748,7 +4748,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 1 và biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     327: {
       id: '327',
@@ -4762,7 +4762,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     328: {
       id: '328',
@@ -4776,7 +4776,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     329: {
       id: '329',
@@ -4789,7 +4789,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     330: {
       id: '330',
@@ -4803,7 +4803,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     331: {
       id: '331',
@@ -4816,7 +4816,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     332: {
       id: '332',
@@ -4830,7 +4830,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 1 và biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     333: {
       id: '333',
@@ -4843,7 +4843,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     334: {
       id: '334',
@@ -4856,7 +4856,7 @@ const data = {
         2: 'Đường cấm súc vật vận tải hành khách.',
         3: 'Đường cấm súc vật vận tải hàng hóa hoặc hành khách dù kéo xe hay chở trên lưng đi qua.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     335: {
       id: '335',
@@ -4868,7 +4868,7 @@ const data = {
         1: 'Tốc độ tối đa cho phép về ban đêm cho các phương tiện là 70 km/h.',
         2: 'Tốc độ tối thiểu cho phép về ban đêm cho các phương tiện là 70 km/h.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     336: {
       id: '336',
@@ -4881,7 +4881,7 @@ const data = {
         1: 'Được phép.',
         2: 'Không được phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     337: {
       id: '337',
@@ -4894,7 +4894,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     338: {
       id: '338',
@@ -4906,7 +4906,7 @@ const data = {
         1: 'Cho phép xe ô tô có tải trọng trục lớn hơn 7 tấn đi qua.',
         2: 'Cho phép xe ô tô có tải trọng trên trục xe từ 7 tấn trở xuống đi qua.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     339: {
       id: '339',
@@ -4919,7 +4919,7 @@ const data = {
         2: 'Hạn chế khối lượng hàng hóa chở trên xe.',
         3: 'Hạn chế tải trọng trên trục xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     340: {
       id: '340',
@@ -4932,7 +4932,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     341: {
       id: '341',
@@ -4944,7 +4944,7 @@ const data = {
         1: 'Được đi vào.',
         2: 'Không được đi vào.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     342: {
       id: '342',
@@ -4959,7 +4959,7 @@ const data = {
         3: 'Biển 1 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     343: {
       id: '343',
@@ -4973,7 +4973,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     344: {
       id: '344',
@@ -4986,7 +4986,7 @@ const data = {
         1: 'Được phép.',
         2: 'Không được phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     345: {
       id: '345',
@@ -4999,7 +4999,7 @@ const data = {
         1: 'Có.',
         2: 'Không.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     346: {
       id: '346',
@@ -5012,7 +5012,7 @@ const data = {
         2: 'Cấm các loại xe cơ giới và xe mô tô (trừ xe ưu tiên theo luật định) đi về bên trái và bên phải.',
         3: 'Hướng trái và phải không cấm xe cơ giới.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     347: {
       id: '347',
@@ -5025,7 +5025,7 @@ const data = {
         2: 'Chiều dài đoạn đường cấm bóp còi từ nơi đặt biển.',
         3: 'Báo cấm dùng còi có độ vang xa 500m.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     348: {
       id: '348',
@@ -5038,7 +5038,7 @@ const data = {
         1: 'Được phép.',
         2: 'Không được phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     349: {
       id: '349',
@@ -5051,7 +5051,7 @@ const data = {
         2: 'Biển 1 và biển 3.',
         3: 'Biển 2 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     350: {
       id: '350',
@@ -5064,7 +5064,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     351: {
       id: '351',
@@ -5076,7 +5076,7 @@ const data = {
         1: 'Cấm các loại xe ở biển phụ đi vào.',
         2: 'Cấm các loại xe cơ giới đi vào trừ loại xe ở biển phụ.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     352: {
       id: '352',
@@ -5090,7 +5090,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     353: {
       id: '353',
@@ -5104,7 +5104,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     354: {
       id: '354',
@@ -5117,7 +5117,7 @@ const data = {
         2: 'Cấm dừng và đỗ xe theo hướng bên phải.',
         3: 'Được phép đỗ xe và dừng xe theo hướng bên phải.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     355: {
       id: '355',
@@ -5129,7 +5129,7 @@ const data = {
         1: 'Không được phép.',
         2: 'Được phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     356: {
       id: '356',
@@ -5142,7 +5142,7 @@ const data = {
         1: 'Không được phép.',
         2: 'Được phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     357: {
       id: '357',
@@ -5155,7 +5155,7 @@ const data = {
         1: 'Không được phép.',
         2: 'Được phép.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     358: {
       id: '358',
@@ -5168,7 +5168,7 @@ const data = {
         2: 'Cấm xe ô tô khách.',
         3: 'Cấm xe ô tô con.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     359: {
       id: '359',
@@ -5181,7 +5181,7 @@ const data = {
         2: 'Hạn chế chiều ngang của xe và hàng.',
         3: 'Hạn chế chiều dài của xe và hàng.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     360: {
       id: '360',
@@ -5194,7 +5194,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     361: {
       id: '361',
@@ -5207,7 +5207,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     362: {
       id: '362',
@@ -5220,7 +5220,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     363: {
       id: '363',
@@ -5234,7 +5234,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     364: {
       id: '364',
@@ -5246,7 +5246,7 @@ const data = {
         1: 'Tốc độ tối đa các xe cơ giới được phép chạy.',
         2: 'Tốc độ tối thiểu các xe cơ giới được phép chạy.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     365: {
       id: '365',
@@ -5260,7 +5260,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     366: {
       id: '366',
@@ -5272,7 +5272,7 @@ const data = {
         1: 'Báo hiệu tốc độ tối đa cho phép các xe cơ giới chạy.',
         2: 'Báo hiệu tốc độ tối thiểu cho phép các xe cơ giới chạy.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     367: {
       id: '367',
@@ -5285,7 +5285,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     368: {
       id: '368',
@@ -5300,7 +5300,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     369: {
       id: '369',
@@ -5313,7 +5313,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     370: {
       id: '370',
@@ -5327,7 +5327,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     371: {
       id: '371',
@@ -5340,7 +5340,7 @@ const data = {
         2: 'Biển 2 và biển 3.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     372: {
       id: '372',
@@ -5354,7 +5354,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     373: {
       id: '373',
@@ -5368,7 +5368,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     374: {
       id: '374',
@@ -5383,7 +5383,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     375: {
       id: '375',
@@ -5398,7 +5398,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 1 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     376: {
       id: '376',
@@ -5411,7 +5411,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     377: {
       id: '377',
@@ -5424,7 +5424,7 @@ const data = {
         2: 'Để báo trước sắp đến vị trí giao cắt đường bộ với đường sắt cùng mức, không vuông góc và không có người gác, không có rào chắn.',
         3: 'Nơi đường sắt giao nhau với đường bộ.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     378: {
       id: '378',
@@ -5439,7 +5439,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 1 và biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     379: {
       id: '379',
@@ -5452,7 +5452,7 @@ const data = {
         2: 'Nơi đường sắt giao vuông góc với đường bộ.',
         3: 'Để báo trước sắp đến vị trí đường sắt giao không vuông góc với đường bộ, không có người gác và không có rào chắn.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     380: {
       id: '380',
@@ -5465,7 +5465,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     381: {
       id: '381',
@@ -5480,7 +5480,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     382: {
       id: '382',
@@ -5494,7 +5494,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 2 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     383: {
       id: '383',
@@ -5507,7 +5507,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     384: {
       id: '384',
@@ -5521,7 +5521,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     385: {
       id: '385',
@@ -5536,7 +5536,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     386: {
       id: '386',
@@ -5550,7 +5550,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     387: {
       id: '387',
@@ -5564,7 +5564,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     388: {
       id: '388',
@@ -5577,7 +5577,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     389: {
       id: '389',
@@ -5590,7 +5590,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     390: {
       id: '390',
@@ -5604,7 +5604,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     391: {
       id: '391',
@@ -5618,7 +5618,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 2 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     392: {
       id: '392',
@@ -5631,7 +5631,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     393: {
       id: '393',
@@ -5644,7 +5644,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     394: {
       id: '394',
@@ -5657,7 +5657,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     395: {
       id: '395',
@@ -5670,7 +5670,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     396: {
       id: '396',
@@ -5683,7 +5683,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     397: {
       id: '397',
@@ -5696,7 +5696,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     398: {
       id: '398',
@@ -5709,7 +5709,7 @@ const data = {
         2: 'Biển 2 và biển 3.',
         3: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     399: {
       id: '399',
@@ -5723,7 +5723,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     400: {
       id: '400',
@@ -5736,7 +5736,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 2 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     401: {
       id: '401',
@@ -5749,7 +5749,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     402: {
       id: '402',
@@ -5762,7 +5762,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     403: {
       id: '403',
@@ -5775,7 +5775,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     404: {
       id: '404',
@@ -5790,7 +5790,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 1 và biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     405: {
       id: '405',
@@ -5804,7 +5804,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     406: {
       id: '406',
@@ -5817,7 +5817,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     407: {
       id: '407',
@@ -5830,7 +5830,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     408: {
       id: '408',
@@ -5845,7 +5845,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Không biển nào.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     409: {
       id: '409',
@@ -5859,7 +5859,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     410: {
       id: '410',
@@ -5874,7 +5874,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     411: {
       id: '411',
@@ -5887,7 +5887,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     412: {
       id: '412',
@@ -5900,7 +5900,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     413: {
       id: '413',
@@ -5915,7 +5915,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     414: {
       id: '414',
@@ -5929,7 +5929,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     415: {
       id: '415',
@@ -5941,7 +5941,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     416: {
       id: '416',
@@ -5953,7 +5953,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     417: {
       id: '417',
@@ -5965,7 +5965,7 @@ const data = {
         1: 'Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên phải khi đường cong vòng sang trái.',
         2: 'Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên trái khi đường cong vòng sang phải.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     418: {
       id: '418',
@@ -5978,7 +5978,7 @@ const data = {
         2: 'Báo trước đoạn đường trơn trượt.',
         3: 'Báo trước sắp đến bến phà.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     419: {
       id: '419',
@@ -5990,7 +5990,7 @@ const data = {
         1: 'Báo hiệu đường có ổ gà, lồi lõm.',
         2: 'Báo hiệu đường có gồ giảm tốc phía trước.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     420: {
       id: '420',
@@ -6002,7 +6002,7 @@ const data = {
         1: 'Báo hiệu đường có ổ gà, lồi lõm.',
         2: 'Báo hiệu đường có gồ giảm tốc phía trước.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     421: {
       id: '421',
@@ -6015,7 +6015,7 @@ const data = {
         2: 'Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mất an toàn cho người và phương tiện tham gia giao thông.',
         3: 'Để cảnh báo những đoạn nền đường yếu, đoạn đường đang theo dõi lún mà việc vận hành xe ở tốc độ cao có thể gây nguy hiểm.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     422: {
       id: '422',
@@ -6028,7 +6028,7 @@ const data = {
         2: 'Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mất an toàn cho người và phương tiện tham gia giao thông.',
         3: 'Để cảnh báo những đoạn nền đường yếu, đoạn đường đang theo dõi lún mà việc vận hành xe ở tốc độ cao có thể gây nguy hiểm.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     423: {
       id: '423',
@@ -6041,7 +6041,7 @@ const data = {
         2: 'Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mất an toàn cho người và phương tiện tham gia giao thông.',
         3: 'Để cảnh báo những đoạn nền đường yếu, đoạn đường đang theo dõi lún mà việc vận hành xe ở tốc độ cao có thể gây nguy hiểm.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     424: {
       id: '424',
@@ -6053,7 +6053,7 @@ const data = {
         1: 'Đi chậm, quan sát và dừng lại nếu gặp gia súc trên đường.',
         2: 'Bấm còi to để gia súc tránh đường và nhanh chóng di chuyển qua đoạn đường có gia súc.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     425: {
       id: '425',
@@ -6065,7 +6065,7 @@ const data = {
         1: 'Báo hiệu khu vực nguy hiểm thường xuyên có sét đánh.',
         2: 'Báo hiệu khu vực có đường dây điện cắt ngang phía trên tuyến đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     426: {
       id: '426',
@@ -6079,7 +6079,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     427: {
       id: '427',
@@ -6093,7 +6093,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     428: {
       id: '428',
@@ -6105,7 +6105,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     429: {
       id: '429',
@@ -6117,7 +6117,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     430: {
       id: '430',
@@ -6130,7 +6130,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     431: {
       id: '431',
@@ -6143,7 +6143,7 @@ const data = {
         2: 'Biển báo hiệu cho người lái xe biết số lượng làn đường trên mặt đường và hướng đi trên mỗi làn đường phải theo.',
         3: 'Chỉ hướng đường phải theo.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     432: {
       id: '432',
@@ -6157,7 +6157,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Không biển nào.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     433: {
       id: '433',
@@ -6169,7 +6169,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     434: {
       id: '434',
@@ -6182,7 +6182,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     435: {
       id: '435',
@@ -6197,7 +6197,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     436: {
       id: '436',
@@ -6212,7 +6212,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 1 và biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     437: {
       id: '437',
@@ -6227,7 +6227,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     438: {
       id: '438',
@@ -6241,7 +6241,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 2 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     439: {
       id: '439',
@@ -6255,7 +6255,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     440: {
       id: '440',
@@ -6270,7 +6270,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Không biển nào.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     441: {
       id: '441',
@@ -6284,7 +6284,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 1 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     442: {
       id: '442',
@@ -6299,7 +6299,7 @@ const data = {
         3: 'Biển 2 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     443: {
       id: '443',
@@ -6312,7 +6312,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     444: {
       id: '444',
@@ -6326,7 +6326,7 @@ const data = {
         3: 'Biển 3.',
         4: 'Biển 1 và biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     445: {
       id: '445',
@@ -6339,7 +6339,7 @@ const data = {
         2: 'Biển chỉ dẫn hết hiệu lực khu vực đỗ xe trên các tuyến đường đối ngoại.',
         3: 'Biển chỉ dẫn khu vực đỗ xe trên các tuyến đường đối ngoại.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     446: {
       id: '446',
@@ -6353,7 +6353,7 @@ const data = {
         3: 'Biển hạn chế tốc độ tối đa trong khu vực.',
         4: 'Biển chỉ dẫn hết hiệu lực khu vực cấm đỗ xe theo giờ trên các tuyến đường đối ngoại.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     447: {
       id: '447',
@@ -6367,7 +6367,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     448: {
       id: '448',
@@ -6381,7 +6381,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     449: {
       id: '449',
@@ -6395,7 +6395,7 @@ const data = {
         2: 'Cả ba biển.',
         3: 'Không biển nào.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     450: {
       id: '450',
@@ -6409,7 +6409,7 @@ const data = {
         3: 'Cả hai biển.',
         4: 'Không biển nào.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     451: {
       id: '451',
@@ -6423,7 +6423,7 @@ const data = {
         3: 'Cả hai biển.',
         4: 'Không biển nào.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     452: {
       id: '452',
@@ -6436,7 +6436,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     453: {
       id: '453',
@@ -6449,7 +6449,7 @@ const data = {
         2: 'Đỗ xe hoàn toàn dưới lòng đường.',
         3: 'Đỗ từ 1/2 thân xe trở lên trên hè phố.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     454: {
       id: '454',
@@ -6463,7 +6463,7 @@ const data = {
         2: 'Tiếp tục lưu thông với tốc độ bình thường.',
         3: 'Phải giảm tốc độ đến mức an toàn và không được vượt khi đi qua khu vực này.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     455: {
       id: '455',
@@ -6476,7 +6476,7 @@ const data = {
         1: 'Bắt buộc.',
         2: 'Không bắt buộc.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     456: {
       id: '456',
@@ -6490,7 +6490,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     457: {
       id: '457',
@@ -6504,7 +6504,7 @@ const data = {
         3: 'Biển 1 và biển 3.',
         4: 'Cả ba biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     458: {
       id: '458',
@@ -6517,7 +6517,7 @@ const data = {
         2: 'Đi thẳng hoặc rẽ phải trên cầu vượt.',
         3: 'Báo hiệu cầu vượt liên thông.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     459: {
       id: '459',
@@ -6530,7 +6530,7 @@ const data = {
         2: 'Biển 1 và biển 3.',
         3: 'Biển 2 và biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     460: {
       id: '460',
@@ -6544,7 +6544,7 @@ const data = {
         3: 'Báo hiệu nút giao gần nhất phía trước.',
         4: 'Báo hiệu trạm dừng nghỉ phía trước.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     461: {
       id: '461',
@@ -6557,7 +6557,7 @@ const data = {
         1: 'Được phép chuyển sang làn khác.',
         2: 'Không được phép chuyển sang làn khác, chỉ được đi trong làn quy định theo biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     462: {
       id: '462',
@@ -6570,7 +6570,7 @@ const data = {
         1: 'Có.',
         2: 'Không.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     463: {
       id: '463',
@@ -6583,7 +6583,7 @@ const data = {
         1: 'Có.',
         2: 'Không.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     464: {
       id: '464',
@@ -6596,7 +6596,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     465: {
       id: '465',
@@ -6609,7 +6609,7 @@ const data = {
         2: 'Chỉ dẫn vị trí nhập làn xe cách 250 m.',
         3: 'Chỉ dẫn vị trí nhập làn cách trạm thu phí 250 m.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     466: {
       id: '466',
@@ -6622,7 +6622,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Cả hai biển.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     467: {
       id: '467',
@@ -6636,7 +6636,7 @@ const data = {
         3: 'Tên và ký hiệu đường cao tốc, giá trị hạn chế tốc độ tối đa và tối thiểu.',
         4: 'Ý 1 và ý 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     468: {
       id: '468',
@@ -6649,7 +6649,7 @@ const data = {
         2: 'Xăng dầu, ăn uống, nhà nghỉ, sửa chữa xe.',
         3: 'Xăng dầu, ăn uống, cấp cứu, sửa chữa xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     469: {
       id: '469',
@@ -6662,7 +6662,7 @@ const data = {
         2: 'Chỉ dẫn hướng rẽ vào nơi đặt trạm kiểm tra tải trọng xe.',
         3: 'Chỉ dẫn khoảng cách đến trạm kiểm tra tải trọng xe cách 750 m.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     470: {
       id: '470',
@@ -6676,7 +6676,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     471: {
       id: '471',
@@ -6690,7 +6690,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     472: {
       id: '472',
@@ -6704,7 +6704,7 @@ const data = {
         2: 'Biển 2.',
         3: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     473: {
       id: '473',
@@ -6719,7 +6719,7 @@ const data = {
         3: 'Biển 2.',
         4: 'Biển 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     474: {
       id: '474',
@@ -6731,7 +6731,7 @@ const data = {
         1: 'Biển 1.',
         2: 'Biển 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     475: {
       id: '475',
@@ -6743,7 +6743,7 @@ const data = {
         1: 'Chỉ dẫn chướng ngại vật phía trước để cảnh báo phía trước có sự cản trở lưu thông bình thường (nằm bên trong phần xe chạy hay ngay sát phần đường xe chạy) và chỉ dẫn hướng đi qua đó cần đặt biển.',
         2: 'Chỉ dẫn hướng rẽ để nhắc người điều khiển phương tiện chuẩn bị đổi hướng đi khi sắp vào đường cong nguy hiểm, có bán kính cong nhỏ.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     476: {
       id: '476',
@@ -6758,7 +6758,7 @@ const data = {
         3: 'Vạch 3.',
         4: 'Vạch 1 và vạch 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     477: {
       id: '477',
@@ -6773,7 +6773,7 @@ const data = {
         3: 'Vạch 3.',
         4: 'Vạch 1 và vạch 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     478: {
       id: '478',
@@ -6788,7 +6788,7 @@ const data = {
         3: 'Vạch 3.',
         4: 'Cả ba vạch.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     479: {
       id: '479',
@@ -6803,7 +6803,7 @@ const data = {
         3: 'Vạch 3.',
         4: 'Vạch 1 và vạch 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     480: {
       id: '480',
@@ -6815,7 +6815,7 @@ const data = {
         1: 'Phân chia hai chiều xe chạy ngược chiều nhau.',
         2: 'Phân chia các làn xe chạy cùng chiều nhau.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     481: {
       id: '481',
@@ -6827,7 +6827,7 @@ const data = {
         1: 'Phân chia hai chiều xe chạy ngược chiều nhau.',
         2: 'Phân chia các làn xe chạy cùng chiều nhau.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     482: {
       id: '482',
@@ -6841,7 +6841,7 @@ const data = {
         3: 'Vạch 3.',
         4: 'Vạch 1 và vạch 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     483: {
       id: '483',
@@ -6854,7 +6854,7 @@ const data = {
         2: 'Báo hiệu người lái xe chỉ được phép đi thẳng.',
         3: 'Dùng để xác định khoảng cách giữa các phương tiện trên đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     484: {
       id: '484',
@@ -6867,7 +6867,7 @@ const data = {
         2: 'Báo hiệu sắp đến chỗ có bố trí vạch đi bộ qua đường.',
         3: 'Dùng để xác định khoảng cách giữa các phương tiện trên đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     485: {
       id: '485',
@@ -6880,7 +6880,7 @@ const data = {
         2: 'Báo cho người điều khiển được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông.',
         3: 'Dùng để xác định vị trí giữa các phương tiện trên đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     486: {
       id: '486',
@@ -6893,7 +6893,7 @@ const data = {
         2: 'Xe tải, xe mô tô.',
         3: 'Chỉ xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     487: {
       id: '487',
@@ -6908,7 +6908,7 @@ const data = {
         3: 'Xe khách, xe tải, xe con, xe mô tô.',
         4: 'Xe mô tô, xe khách, xe tải, xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     488: {
       id: '488',
@@ -6923,7 +6923,7 @@ const data = {
         3: 'Xe công an đi làm nhiệm vụ khẩn cấp, xe tải, xe khách, xe con.',
         4: 'Xe con, xe công an đi làm nhiệm vụ khẩn cấp, xe tải, xe khách.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     489: {
       id: '489',
@@ -6938,7 +6938,7 @@ const data = {
         3: 'Xe công an đi làm nhiệm vụ khẩn cấp, xe con, xe tải, xe khách.',
         4: 'Xe công an đi làm nhiệm vụ khẩn cấp, xe tải, xe khách, xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     490: {
       id: '490',
@@ -6953,7 +6953,7 @@ const data = {
         3: 'Xe mô tô, xe con, xe tải.',
         4: 'Xe con, xe mô tô, xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     491: {
       id: '491',
@@ -6965,7 +6965,7 @@ const data = {
         1: 'Xe con.',
         2: 'Xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     492: {
       id: '492',
@@ -6977,7 +6977,7 @@ const data = {
         1: 'Xe mô tô.',
         2: 'Xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     493: {
       id: '493',
@@ -6990,7 +6990,7 @@ const data = {
         2: 'Xe cứu thương đi làm nhiệm vụ cấp cứu, xe con (B), xe con (A).',
         3: 'Xe con (B), xe con (A), xe cứu thương đi làm nhiệm vụ cấp cứu.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     494: {
       id: '494',
@@ -7003,7 +7003,7 @@ const data = {
         2: 'Xe chữa cháy đi làm nhiệm vụ chữa cháy, xe cứu thương đi làm nhiệm vụ cấp cứu, xe con.',
         3: 'Xe cứu thương đi làm nhiệm vụ cấp cứu, xe con, xe chữa cháy đi làm nhiệm vụ chữa cháy.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     495: {
       id: '495',
@@ -7015,7 +7015,7 @@ const data = {
         1: 'Xe mô tô.',
         2: 'Xe cứu thương đi làm nhiệm vụ cấp cứu.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     496: {
       id: '496',
@@ -7029,7 +7029,7 @@ const data = {
         2: 'Xe tải.',
         3: 'Xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     497: {
       id: '497',
@@ -7042,7 +7042,7 @@ const data = {
         1: 'Xe con.',
         2: 'Xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     498: {
       id: '498',
@@ -7054,7 +7054,7 @@ const data = {
         1: 'Xe công an đi làm nhiệm vụ khẩn cấp.',
         2: 'Xe chữa cháy đi làm nhiệm vụ chữa cháy.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     499: {
       id: '499',
@@ -7066,7 +7066,7 @@ const data = {
         1: 'Xe con và xe khách.',
         2: 'Xe mô tô.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     500: {
       id: '500',
@@ -7079,7 +7079,7 @@ const data = {
         2: 'Xe con, xe tải.',
         3: 'Xe tải, xe mô tô.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     501: {
       id: '501',
@@ -7091,7 +7091,7 @@ const data = {
         1: 'Xe công an đi làm nhiệm vụ khẩn cấp.',
         2: 'Xe quân sự đi làm nhiệm vụ khẩn cấp.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     502: {
       id: '502',
@@ -7106,7 +7106,7 @@ const data = {
         3: 'Hướng 1 và 2.',
         4: 'Hướng 3 và 4.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     503: {
       id: '503',
@@ -7120,7 +7120,7 @@ const data = {
         2: 'Xe tải, xe con, xe mô tô.',
         3: 'Xe khách, xe con, xe mô tô.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     504: {
       id: '504',
@@ -7135,7 +7135,7 @@ const data = {
         3: 'Xe mô tô, xe tải, xe khách, xe con.',
         4: 'Xe mô tô, xe tải, xe con, xe khách.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     505: {
       id: '505',
@@ -7149,24 +7149,33 @@ const data = {
         3: 'Cả ba xe.',
         4: 'Xe con và xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     506: {
       id: '506',
       tag: 'VI',
-      question:
-        'Theo hướng mũi tên, xe nào được quyền đi trước? Câu 507: Theo hướng mũi tên, những hướng nào xe gắn máy được phép đi?',
+      question: 'Theo hướng mũi tên, xe nào được quyền đi trước?',
       title: 'Câu 506',
       image: './img/506.jpeg',
       answers: {
         1: 'Xe tải.',
         2: 'Xe con (B).',
         3: 'Xe con (A).',
-        4: 'Cả ba hướng.',
-        5: 'Chỉ hướng 1 và 3.',
-        6: 'Chỉ hướng 1.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
+    },
+    507: {
+      id: '507',
+      tag: 'VI',
+      question: 'Theo hướng mũi tên, những hướng nào xe gắn máy được phép đi?',
+      title: 'Câu 507',
+      image: './img/506.jpeg',
+      answers: {
+        1: 'Cả ba hướng.',
+        2: 'Chỉ hướng 1 và 3.',
+        3: 'Chỉ hướng 1.',
+      },
+      correctAnswer: '1',
     },
     508: {
       id: '508',
@@ -7180,7 +7189,7 @@ const data = {
         3: 'Chỉ xe mô tô vi phạm.',
         4: 'Chỉ xe tải vi phạm.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     509: {
       id: '509',
@@ -7194,7 +7203,7 @@ const data = {
         3: 'Cả ba xe.',
         4: 'Chỉ xe mô tô và xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     510: {
       id: '510',
@@ -7207,7 +7216,7 @@ const data = {
         1: 'Đúng.',
         2: 'Không đúng.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     511: {
       id: '511',
@@ -7219,7 +7228,7 @@ const data = {
         1: 'Hướng 2 và 5.',
         2: 'Chỉ hướng 1.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     512: {
       id: '512',
@@ -7234,7 +7243,7 @@ const data = {
         3: 'Hướng 1 và 4.',
         4: 'Hướng 2 và 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     513: {
       id: '513',
@@ -7247,7 +7256,7 @@ const data = {
         2: 'Xe con.',
         3: 'Xe khách.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     514: {
       id: '514',
@@ -7261,7 +7270,7 @@ const data = {
         2: 'Hướng 1, 2 và 3.',
         3: 'Hướng 1 và 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     515: {
       id: '515',
@@ -7273,7 +7282,7 @@ const data = {
         1: 'Không.',
         2: 'Vi phạm.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     516: {
       id: '516',
@@ -7285,7 +7294,7 @@ const data = {
         1: 'Xe khách.',
         2: 'Xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     517: {
       id: '517',
@@ -7297,7 +7306,7 @@ const data = {
         1: 'Xe con.',
         2: 'Xe mô tô.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     518: {
       id: '518',
@@ -7309,7 +7318,7 @@ const data = {
         1: 'Không đúng.',
         2: 'Đúng.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     519: {
       id: '519',
@@ -7323,7 +7332,7 @@ const data = {
         3: 'Hướng 2, 3 và 4.',
         4: 'Cả bốn hướng.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     520: {
       id: '520',
@@ -7338,7 +7347,7 @@ const data = {
         3: 'Xe con (A), xe con (B), xe mô tô + xe đạp.',
         4: 'Xe mô tô + xe đạp, xe con (A), xe con (B).',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     521: {
       id: '521',
@@ -7352,7 +7361,7 @@ const data = {
         3: 'Hướng 1, 2 và 3.',
         4: 'Cả bốn hướng.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     522: {
       id: '522',
@@ -7364,7 +7373,7 @@ const data = {
         1: 'Cả ba hướng.',
         2: 'Hướng 2 và 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     523: {
       id: '523',
@@ -7378,7 +7387,7 @@ const data = {
         3: 'Hướng 1 và 5.',
         4: 'Hướng 1, 4 và 5.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     524: {
       id: '524',
@@ -7392,7 +7401,7 @@ const data = {
         3: 'Hướng 2, 3 và 4.',
         4: 'Trừ hướng 4.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     525: {
       id: '525',
@@ -7404,7 +7413,7 @@ const data = {
         1: 'Xe mô tô.',
         2: 'Xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     526: {
       id: '526',
@@ -7417,7 +7426,7 @@ const data = {
         1: 'Không vi phạm.',
         2: 'Vi phạm.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     527: {
       id: '527',
@@ -7431,7 +7440,7 @@ const data = {
         3: 'Xe con.',
         4: 'Xe con và xe mô tô.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     528: {
       id: '528',
@@ -7444,7 +7453,7 @@ const data = {
         2: 'Cho phép các xe ở mọi hướng được phép rẽ phải.',
         3: 'Tất cả các xe phải dừng lại trước ngã tư, trừ những xe đã ở trong ngã tư được phép tiếp tục đi.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     529: {
       id: '529',
@@ -7458,7 +7467,7 @@ const data = {
         3: 'Xe mô tô, xe tải.',
         4: 'Cả ba xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     530: {
       id: '530',
@@ -7470,7 +7479,7 @@ const data = {
         1: 'Đúng.',
         2: 'Không đúng.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     531: {
       id: '531',
@@ -7483,7 +7492,7 @@ const data = {
         2: 'Cả hai xe.',
         3: 'Xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     532: {
       id: '532',
@@ -7496,7 +7505,7 @@ const data = {
         2: 'Xe tải.',
         3: 'Cả hai xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     533: {
       id: '533',
@@ -7509,7 +7518,7 @@ const data = {
         2: 'Xe con, xe tải, xe khách.',
         3: 'Xe tải, xe khách, xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     534: {
       id: '534',
@@ -7523,7 +7532,7 @@ const data = {
         2: 'Xe tải, xe khách, xe con.',
         3: 'Xe con, xe khách, xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     535: {
       id: '535',
@@ -7536,7 +7545,7 @@ const data = {
         2: 'Chỉ hướng 1 và 2.',
         3: 'Trừ hướng 4.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     536: {
       id: '536',
@@ -7550,7 +7559,7 @@ const data = {
         3: 'Xe công an đi làm nhiệm vụ khẩn cấp, xe con, xe khách, xe tải.',
         4: 'Xe con, xe tải, xe khách, xe công an đi làm nhiệm vụ khẩn cấp.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     537: {
       id: '537',
@@ -7564,7 +7573,7 @@ const data = {
         3: 'Hướng 1 và 4.',
         4: 'Hướng 1, 3 và 4.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     538: {
       id: '538',
@@ -7578,7 +7587,7 @@ const data = {
         2: 'Tất cả các loại xe trên.',
         3: 'Không xe nào chấp hành đúng quy tắc giao thông.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     539: {
       id: '539',
@@ -7592,7 +7601,7 @@ const data = {
         3: 'Hướng 1 và 3.',
         4: 'Hướng 2 và 3.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     540: {
       id: '540',
@@ -7606,7 +7615,7 @@ const data = {
         2: 'Xe quân sự đi làm nhiệm vụ khẩn cấp, xe công an đi làm nhiệm vụ khẩn cấp, xe con + xe mô tô.',
         3: 'Xe mô tô + xe con, xe quân sự đi làm nhiệm vụ khẩn cấp, xe công an đi làm nhiệm vụ khẩn cấp.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     541: {
       id: '541',
@@ -7618,7 +7627,7 @@ const data = {
         1: 'Xe A.',
         2: 'Xe B.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     542: {
       id: '542',
@@ -7631,7 +7640,7 @@ const data = {
         1: 'Không vi phạm.',
         2: 'Vi phạm.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     543: {
       id: '543',
@@ -7645,7 +7654,7 @@ const data = {
         3: 'Xe khách (B), xe mô tô (C).',
         4: 'Xe khách (B), xe mô tô (D).',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     544: {
       id: '544',
@@ -7658,7 +7667,7 @@ const data = {
         1: 'Nhường xe con rẽ trái trước.',
         2: 'Đi thẳng không nhường.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     545: {
       id: '545',
@@ -7673,7 +7682,7 @@ const data = {
         3: 'Tất cả các hướng trừ hướng 3.',
         4: 'Tất cả các hướng trừ hướng 4.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     546: {
       id: '546',
@@ -7685,7 +7694,7 @@ const data = {
         1: 'Xe con (A).',
         2: 'Xe con (B).',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     547: {
       id: '547',
@@ -7699,7 +7708,7 @@ const data = {
         2: 'Rẽ trái trước xe tải.',
         3: 'Nhường đường cho xe buýt và xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     548: {
       id: '548',
@@ -7713,7 +7722,7 @@ const data = {
         3: 'Xe con (E), xe mô tô (D).',
         4: 'Tất cả các loại xe trên.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     549: {
       id: '549',
@@ -7725,7 +7734,7 @@ const data = {
         1: 'Xe của bạn.',
         2: 'Xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     550: {
       id: '550',
@@ -7739,7 +7748,7 @@ const data = {
         2: 'Quay đầu theo hướng B.',
         3: 'Cấm quay đầu.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     551: {
       id: '551',
@@ -7753,7 +7762,7 @@ const data = {
         3: 'Xe của bạn và xe con, xe tải.',
         4: 'Xe của bạn, xe tải + xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     552: {
       id: '552',
@@ -7767,7 +7776,7 @@ const data = {
         2: 'Bật tín hiệu báo hiệu bằng đèn hoặc còi, khi đủ điều kiện an toàn, tăng tốc cho xe chạy vượt qua.',
         3: 'Đánh lái sang làn bên trái và tăng tốc cho xe chạy vượt qua.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     553: {
       id: '553',
@@ -7781,7 +7790,7 @@ const data = {
         2: 'Xe tải, xe mô tô.',
         3: 'Xe con, xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     554: {
       id: '554',
@@ -7794,7 +7803,7 @@ const data = {
         2: 'Xe con (A), xe con (C), xe con (E), xe buýt (G).',
         3: 'Xe con (A), xe con (B), xe tải (D).',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     555: {
       id: '555',
@@ -7807,7 +7816,7 @@ const data = {
         1: 'Được vượt.',
         2: 'Cấm vượt.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     556: {
       id: '556',
@@ -7819,7 +7828,7 @@ const data = {
         1: 'Cho phép.',
         2: 'Không được vượt.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     557: {
       id: '557',
@@ -7833,7 +7842,7 @@ const data = {
         3: 'Vị trí B và C.',
         4: 'Cả ba vị trí A, B, C.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     558: {
       id: '558',
@@ -7847,7 +7856,7 @@ const data = {
         3: 'Được phép dừng ở vị trí A và B.',
         4: 'Không được dừng.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     559: {
       id: '559',
@@ -7862,7 +7871,7 @@ const data = {
         3: 'Không xe nào vi phạm.',
         4: 'Cả hai xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     560: {
       id: '560',
@@ -7876,7 +7885,7 @@ const data = {
         2: 'Xe tải.',
         3: 'Xe con, xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     561: {
       id: '561',
@@ -7890,7 +7899,7 @@ const data = {
         2: 'Xe khách, xe con.',
         3: 'Xe khách, xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     562: {
       id: '562',
@@ -7905,7 +7914,7 @@ const data = {
         3: 'Xe khách, xe mô tô, xe con.',
         4: 'Cả bốn xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     563: {
       id: '563',
@@ -7920,7 +7929,7 @@ const data = {
         3: 'Xe con, xe tải.',
         4: 'Xe khách, xe tải, xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     564: {
       id: '564',
@@ -7934,7 +7943,7 @@ const data = {
         2: 'Quan sát phía trước, phía sau, khi đủ điều kiện an toàn, bật tín hiệu bằng đèn hoặc còi rồi cho xe chạy vượt qua.',
         3: 'Cấm vượt.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     565: {
       id: '565',
@@ -7949,7 +7958,7 @@ const data = {
         3: 'Xe tải, xe con.',
         4: 'Xe mô tô, xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     566: {
       id: '566',
@@ -7963,7 +7972,7 @@ const data = {
         3: 'Xe tải ( D), xe con (B).',
         4: 'Xe con (B), xe con (C).',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     567: {
       id: '567',
@@ -7977,7 +7986,7 @@ const data = {
         2: 'Xe con, xe của bạn, xe mô tô.',
         3: 'Xe mô tô, xe con, xe của bạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     568: {
       id: '568',
@@ -7991,7 +8000,7 @@ const data = {
         2: 'Xe con, xe của bạn, xe mô tô.',
         3: 'Xe mô tô, xe con, xe của bạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     569: {
       id: '569',
@@ -8004,7 +8013,7 @@ const data = {
         2: 'Xe của bạn.',
         3: 'Cả hai xe.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     570: {
       id: '570',
@@ -8018,7 +8027,7 @@ const data = {
         3: 'Rẽ trái.',
         4: 'Đi thẳng, rẽ phải, rẽ trái.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     571: {
       id: '571',
@@ -8031,7 +8040,7 @@ const data = {
         2: 'Dừng lại trước vạch dừng và rẽ phải khi đèn xanh.',
         3: 'Dừng lại trước vạch dừng và đi thẳng hoặc rẽ trái khi đèn xanh.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     572: {
       id: '572',
@@ -8044,7 +8053,7 @@ const data = {
         2: 'Giảm tốc độ, rẽ phải sau xe tải và xe đạp.',
         3: 'Tăng tốc độ, rẽ phải trước xe đạp.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     573: {
       id: '573',
@@ -8057,7 +8066,7 @@ const data = {
         2: 'Giảm tốc độ, để người đi bộ qua đường và rẽ phải trước xe con màu xanh.',
         3: 'Giảm tốc độ, để người đi bộ qua đường và rẽ phải sau xe con màu xanh.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     574: {
       id: '574',
@@ -8070,7 +8079,7 @@ const data = {
         2: 'Nhường đường cho xe đạp và đi trước xe khách.',
         3: 'Nhường đường cho xe đạp và xe khách.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     575: {
       id: '575',
@@ -8083,7 +8092,7 @@ const data = {
         2: 'Xe tải.',
         3: 'Xe của bạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     576: {
       id: '576',
@@ -8095,7 +8104,7 @@ const data = {
         1: 'Xe đi ngược chiều.',
         2: 'Xe của bạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     577: {
       id: '577',
@@ -8108,7 +8117,7 @@ const data = {
         1: 'Tăng tốc độ, chuyển sang làn đường bên trái để vượt.',
         2: 'Không được vượt những người đi xe đạp.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     578: {
       id: '578',
@@ -8123,7 +8132,7 @@ const data = {
         3: 'Tăng tốc độ trên làn đường của mình và vượt xe con.',
         4: 'Ý 1 và ý 2.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     579: {
       id: '579',
@@ -8137,7 +8146,7 @@ const data = {
         2: 'Bấm còi, nháy đèn báo hiệu và đi tiếp.',
         3: 'Giảm tốc độ, dừng lại nhường đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     580: {
       id: '580',
@@ -8151,7 +8160,7 @@ const data = {
         2: 'Bấm còi, nháy đèn báo hiệu, giữ nguyên tốc độ và đi tiếp.',
         3: 'Phanh xe giảm tốc độ và đi sát vào lề đường bên trái.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     581: {
       id: '581',
@@ -8165,7 +8174,7 @@ const data = {
         2: 'Phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường.',
         3: 'Bấm còi báo hiệu và vượt qua xe tải trên làn đường của mình.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     582: {
       id: '582',
@@ -8178,7 +8187,7 @@ const data = {
         2: 'Dừng xe trước vạch dừng.',
         3: 'Giảm tốc độ và đi thẳng qua ngã tư.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     583: {
       id: '583',
@@ -8192,7 +8201,7 @@ const data = {
         2: 'Xe mô tô, xe đạp, xe của bạn.',
         3: 'Xe đạp, xe mô tô, xe của bạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     584: {
       id: '584',
@@ -8207,7 +8216,7 @@ const data = {
         3: 'Xe tải, xe của bạn, xe con.',
         4: 'Xe của bạn, xe con, xe tải.',
       },
-      correctAnswer: '',
+      correctAnswer: '4',
     },
     585: {
       id: '585',
@@ -8219,7 +8228,7 @@ const data = {
         1: 'Xe của bạn.',
         2: 'Xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     586: {
       id: '586',
@@ -8231,7 +8240,7 @@ const data = {
         1: 'Xe con.',
         2: 'Xe của bạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     587: {
       id: '587',
@@ -8244,7 +8253,7 @@ const data = {
         2: 'Giảm tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.',
         3: 'Giảm tốc độ, để người đi bộ sang đường trước, sau đó cho xe đi qua vạch người đi bộ sang đường.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     588: {
       id: '588',
@@ -8256,7 +8265,7 @@ const data = {
         1: 'Xe con.',
         2: 'Xe của bạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     589: {
       id: '589',
@@ -8270,7 +8279,7 @@ const data = {
         2: 'Xe tải, xe con, xe của bạn.',
         3: 'Xe tải, xe của bạn, xe con.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     590: {
       id: '590',
@@ -8283,7 +8292,7 @@ const data = {
         2: 'Giảm tốc độ cho xe lấn sang phần đường bên trái.',
         3: 'Giảm tốc độ cho xe đi sát phần đường bên phải.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     591: {
       id: '591',
@@ -8295,7 +8304,7 @@ const data = {
         1: 'Xe tải.',
         2: 'Xe của bạn.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     592: {
       id: '592',
@@ -8308,7 +8317,7 @@ const data = {
         2: 'Xe mô tô.',
         3: 'Cả 2 xe đều đúng.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     593: {
       id: '593',
@@ -8322,7 +8331,7 @@ const data = {
         2: 'Xe của bạn, xe đạp, xe tải.',
         3: 'Xe của bạn, xe tải, xe đạp.',
       },
-      correctAnswer: '',
+      correctAnswer: '3',
     },
     594: {
       id: '594',
@@ -8335,7 +8344,7 @@ const data = {
         2: 'Hướng 2.',
         3: 'Cả hai hướng đều được.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     595: {
       id: '595',
@@ -8349,7 +8358,7 @@ const data = {
         2: 'Giữ nguyên đèn chiếu gần, giảm tốc độ, đi sau xe phía trước.',
         3: 'Giữ nguyên đèn chiếu gần, tăng tốc độ vượt xe cùng chiều.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     596: {
       id: '596',
@@ -8363,7 +8372,7 @@ const data = {
         2: 'Dừng lại trước rào chắn một khoảng cách an toàn.',
         3: 'Ra tín hiệu, yêu cầu người gác chắn tàu kéo chậm barie để xe bạn qua.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     597: {
       id: '597',
@@ -8376,7 +8385,7 @@ const data = {
         1: 'Đúng.',
         2: 'Sai.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     598: {
       id: '598',
@@ -8389,7 +8398,7 @@ const data = {
         1: 'Được vượt.',
         2: 'Không được vượt.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
     599: {
       id: '599',
@@ -8402,7 +8411,7 @@ const data = {
         1: 'Đúng.',
         2: 'Không đúng.',
       },
-      correctAnswer: '',
+      correctAnswer: '1',
     },
     600: {
       id: '600',
@@ -8416,7 +8425,7 @@ const data = {
         2: 'Giảm tốc độ chờ xe container rẽ xong rồi tiếp tục đi.',
         3: 'Vượt về phía bên trái để đi tiếp.',
       },
-      correctAnswer: '',
+      correctAnswer: '2',
     },
   },
 };

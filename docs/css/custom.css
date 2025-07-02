@@ -203,16 +203,21 @@ input[type=radio] {
     position: absolute;
     left: 60vw;
     top: 260px;
-    width: 250px;
-    opacity: 0.7;
-    background: rgba(255,255,255,0.9);
+    opacity: 0.9;
+    background: rgb(10, 54, 71);
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 2px solid #002259;
     z-index: 1000;
 }
-
+.wrong {
+    background: #ff0006;
+}
+.answer-text p a {
+    color: #efc806;
+}
 .answer-text p {
-    color: #444;
+    color: #f7f7f7;
+    margin-bottom: 0;
 }
 .container {
     background: #ffffff;
@@ -303,14 +308,15 @@ input[type=radio] {
         min-height: 100vh;
     }
     #quiz {
-        min-height: calc(100vh - 100px);
+        min-height: calc(100vh - 180px);
     }
     .answer-text {
-        width: 200px;
+        --width: 180px;
         padding: 5px;
+        top: calc(100vh - 260px);
+        left: calc(100vw - var(--width));
     }
-    .answer-text p{
+    .answer-text p {
         padding: 5px;
-        margin-bottom: 0px;
     }
 }

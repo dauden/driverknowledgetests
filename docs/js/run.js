@@ -82,7 +82,9 @@
         answers.push(
           `<input id="question-${questionNumber}-${index}" type="radio" name="question-${questionNumber}" 
           data-question="${questionNumber}" ${
-            selectedAnswers?.[questionNumber]?.selected === index ? 'checked' : ''
+            selectedAnswers?.[questionNumber]?.selected === index
+              ? 'checked'
+              : ''
           } class="questions with-font" value="${index}">
           <label for="question-${questionNumber}-${index}">${index}. ${answer}</label>`,
         );
@@ -116,37 +118,42 @@
     );
   }
 
-  function showAnswer() {
+  function showAnswer(submitted) {
     const answer = selectedAnswers[currentSlide];
     if (!answer) {
+      return;
+    }
+    if (submitted === true) {
+      answer.submitted = true;
+      setLocalStorage(SELECTED_ANSWERS_KEY, selectedAnswers);
+    }
+    if (!answer.submitted) {
       return;
     }
     const currentQuestion = selectedQuestions[currentSlide];
     let answerResult = '';
     if (answer.selected === currentQuestion.correctAnswer) {
       answerResult = `<div class="answer-slide active-slide" id="answer-${currentSlide}">
-            <div class="answer-text wow slideInRight">
-              <p><span style='font-size:20px;'>&#9989;</span></p>
+            <div class="answer-text">
+              <p>Cầu trả lời đúng</p>
             </div>
           </div>`;
     } else {
       answerResult = `<div class="answer-slide active-slide" id="answer-${currentSlide}">
-            <div class="answer-text wow slideInRight">
-              <p><span style='font-size:20px;'>&#10060;</span> ${currentQuestion.title}</p>
+            <div class="answer-text wrong">
+              <p>Cầu trả lời sai</p>
+              <p>Tham khảo ${currentQuestion.title} ở <a href="./doc.pdf">tài liệu</a></p>
             </div>
           </div>`;
     }
     resultsTextContainer.innerHTML = answerResult;
-    if (!answer.submited) {
-      answer.submited = true;
-      setLocalStorage(SELECTED_ANSWERS_KEY, selectedAnswers);
-    }
+
     showResult();
   }
 
   function showResult() {
     const answerSlide = selectedAnswers[currentSlide];
-    if (answerSlide?.submited) {
+    if (answerSlide?.submitted) {
       confirmButton.classList.add('disabled');
       $('.answers').addClass('disabled');
     } else {
@@ -207,7 +214,7 @@
     slides[n].classList.add('active-slide');
     currentSlide = n;
     showResult();
-    showAnswer();
+    showAnswer(false);
     if (n > 0) {
       backButton.classList.remove('display-none');
     } else {
@@ -226,7 +233,7 @@
   }
 
   function showNextSlide() {
-    showSlide(currentSlide + 1);
+    showSlide(Math.min(currentSlide + 1, selectedLicence.numberOfQuestions));
   }
 
   function selectLicence(key) {
@@ -331,7 +338,7 @@
 
   const resultsTextContainer = document.getElementById('resultsContainer');
 
-  confirmButton.addEventListener('click', showAnswer);
+  confirmButton.addEventListener('click', () => showAnswer(true));
 
   nextButton.addEventListener('click', showNextSlide);
 
